@@ -1,14 +1,21 @@
-<template>
-  <div class="p-4 bg-blue-500 text-white">
-    Hello, Tailwind CSS!
-  </div>
-</template>
-
 <script>
+import NavBar from './components/NavBar.vue';
+
 export default {
   name: 'HelloWorld',
+  components: {
+    NavBar,
+  },
 };
 </script>
 
-<style scoped>
-</style>
+<template>
+  <NavBar />
+  <div class="relative">
+    <div class="absolute inset-0 bg-secondary-color opacity-50">
+    </div>
+    <img src="@/assets/images/convention.jpg" alt="Background Image"
+    class="w-full h-80vh object-cover parallax"/>
+  </div>
+
+</template>
