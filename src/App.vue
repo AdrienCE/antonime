@@ -1,24 +1,35 @@
 <script>
-import NavBar from './components/NavBar.vue';
+  import NavBar from './components/NavBar.vue';
+  import CardInfo from './components/CardInfo.vue';
 
-export default {
-  name: 'HelloWorld',
-  components: {
-    NavBar,
-  },
-};
+  /* eslint-disable */
+
+  export default {
+    name: 'HelloWorld',
+    components: {
+      NavBar,
+      CardInfo
+    },
+
+    props: {
+      title: String,
+      imgUrl: String,
+      url: String
+    }
+  };
 </script>
 
 <template>
   <NavBar />
-  <div class="relative">
-    <div class="absolute inset-0 bg-secondary-color opacity-50">
-    </div>
-    <img src="@/assets/images/convention.jpg" alt="Background Image" class="w-full h-80vh object-cover parallax"/>
+
+  <!-- Header -->
+  <div class="relative bg-black">
+    <img src="@/assets/images/convention.jpg" alt="image convention" class="opacity-50 w-full h-[300px] object-cover parallax"/>
   </div>
 
-  <div class="md:flex">
-    <div class="md:w-2/4 relative py-8 p-16 text-black-800">
+  <!-- Presentation info -->
+  <div class="max-w-[1440px] m-auto md:flex md:px-[6rem]">
+    <div class="relative p-5 text-black-800 md:w-2/4 md:py-8 md:p-16">
       <h2 class="font-bold text-3xl py-4">Première convention</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
       sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
@@ -26,88 +37,71 @@ export default {
       sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
       sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
-  </div>
-  <div class="md:w-2/4 relative py-8 p-16">
+    </div>
+    <div class="relative py-8 p-16 md:w-2/4 ">
       <img src="#">
+    </div>
   </div>
-</div>
-<div class="md:flex py-8">
-    <div class="md:w-1/3 relative">
-      <img src="@/assets/images/exposants.jpg">
-  </div>
-  <div class="md:w-2/3 relative bg-green-300 p-12">
-      <h2 class="text-5xl font-bold py-3">A découvrir !</h2>
-      <p class="font-bold text-2xl">50 000 M²</p>
-      <p class="font-bold text-2xl">200 stands</p>
-      <p class="font-bold text-2xl">3 scènes</p>
-  </div>
-</div>
 
-<div class="py-8 p-16 ">
-  <h2 class="text-3xl font-bold">Nos invités</h2>
-  <p class="py-4">Lorem ipsum</p>
-</div> 
-
-<div class="md:flex pl-16 pr-16 pb-12 gap-12">
-  <div class="md:w-1/4 relative">
+  <!-- Banner convention -->
+  <div class="md:flex">
+    <div class="relative md:w-1/3">
       <img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Danaé cosplay</h3>
+    </div>
+    <div class="relative bg-green-300 p-12 md:w-2/3 ">
+        <h2 class="text-5xl font-bold py-3">A découvrir !</h2>
+        <p class="font-bold text-2xl">50 000 M²</p>
+        <p class="font-bold text-2xl">200 stands</p>
+        <p class="font-bold text-2xl">3 scènes</p>
+    </div>
   </div>
-  <div class="md:w-1/4 relative">
-      <img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Danaé cosplay</h3>
-  </div>
-  <div class="md:w-1/4 relative">
-      <img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Danaé cosplay</h3>
-  </div>
-  <div class="md:w-1/4 relative">
-      <a href="views/ArtistesView.vue"><img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Voir plus</h3></a>
-  </div>
-</div>
 
-<div class="md:flex bg-purple-800 p-16 text-white">
-  <div class="md:w-1/2 relative">
-      <h2 class="text-4xl font-bold py-3">Billeterie ouverte !</h2>
-      <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>
-  </div>
-  <div class="md:w-1/2 relative">
-      <img src="#">
-  </div>
-</div>
+  <!-- First guest -->
+  <div class="max-w-[1440px] m-auto md:px-[6rem]">
+    <h2 class="text-3xl font-bold">Nos invités</h2>
+    <p class="py-4">Lorem ipsum</p>
 
-<div class="py-8 p-16 pt-16">
-  <h2 class="text-3xl font-bold">Programmes</h2>
-  <p class="py-4">Lorem ipsum</p>
-</div> 
+    <div class="p-5 gap-12 md:p-0 md:flex">
+      <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+      <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+      <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+      <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+    </div>
+  </div>
+  
+  <!-- Banner tickets -->
+  <div class="p-5 text-white bg-purple-800 md:flex md:p-16">
+    <div class="md:w-1/2 relative">
+        <h2 class="text-4xl font-bold py-3">Billeterie ouverte !</h2>
+        <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>
+    </div>
+    <div class="md:w-1/2 relative">
+        <img src="#">
+    </div>
+  </div>
 
-<div class="md:flex pl-16 pr-16 gap-12">
-  <div class="md:w-1/4 relative">
-      <img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Décors cosplay</h3>
-  </div>
-  <div class="md:w-1/4 relative">
-      <img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Maid café</h3>
-  </div>
-  <div class="md:w-1/4 relative">
-      <img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">En scène</h3>
-  </div>
-  <div class="md:w-1/4 relative">
-      <a href="views/ArtistesView.vue"><img src="@/assets/images/exposants.jpg">
-      <h3 class="py-4">Voir plus</h3></a>
-  </div>
-</div>
+  <!-- Programs -->
+  <div class="max-w-[1440px] m-auto md:px-[6rem]">
+    <h2 class="text-3xl font-bold">Programmes</h2>
+    <p class="py-4">Lorem ipsum</p>
 
-<router-view></router-view>
+    <div class="p-5 gap-12 md:p-0 md:flex">
+      <CardInfo title="Décors cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+      <CardInfo title="Maid café" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+      <CardInfo title="En scène" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+      <CardInfo title="Voir plus" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+    </div>
+  </div>
 
-<!-- <nav>
-  <router-link to="/">Accueil</router-link> |
-  <router-link to="/about">À propos</router-link> |
-  <router-link to="/programme">Programme</router-link>
-  </nav> -->
+  <router-view></router-view>
+
+  <!-- 
+    <nav>
+      <router-link to="/">Accueil</router-link> |
+      <router-link to="/about">À propos</router-link> |
+      <router-link to="/programme">Programme</router-link>
+    </nav> 
+  -->
 
 </template>
 
