@@ -23,10 +23,10 @@ import MyButton from './MyButton.vue';
   
   let open = ref(false);
   let Links = [
-    { name: "Programme", link: "/about" },
-    { name: "Exposants", link: "#" },
-    { name: "Artistes", link: "#" },
-    { name: "Infos pratiques", link: "#" }
+    { name: "Programme", link: "/programme" },
+    { name: "Exposants", link: "/exposants" },
+    { name: "Artistes", link: "/artistes" },
+    { name: "Infos pratiques", link: "/infospratiques" }
   ];
   
   function MenuOpen() {
