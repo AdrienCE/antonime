@@ -1,7 +1,7 @@
 <template>
     <div class="w-full fixed bg-white text-gray-900 py-9 px-9 md:flex justify-between items-center z-50">
       <div class="flex items-center">
-        <img src="@/assets/logockcnet.svg" width="150" height="150" />
+        <a href="App.vue"><img src="@/assets/logockcnet.svg" width="150" height="150" /></a>
       </div>
   
       <span @click="MenuOpen" class="absolute md:hidden right-6 top-5 cursor-pointer text-4xl z-10">
