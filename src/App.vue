@@ -46,7 +46,26 @@ export default {
 <div class="py-8 p-16 ">
   <h2 class="text-3xl font-bold">Nos invités</h2>
   <p class="py-4">Lorem ipsum</p>
-</div>  
+</div> 
+
+<div class="md:flex pl-16 gap-12">
+  <div class="md:w-1/4 relative">
+      <img src="@/assets/images/exposants.jpg">
+      <h3 class="py-4">Danaé cosplay</h3>
+  </div>
+  <div class="md:w-1/4 relative">
+      <img src="@/assets/images/exposants.jpg">
+      <h3 class="py-4">Danaé cosplay</h3>
+  </div>
+  <div class="md:w-1/4 relative">
+      <img src="@/assets/images/exposants.jpg">
+      <h3 class="py-4">Danaé cosplay</h3>
+  </div>
+  <div class="md:w-1/4 relative">
+      <a href="views/ArtistesView.vue"><img src="@/assets/images/exposants.jpg">
+      <h3 class="py-4">Voir plus</h3></a>
+  </div>
+</div>
 
 <router-view></router-view>
 
