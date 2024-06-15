@@ -61,8 +61,8 @@
     <h2 class="text-3xl font-bold">Nos invités</h2>
     <p class="py-4">Lorem ipsum</p>
 
-    <div class="p-5 gap-12 md:p-0 md:flex">
-      <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
+    <div class="gap-12 md:p-0 md:flex">
+      <CardInfo title="Danaé cosplay" imgUrl="https://i.lepelerin.com/1400x787/smart/2022/10/04/femmes-artistes.jpg"/>
       <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
       <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
       <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
@@ -85,7 +85,7 @@
     <h2 class="text-3xl font-bold">Programmes</h2>
     <p class="py-4">Lorem ipsum</p>
 
-    <div class="p-5 gap-12 md:p-0 md:flex">
+    <div class="gap-12 md:p-0 md:flex">
       <CardInfo title="Décors cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
       <CardInfo title="Maid café" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
       <CardInfo title="En scène" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg"/>
