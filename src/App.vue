@@ -28,8 +28,8 @@
   </div>
 
   <!-- Presentation info -->
-  <div class="max-w-[1440px] m-auto md:flex md:px-[6rem]">
-    <div class="relative p-5 text-black-800 md:w-2/4 md:py-8 md:p-16">
+  <div class="max-w-[1440px] m-auto px-4 md:py-8 md:flex md:px-[6rem]">
+    <div class="text-black-800 md:w-2/4">
       <h2 class="font-bold text-3xl py-4">Première convention</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
       sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
@@ -57,7 +57,7 @@
   </div>
 
   <!-- First guest -->
-  <div class="max-w-[1440px] m-auto md:px-[6rem]">
+  <div class="max-w-[1440px] m-auto px-4 md:py-8 md:px-[6rem]">
     <h2 class="text-3xl font-bold">Nos invités</h2>
     <p class="py-4">Lorem ipsum</p>
 
@@ -81,7 +81,7 @@
   </div>
 
   <!-- Programs -->
-  <div class="max-w-[1440px] m-auto md:px-[6rem]">
+  <div class="max-w-[1440px] m-auto px-4 md:py-8 md:px-[6rem]">
     <h2 class="text-3xl font-bold">Programmes</h2>
     <p class="py-4">Lorem ipsum</p>
 
