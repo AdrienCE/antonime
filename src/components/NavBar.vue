@@ -23,7 +23,7 @@ import MyButton from './MyButton.vue';
   
   let open = ref(false);
   let Links = [
-    { name: "Programme", link: "#" },
+    { name: "Programme", link: "/about" },
     { name: "Exposants", link: "#" },
     { name: "Artistes", link: "#" },
     { name: "Infos pratiques", link: "#" }
