@@ -1,5 +1,5 @@
 <script>
-  import CardInfo from './components/CardInfo.vue';
+  import CardInfo from '../components/CardInfo.vue';
 
   export default {
     name: 'HelloWorld',

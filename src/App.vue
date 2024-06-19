@@ -4,14 +4,14 @@
   export default {
     name: 'HelloWorld',
     components: {
-      NavBar,
+      NavBar
     }
   };
 </script>
 
 <template>
   <NavBar />
-
+  <router-view></router-view>
   <!-- Footer -->
    <div class="md:flex justify-center bg-black p-12 text-center opacity-80 text-white gap-12">
     <p>Mentions légales</p>
@@ -19,5 +19,5 @@
     <p>Contactez-nous</p>
    </div>
 
-  <router-view></router-view>
+
 </template>
