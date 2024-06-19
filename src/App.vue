@@ -90,6 +90,7 @@ export default {
     <p>Mentions légales</p>
     <p>Conditions générales</p>
     <p>Contactez-nous</p>
+    test
    </div>
 
   <router-view></router-view>
