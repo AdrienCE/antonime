@@ -1,13 +1,16 @@
 <script>
   import NavBar from './components/NavBar.vue';
   import CardInfo from './components/CardInfo.vue';
+  import HeaderSwiper from './components/HeaderSwiper.vue';
 
+  //Import JSON data from assets
+  import userData from './assets/artist/artist-list.json';
+  
   /* eslint-disable */
-
   export default {
-    name: 'HelloWorld',
     components: {
       NavBar,
+      HeaderSwiper,
       CardInfo
     },
 
@@ -15,7 +18,15 @@
       title: String,
       imgUrl: String,
       url: String
+    },
+
+    // Return JSON data
+    data(){
+      return {
+        users: userData
+      }
     }
+    
   };
 </script>
 
@@ -23,9 +34,7 @@
   <NavBar />
 
   <!-- Header -->
-  <div class="relative bg-black">
-    <img src="@/assets/images/convention.jpg" alt="image convention" class="opacity-50 w-full h-[300px] object-cover parallax"/>
-  </div>
+  <HeaderSwiper />
 
   <!-- Presentation info -->
   <div class="max-w-[1440px] m-auto p-4 md:py-8 md:flex md:px-[6rem]">
@@ -42,6 +51,11 @@
       <img src="#">
     </div>
   </div>
+
+  <!-- Block retrieving JSON data -->
+  <p v-for="user in users" :key="user.id">
+    {{user.name}}
+  </p>
 
   <!-- Banner convention -->
   <div class="md:flex">
@@ -94,15 +108,6 @@
   </div>
 
   <router-view></router-view>
-
-  <!-- 
-    <nav>
-      <router-link to="/">Accueil</router-link> |
-      <router-link to="/about">À propos</router-link> |
-      <router-link to="/programme">Programme</router-link>
-    </nav> 
-  -->
-
 </template>
 
 
