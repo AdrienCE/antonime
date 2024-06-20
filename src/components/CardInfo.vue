@@ -5,7 +5,7 @@
       <h3 class="py-4">{{ title }}</h3>
     </a>
     <div v-else class="h-[260px] object-cover cursor-pointer" @click="handleClick">
-      <img :src="imgUrl" alt="Card image" class="h-[260px] object-cover">
+      <img :src="imgUrl" alt="Card image" class="md:h-[260px] object-cover">
       <h3 class="py-4">{{ title }}</h3>
     </div>
     <PopupCard v-if="showPopup" @close="showPopup = false">

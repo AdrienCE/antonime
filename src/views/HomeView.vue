@@ -1,10 +1,12 @@
 <script>
   import CardInfo from '../components/CardInfo.vue';
+  import ImageTextGrid from '../components/ImageTextGrid.vue';
 
   export default {
     name: 'HelloWorld',
     components: {
-      CardInfo
+      CardInfo,
+      ImageTextGrid
     }
   };
 </script>
@@ -18,20 +20,10 @@
   </div>
 
   <!-- Presentation info -->
-  <div class="max-w-[1440px] m-auto p-4 md:py-8 md:flex md:px-[6rem]">
-    <div class="text-black-800 md:w-2/4">
-      <h2 class="pb-[2rem] font-bold text-3xl">Première convention</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-      sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-      sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-      sagittis bibendum sapien. Integer molestie nulla eget placerat auctor.</p>
-    </div>
-    <div class="relative py-8 p-16 md:w-2/4 ">
-      <img src="#">
-    </div>
-  </div>
+  <ImageTextGrid title="Première convention" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
+    sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
+    Integer molestie nulla eget placerat auctor."/>
 
   <!-- Banner convention -->
   <div class="md:flex">
@@ -76,7 +68,7 @@
     <p class="pb-[2rem]">Lorem ipsum</p>
 
     <div class="gap-12 md:p-0 md:flex">
-      <CardInfo title="Décors cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="false" url="/artistes"/>
+      <CardInfo title="Décors cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="false" url="/rubriquecosplay"/>
       <CardInfo title="Maid café" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="false" url="/artistes"/>
       <CardInfo title="En scène" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="true"/>
       <CardInfo title="Voir plus" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="false" url="/artistes"/>

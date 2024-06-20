@@ -1,5 +1,13 @@
+<script>
+import ImageTextGrid from '../components/ImageTextGrid.vue';
+
+export default {
+  name: 'ParentComponent', // Changez le nom ici pour éviter le conflit
+  components: {
+    ImageTextGrid
+  }
+}
+</script>
 <template>
-    <div class="infospratiques">
-      <h1 class="text-2xl">Infos pratiques</h1>
-    </div>
-  </template>
+    <ImageTextGrid />
+</template>
