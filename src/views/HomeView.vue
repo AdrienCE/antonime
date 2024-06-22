@@ -12,8 +12,6 @@
 </script>
 
 <template>
-  
-
   <!-- Header -->
   <div class="relative bg-black">
     <img src="@/assets/images/convention.jpg" alt="image convention" class="opacity-50 w-full h-[300px] object-cover parallax"/>
