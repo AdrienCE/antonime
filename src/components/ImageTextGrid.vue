@@ -12,21 +12,21 @@
   </template>
   
   <script>
-  export default {
-    props: {
-      isInverted: {
-        type: Boolean,
-        default: false
-      },
-      title: {
-      type: String,
-      default: ''
-    },
-      paragraphe: {
-      type: String,
-      default: ''
-    }
-    }
-  };
+    export default {
+      props: {
+        isInverted: {
+          type: Boolean,
+          default: false
+        },
+        title: {
+          type: String,
+          default: ''
+        },
+        paragraphe: {
+          type: String,
+          default: ''
+        }
+      }
+    };
   </script>
   
