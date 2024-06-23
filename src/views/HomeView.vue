@@ -1,17 +1,5 @@
-<script>
-  import CardInfo from '../components/CardInfo.vue';
-  import ImageTextGrid from '../components/ImageTextGrid.vue';
-
-  export default {
-    name: 'HelloWorld',
-    components: {
-      CardInfo,
-      ImageTextGrid
-    }
-  };
-</script>
-
 <template>
+  <HeaderSwiper />
 
   <!-- Presentation info -->
   <div class="container m-auto my-7 px-7 md:px-0">
@@ -70,3 +58,18 @@
     </div>
   </div>
 </template>
+
+<script>
+  import CardInfo from '../components/CardInfo.vue';
+  import ImageTextGrid from '../components/ImageTextGrid.vue';
+  import HeaderSwiper from '../components/HeaderSwiper.vue';
+
+  export default {
+    name: 'HelloWorld',
+    components: {
+      CardInfo,
+      ImageTextGrid,
+      HeaderSwiper
+    }
+  };
+</script>

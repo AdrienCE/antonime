@@ -1,19 +1,5 @@
-<script>
-  import NavBar from './components/NavBar.vue';
-  import HeaderSwiper from './components/HeaderSwiper.vue';
-
-  export default {
-    components: {
-      NavBar,
-      HeaderSwiper
-    }
-    
-  };
-</script>
-
 <template>
   <NavBar />
-  <HeaderSwiper />
   
   <router-view></router-view>
 
@@ -24,3 +10,13 @@
     <p>Contactez-nous</p>
   </div>
 </template>
+
+<script>
+  import NavBar from './components/NavBar.vue';
+
+  export default {
+    components: {
+      NavBar,
+    }
+  };
+</script>

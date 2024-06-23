@@ -1,4 +1,6 @@
 <template>
+  <HeaderTitle />
+  
   <div class="container m-auto my-7 px-7 md:px-0">
     <h2 class="pb-[2rem] text-3xl font-bold">Programmes</h2>
 
@@ -15,13 +17,16 @@
     </div>
   </div>
 </template>
+
 <script>
   import CardInfo from '../components/CardInfo.vue';
+  import HeaderTitle from '../components/HeaderTitle.vue';
 
   export default {
     name: 'HelloWorld',
     components: {
-      CardInfo
+      CardInfo,
+      HeaderTitle
     }
   };
 </script>

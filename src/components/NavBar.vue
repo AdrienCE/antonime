@@ -1,7 +1,10 @@
 <template>
   <div class="header flex w-full sticky top-0 bg-white text-gray-900 p-5 md:flex justify-between items-center z-30 min-h-[70px]">
     <div class="flex items-center">
-      <a href="/"><img src="@/assets/logockcnet.svg" width="150" height="150" /></a>
+      <a href="/" class="flex items-center">
+        <img src="@/assets/logo-ws.png" width="70" height="70"/>
+        ANTO’NIME
+      </a>
     </div>
 
     <span @click="MenuOpen" class="absolute md:hidden right-6 md:top-5 cursor-pointer text-3xl z-10">
