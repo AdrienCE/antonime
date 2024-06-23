@@ -28,7 +28,7 @@
   <div class="md:flex md:h-[300px]">
     <img class="hidden md:block" src="@/assets/images/exposants.jpg">
     <div class="bg-green-300 w-full px-7 py-7">
-      <h2 class="font-bold text-5xl">A découvrir !</h2>
+      <h2 class="font-bold text-2xl md:text-5xl">A découvrir !</h2>
       <p class="font-bold text-2xl">50 000 M²</p>
       <p class="font-bold text-2xl">200 stands</p>
       <p class="font-bold text-2xl">3 scènes</p>
@@ -41,7 +41,7 @@
     <!-- First guest -->
     <div class="first-guest">
       <h2 class="pb-[2rem] text-3xl font-bold">Nos invités</h2>
-      <div class="md:flex md:gap-12 md:p-0">
+      <div class="md:inline-grid md:grid-cols-4 md:gap-12 md:p-0">
         <CardInfo title="Danaé cosplay" imgUrl="https://i.lepelerin.com/1400x787/smart/2022/10/04/femmes-artistes.jpg" :hasPopup="true" displayMode="popup"/>
         <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="true" displayMode="popup"/>
         <CardInfo title="Danaé cosplay" imgUrl="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg" :hasPopup="true" displayMode="popup"/>
@@ -50,12 +50,12 @@
     </div>
   
     <!-- Banner tickets -->
-    <a href="#" class="text-white bg-[#EEB1A4] rounded-md p-7 my-7 md:flex md:justify-between md:items-center md:h-[250px]">
+    <a href="#" class="text-white bg-[#EEB1A4] flex rounded-md p-7 my-7 md:justify-between md:items-center md:h-[250px]">
       <div>
-        <h2 class="text-4xl font-bold pb-3">Billeterie ouverte !</h2>
+        <h2 class="font-bold text-2xl md:text-5xl">Billeterie ouverte !</h2>
         <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>
       </div>
-      <img src="#">
+      <img src="#" class="hidden md:block">
     </a>
 
     <!-- Programs -->

@@ -23,7 +23,7 @@
 
   let open = ref(false);
   let Links = [
-    { name: "Programme", link: "/programme" },
+    { name: "Programmes", link: "/programmes" },
     { name: "Exposants", link: "/exposants" },
     { name: "Artistes", link: "/artistes" },
     { name: "Infos pratiques", link: "/infospratiques" }

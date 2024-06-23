@@ -25,8 +25,8 @@ const routes = [
   },
   {
     //Programmes Page render view
-    path: '/programme',
-    name: 'programme',
+    path: '/programmes',
+    name: 'programmes',
     meta: {
       title: "Programmes"
     },
