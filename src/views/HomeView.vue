@@ -13,9 +13,9 @@
 
 <template>
   <!-- Header -->
-  <div class="relative bg-black">
+  <!-- <div class="relative bg-black">
     <img src="@/assets/images/convention.jpg" alt="image convention" class="opacity-50 w-full h-[300px] object-cover parallax"/>
-  </div>
+  </div> -->
 
   <!-- Presentation info -->
   <ImageTextGrid title="Première convention" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
