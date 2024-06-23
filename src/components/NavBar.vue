@@ -1,5 +1,5 @@
 <template>
-  <div class="header flex w-full sticky top-0 bg-white text-gray-900 p-5 md:flex justify-between items-center z-30 min-h-[70px]">
+  <div class="header flex items-center w-full sticky top-0 bg-white text-gray-900 p-[0.7rem] z-30 md:justify-between">
     <div class="flex items-center">
       <a href="/" class="flex items-center">
         <img src="@/assets/logo-ws.png" width="70" height="70"/>
