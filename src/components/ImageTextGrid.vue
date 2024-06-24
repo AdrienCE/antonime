@@ -1,13 +1,16 @@
 <template>
-  <div :class="['md:flex', isInverted ? 'md:flex-row-reverse' : 'md:flex-row']">
-    <div class="w-full text-black-800 md:w-2/3">
-      <p class="text-justify md:text-left">{{ paragraphe }}</p>
-      <p class="text-justify md:text-left">{{ paragraphe2 }}</p>
+  <div :class="['max-w-[1440px] m-auto p-8 md:py-8 md:flex', isInverted ? 'md:flex-row-reverse' : 'md:flex-row']">
+    <div class="text-black-800 md:p-8 md:w-2/4">
+      <h2 class="pb-[2rem] font-bold text-3xl">{{ title }}</h2>
+      <p>{{ paragraphe }}</p>
+      <p>{{ paragraphe }}</p>
     </div>
-    <img class="w-full mt-5 md:w-1/3 md:mt-0" src="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg">
+    <div class="relative md:p-8 md:w-2/4">
+      <img src="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg">
+    </div>
   </div>
 </template>
-  
+
 <script>
   export default {
     props: {
@@ -15,11 +18,11 @@
         type: Boolean,
         default: false
       },
-      paragraphe: {
+      title: {
         type: String,
         default: ''
       },
-      paragraphe2: {
+      paragraphe: {
         type: String,
         default: ''
       }
