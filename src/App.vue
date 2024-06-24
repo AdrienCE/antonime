@@ -9,18 +9,18 @@
         <img src="@/assets/logo-ws.png" width="70" height="70"/>
       </div>
 
-      <div class="md:p-12 md:w-1/3 flex flex-col md:flex-row">
+      <div class="md:p-12 md:w-1/3 md:flex">
         <p class="md:mr-6">Mentions légales</p>
         <p class="md:mr-6">Conditions générales</p>
         <p>Contactez-nous</p>
       </div>
 
-      <div class="md:p-12 md:w-1/3 flex flex-col md:flex-row">
-        <p class="md:mr-6">Mentions légales</p>
-        <p class="md:mr-6">Conditions générales</p>
-        <p>Contactez-nous</p>
+      <div class="md:p-12 md:w-1/3 md:flex">
+        <p class="md:mr-6">social media 1</p>
+        <p class="md:mr-6">social media 2</p>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -33,7 +33,3 @@
     }
   };
 </script>
-
-<style scoped>
-  /* Ajoutez des styles supplémentaires si nécessaire */
-</style>
