@@ -2,7 +2,7 @@
   <swiper-container :navigation="true" :pagination="true" :loop="true" :modules="modules">
     <swiper-slide>
       <div class="relative bg-black">
-        <img src="@/assets/images/1-banniere.png" alt="image convention" class="w-full h-auto object-contain"/>
+        <img src="@/assets/images/1-banniere.png" alt="image convention" class="opacity-70 w-full h-auto object-contain"/>
       </div>
     </swiper-slide>
     <swiper-slide>
@@ -14,6 +14,6 @@
 </template>
 
 <script setup>
-  import {register} from 'swiper/element/bundle';
-  register();
+import {register} from 'swiper/element/bundle';
+register();
 </script>

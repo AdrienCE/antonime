@@ -1,21 +1,17 @@
 <template>
+   <!-- Header -->
   <HeaderSwiper />
 
   <!-- Presentation info -->
-  <div class="container m-auto my-7 px-7 md:px-0">
-    <h2 class="pb-[2rem] text-3xl font-bold">Première convention</h2>
-    <ImageTextGrid
-      paragraphe="Anto’nime a le plaisir de vous présenter sa première édition !
+  <ImageTextGrid title="Première convention" paragraphe="Anto’nime a le plaisir de vous présenter sa première édition !
       Une convention à échelle humaine, principalement en extérieur, vous proposera 
       des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !" 
-      paragraphe2="N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !"
-    />
-  </div>
+      paragraphe2="N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !"/>
 
   <!-- Banner convention -->
   <div class="md:flex md:h-[300px]">
     <img class="hidden md:block" src="@/assets/images/exposants.jpg">
-    <div class="bg-green-300 w-full px-7 py-7">
+    <div class="bg-custom-green w-full px-7 py-7">
       <h2 class="font-bold text-2xl md:text-5xl">A découvrir !</h2>
       <p class="font-bold text-2xl">50 000 M²</p>
       <p class="font-bold text-2xl">200 stands</p>
@@ -38,7 +34,7 @@
     </div>
   
     <!-- Banner tickets -->
-    <a href="#" class="text-white bg-[#EEB1A4] flex rounded-md p-7 my-7 md:justify-between md:items-center md:h-[250px]">
+    <a href="#" class="text-white bg-custom-pink flex rounded-md p-7 my-7 md:justify-between md:items-center md:h-[250px]">
       <div>
         <h2 class="font-bold text-2xl md:text-5xl">Billeterie ouverte !</h2>
         <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>

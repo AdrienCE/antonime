@@ -1,5 +1,4 @@
 <template>
-
   <a v-if="displayMode === 'link'" :href="url" class="block mb-7 md:mb-0 last:mb-0">
     <img class="object-cover cursor-pointer rounded-md md:h-[260px]" :src="imgUrl" alt="Card image">
     <h3 class="pt-2">{{ title }}</h3>
@@ -9,7 +8,9 @@
 
     <template v-if="displayMode === 'custom'">
       <div class="bg-white flex items-center gap-4 p-6 shadow-2xl mb-7 cursor-pointer md:mb-0 last:mb-0" @click="handleClick">
-        <img :src="imgUrl" alt="Card image" class="md:w-[80px] md:h-[80px] object-cover md:rounded-full">
+        <div class="md:w-[80px] md:h-[80px] md:clip-hexagon">
+          <img :src="imgUrl" alt="Card image" class="object-cover w-full h-full">
+        </div>
         <h3>{{ title }}</h3>
       </div>
     </template>
