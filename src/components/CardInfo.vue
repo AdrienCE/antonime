@@ -26,7 +26,7 @@
 
   <PopupCard v-if="showPopup" @close="showPopup = false">
     <template v-slot:content>
-      <img :src="imgUrl" alt="Image popup" class="h-[550px] w-[400px] object-cover">
+      <img :src="imgUrl" alt="Image popup" class="h-[550px] md:w-[400px] object-cover rounded-md">
       <div class="pl-8 flex flex-col justify-between">
         <h2 class="text-3xl font-bold py-4">{{ title }}</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.</p>
