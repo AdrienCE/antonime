@@ -55,9 +55,45 @@ const routes = [
     path: '/rubriquecosplay',
     name: 'rubriquecosplay',
     meta: {
-      title: "Rubrique Cosplay"
+      title: "Décors Cosplay"
     },
     component: () => import('../views/RubriquecosplayView.vue')
+  },
+  {
+    //Rubrique maid Page render view
+    path: '/rubriquemaid',
+    name: 'rubriquemaid',
+    meta: {
+      title: "Maid Café"
+    },
+    component: () => import('../views/RubriqueMaidView.vue')
+  },
+  {
+    //Ticketing Page render view
+    path: '/billeterie',
+    name: 'billeterie',
+    meta: {
+      title: "Billeterie"
+    },
+    component: () => import('../views/BilleterieView.vue')
+  },
+  {
+    //Mentions Page render view
+    path: '/mentionslegales',
+    name: 'mentionslegales',
+    meta: {
+      title: "Mentions légales"
+    },
+    component: () => import('../views/MentionsLegalesView.vue')
+  },
+  {
+    //Conditions Page render view
+    path: '/conditions',
+    name: 'conditions',
+    meta: {
+      title: "Conditions générales"
+    },
+    component: () => import('../views/ConditionsView.vue')
   },
   {
     //404 Page render view

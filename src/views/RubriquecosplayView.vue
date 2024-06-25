@@ -1,15 +1,19 @@
 <template>
-  <HeaderTitle />
+  <HeaderTitle title="DECORS COSPLAY"/>
   
-  <ImageTextGrid title="Mon titre" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-  sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
-  consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
-  Integer molestie nulla eget placerat auctor."/>
+  <div class="container m-auto my-7 px-7 md:px-0">
+    <h2 class="pb-[2rem] font-bold text-3xl">Décors cosplay</h2>
 
-  <ImageTextGrid :isInverted="true" title="Mon titre 2" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-  sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
-  consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
-  Integer molestie nulla eget placerat auctor."/>
+    <ImageTextGrid :isInverted="true" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
+    sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
+    Integer molestie nulla eget placerat auctor."/>
+
+    <ImageTextGrid paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
+    sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
+    Integer molestie nulla eget placerat auctor."/>
+  </div>
 </template>
 
 <script>

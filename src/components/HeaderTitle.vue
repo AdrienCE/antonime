@@ -8,16 +8,16 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
-import { register } from 'swiper/element/bundle';
-register();
+  import { defineProps } from 'vue';
+  import { register } from 'swiper/element/bundle';
+  register();
 
-// Définition des props
-const props = defineProps({
-  title: String,
-});
+  // Définition des props
+  const props = defineProps({
+    title: String,
+  });
 
-// Extraire la valeur de title pour la rendre réactive
-import { ref } from 'vue';
-const title = ref(props.title);
+  // Extraire la valeur de title pour la rendre réactive
+  import { ref } from 'vue';
+  const title = ref(props.title);
 </script>
