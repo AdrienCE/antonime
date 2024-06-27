@@ -5,7 +5,7 @@
       <p>{{ paragraphe2 }}</p>
     </div>
     <div class="md:w-2/4">
-      <img src="https://gamingway.fr/wp-content/uploads/2023/07/cosplay-Japan-Expo-2023-Genshin-image-en-une.jpg">
+      <img src='@/assets/images/convention.webp' width="100%" height="auto"/>
     </div>
   </div>
 </template>

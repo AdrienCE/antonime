@@ -2,38 +2,49 @@
   <HeaderTitle title="CONDITIONS GENERALES" />
   
   <div class="container m-auto my-14 px-7 md:px-0">
-      <h2 class="pb-[2rem] text-3xl font-bold">Conditions générales de vente - Internet - <span class="text-sm font-normal">En vigueur au 01/06/2024</span></h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien.</p>
+    <h2 class="pb-[2rem] text-3xl font-bold">Conditions générales de vente - Internet - <span
+        class="text-sm font-normal">En vigueur au 01/06/2024</span></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
+      sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum
+      nec tempus ac,
+      sagittis bibendum sapien.</p>
     <br>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien.</p>
+      sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum
+      nec tempus ac,
+      sagittis bibendum sapien.</p>
     <h3 class="text-2xl font-bold py-8">ARTICLE 1 - L'EDITEUR</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien.</p>
+      sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum
+      nec tempus ac,
+      sagittis bibendum sapien.</p>
     <h3 class="text-2xl font-bold py-8">ARTICLE 2 - L'EDITEUR</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien.</p>
+      sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum
+      nec tempus ac,
+      sagittis bibendum sapien.</p>
     <h3 class="text-2xl font-bold py-8">ARTICLE 3 - L'EDITEUR</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien.</p>
+      sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum
+      nec tempus ac,
+      sagittis bibendum sapien.</p>
     <h3 class="text-2xl font-bold py-8">ARTICLE 4 - L'EDITEUR</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
-    sagittis bibendum sapien.</p>
-    </div>
-  </template>
+      sagittis bibendum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum
+      nec tempus ac,
+      sagittis bibendum sapien.</p>
+  </div>
+
+  <MainFooter/>
+</template>
 
 <script>
+  import MainFooter from '@/components/MainFooter.vue';
   import HeaderTitle from '../components/HeaderTitle.vue';
 
   export default {
     components: {
+      MainFooter,
       HeaderTitle
     }
   }

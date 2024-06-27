@@ -14,15 +14,18 @@
     consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
     Integer molestie nulla eget placerat auctor."/>
   </div>
+
+  <MainFooter/>
 </template>
 
 <script>
+  import MainFooter from '@/components/MainFooter.vue';
   import ImageTextGrid from '../components/ImageTextGrid.vue';
   import HeaderTitle from '../components/HeaderTitle.vue';
 
   export default {
-    name: 'BlocImgText',
     components: {
+      MainFooter,
       ImageTextGrid,
       HeaderTitle
     }

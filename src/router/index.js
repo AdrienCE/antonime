@@ -3,16 +3,21 @@ import { createRouter, createWebHistory } from 'vue-router'
 /* eslint-disable */
 const routes = [
   {
-    //Home Page render view
     path: '/',
-    name: 'home',
+    name: "Home",
     meta: {
       title: "Page d'accueil"
     },
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "home" */ '../views/HomeView.vue')
+  },
+  {
+    //Exposants Page render view
+    path: '/exposants',
+    name: 'exposants',
+    meta: {
+      title: "Exposants"
+    },
+    component: () => import('../views/ExposantsView.vue')
   },
   {
     //Exposants Page render view
@@ -104,7 +109,7 @@ const routes = [
     },
     component: () => import('../views/404.vue'),
   }
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

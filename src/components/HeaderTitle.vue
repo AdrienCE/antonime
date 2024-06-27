@@ -1,6 +1,6 @@
 <template>
   <div class="relative bg-black w-full">
-    <img src="@/assets/images/convention.jpg" alt="image convention" class="w-full h-[170px] opacity-50 object-cover"/>
+    <img width="350" height="350" src="@/assets/images/convention.webp" alt="image convention" class="w-full h-[170px] opacity-50 object-cover"/>
     <h2 class="absolute inset-0 flex items-center justify-center text-white text-center text-3xl tracking-wide font-bold">
       {{ title }}
     </h2>
