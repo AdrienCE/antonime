@@ -5,9 +5,9 @@
   </a>
 
   <template v-else>
-
     <template v-if="displayMode === 'custom'">
-      <div class="bg-white flex items-center gap-4 p-6 shadow-2xl mb-7 cursor-pointer md:mb-0 last:mb-0" @click="handleClick">
+      <div :class="['inline-block w-80 mr-4 xl:w-full md:flex md:items-center md:gap-4 md:p-6 md:shadow-2xl md:mb-7 md:cursor-pointer md:last:mb-0', mobileDisplayModeClass]" @click="handleClick">
+        <!-- <div class="bg-white flex items-center gap-4 p-6 shadow-2xl mb-7 cursor-pointer md:mb-0 last:mb-0" @click="handleClick"> -->
         <div class="md:w-[80px] md:h-[80px] md:clip-hexagon">
           <img :src="resolve_img_url(imgUrl)" alt="Card image" class="w-full object-cover h-full" width="350" height="350">
         </div>
@@ -21,55 +21,57 @@
         <h3 class="pt-2">{{ title }}</h3>
       </div>
     </template>
-
   </template>
 
   <PopupCard v-if="showPopup" @close="showPopup = false" :image="imgUrl" :title="title" :desc="description" :social="social"/>
 </template>
 
 <script>
-  import { ref } from 'vue';
-  import PopupCard from './PopupCard.vue';
+import { ref } from 'vue';
+import PopupCard from './PopupCard.vue';
 
-  export default {
-    name: 'CardInfo',
-    components: {
-      PopupCard
+export default {
+  name: 'CardInfo',
+  components: {
+    PopupCard
+  },
+  props: {
+    title: String,
+    imgUrl: String,
+    description: String,
+    social: Object,
+    url: String,
+    listeInLine: Boolean,
+    displayMode: {
+      type: String,
+      default: 'link'
     },
-    props: {
-      title: String,
-      imgUrl: String,
-      description: String,
-      social: Object,
-      url: String,
-      listeInLine: Boolean,
-      displayMode: {
-        type: String,
-        default: 'link'
-      },
-      hasPopup: {
-        type: Boolean,
-        default: false
-      }
-    },
-    setup(props) {
-      const showPopup = ref(false);
-      function handleClick() {
-        if (props.hasPopup || props.displayMode === 'popup') {
-          showPopup.value = true;
-        }
-      }
-
-      return {
-        showPopup,
-        handleClick
-      };
-    },
-    methods: {
-      resolve_img_url: function (path) {
-        let images = require.context('@/assets/images/guests/', false, /\.(webp)$/)
-        return images("./"+path)
+    hasPopup: {
+      type: Boolean,
+      default: false
+    }
+  },
+  setup(props) {
+    const showPopup = ref(false);
+    function handleClick() {
+      if (props.hasPopup || props.displayMode === 'popup') {
+        showPopup.value = true;
       }
     }
-  };
+
+    const mobileDisplayModeClass = props.displayMode === 'custom' ? 'block bg-white p-6 shadow-2xl mb-7 cursor-pointer' : '';
+
+    return {
+      showPopup,
+      handleClick,
+      mobileDisplayModeClass
+    };
+  },
+  methods: {
+    resolve_img_url: function (path) {
+      let images = require.context('@/assets/images/guests/', false, /\.(webp)$/)
+      return images("./"+path)
+    }
+  }
+};
 </script>
