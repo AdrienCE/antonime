@@ -10,8 +10,8 @@
         :imgUrl="artist.image"
         :description="artist.description"
         :social="artist.social"
-        :hasPopup="artist.popup"
-        :displayMode="artist.mode"
+        hasPopup="true"
+        displayMode="custom"
       />
     </div>
   </div>
