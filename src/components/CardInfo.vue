@@ -1,5 +1,5 @@
 <template>
-  <a v-if="displayMode === 'link'" :href="url" :class="listeInLine ? 'inline-block w-80 mr-4 xl:w-full' : 'block mb-7 md:mb-0 last:mb-0'">
+  <a v-if="displayMode === 'link'" :href="url" :class="listeInLine ? 'inline-block w-60 mr-4 xl:w-full' : 'block mb-7 md:mb-0 last:mb-0'">
     <img :src="resolve_img_url(imgUrl)" :srcset="resolve_img_url(imgUrl)" class="w-full h-60 object-cover rounded-md md:h-80 cursor-pointer" alt="Card image" width="100%" height="auto">
     <h3 class="pt-2">{{ title }}</h3>
   </a>
@@ -16,7 +16,7 @@
     </template>
 
     <template v-else>
-      <div :class="listeInLine ? 'inline-block w-80 mr-4 xl:w-full' : 'mb-7 cursor-pointer md:mb-0 last:mb-0'" @click="handleClick">
+      <div :class="listeInLine ? 'inline-block w-60 mr-4 xl:w-full' : 'mb-7 cursor-pointer md:mb-0 last:mb-0'" @click="handleClick">
         <img :src="resolve_img_url(imgUrl)" :srcset="resolve_img_url(imgUrl)" decoding="async" class="w-full h-60 object-cover rounded-md md:h-80" alt="Card image" width="100%" height="auto">
         <h3 class="pt-2">{{ title }}</h3>
       </div>

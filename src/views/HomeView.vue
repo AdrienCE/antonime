@@ -19,14 +19,17 @@
     </swiper-slide>
   </swiper-container>
 
+
   <!-- Presentation info -->
   <div class="container m-auto my-7 px-7 md:px-0">
     <h2 class="pb-[2rem] font-bold text-3xl">Première convention</h2>
     
-    <ImageTextGrid paragraphe="Anto’nime a le plaisir de vous présenter sa première édition !
-      Une convention à échelle humaine, principalement en extérieur, vous proposera 
-      des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !" 
-      paragraphe2="N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !"/>
+    <ImageTextGrid 
+      paragraphe="Anto’nime a le plaisir de vous présenter sa première édition ! Une convention à échelle humaine, principalement en extérieur, vous proposera des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !" 
+      paragraphe2="N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !"
+      imageGrid="convention.webp"
+      altText="Image de la convention"
+    />
   </div>
   
   <!-- Banner convention -->
