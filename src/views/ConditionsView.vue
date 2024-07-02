@@ -1,7 +1,7 @@
 <template>
   <HeaderTitle title="CONDITIONS GENERALES" />
   
-  <div class="container m-auto my-14 px-7 md:px-0">
+  <div class="container my-7 px-7">
     <h2 class="pb-[2rem] text-3xl font-bold">
       Conditions générales de vente - Internet - 
       <span class="text-sm font-normal">En vigueur au 01/06/2024</span>

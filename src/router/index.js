@@ -12,21 +12,12 @@ const routes = [
   },
   {
     //Exposants Page render view
-    path: '/exposants',
-    name: 'exposants',
+    path: '/invites',
+    name: 'invites',
     meta: {
-      title: "Exposants"
+      title: "Invités"
     },
-    component: () => import('../views/ExposantsView.vue')
-  },
-  {
-    //Exposants Page render view
-    path: '/exposants',
-    name: 'exposants',
-    meta: {
-      title: "Exposants"
-    },
-    component: () => import('../views/ExposantsView.vue')
+    component: () => import('../views/GuestView.vue')
   },
   {
     //Programmes Page render view

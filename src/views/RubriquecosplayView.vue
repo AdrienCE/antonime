@@ -1,7 +1,7 @@
 <template>
   <HeaderTitle title="DECORS COSPLAY"/>
   
-  <div class="container m-auto my-7 px-7 md:px-0">
+  <div class="container my-7 px-7">
     <h2 class="pb-[2rem] font-bold text-3xl">Décors cosplay</h2>
 
     <ImageTextGrid :isInverted="true" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,

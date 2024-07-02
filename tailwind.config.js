@@ -6,15 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      container: {
-        screens: {
-          'sm': '640px',
-          'md': '768px',
-          'lg': '1024px',
-          'xl': '1280px',
-          '2xl': '1536px'
-        },
-      },
       container:{
         center: true,
         padding:{
@@ -24,6 +15,13 @@ module.exports = {
           xl: "6rem",
           "2xl": "8rem"
         },
+        screens: {
+          'sm': '640px',
+          'md': '768px',
+          'lg': '1024px',
+          'xl': '1280px',
+          '2xl': '1536px'
+        }
       },
       height: {
         '80vh': '80vh',

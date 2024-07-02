@@ -1,23 +1,20 @@
 <template>
-  <a v-if="displayMode === 'link'" :href="url" :class="listeInLine ? 'inline-block w-80 mr-4 xl:w-full' : 'block mb-7 md:mb-0 last:mb-0'">
-    <img :src="resolve_img_url(imgUrl)" :srcset="resolve_img_url(imgUrl)" class="w-full h-60 object-cover rounded-md md:h-80 cursor-pointer" alt="Card image" width="100%" height="auto">
+  <a v-if="displayMode === 'link'" :href="url" class="cursor-pointer transition ease-in delay-110 duration-110 hover:-translate-y-1 hover:scale-90" :class="listeInLine ? 'inline-block w-60 mr-4 xl:w-full' : 'w-full mb-7 md:mb-0 last:mb-0'">
+    <img :src="resolve_img_url(imgUrl)" :srcset="resolve_img_url(imgUrl)" class="object-cover h-52 rounded-md md:h-72" alt="Card image" width="372" height="288">
     <h3 class="pt-2">{{ title }}</h3>
   </a>
 
   <template v-else>
     <template v-if="displayMode === 'custom'">
-      <div :class="['inline-block w-80 mr-4 xl:w-full md:flex md:items-center md:gap-4 md:p-6 md:shadow-2xl md:mb-7 md:cursor-pointer md:last:mb-0', mobileDisplayModeClass]" @click="handleClick">
-        <!-- <div class="bg-white flex items-center gap-4 p-6 shadow-2xl mb-7 cursor-pointer md:mb-0 last:mb-0" @click="handleClick"> -->
-        <div class="md:w-[80px] md:h-[80px] md:clip-hexagon">
-          <img :src="resolve_img_url(imgUrl)" alt="Card image" class="w-full object-cover h-full" width="350" height="350">
-        </div>
-        <h3>{{ title }}</h3>
+      <div class="bg-white cursor-pointer border-2 border-white flex items-center gap-2 w-full rounded-lg last:mb-0 transition ease-in delay-110 duration-110 hover:-translate-y-1 hover:scale-90 md:last:mb-0" @click="handleClick">
+        <img :src="resolve_img_url(imgUrl)" alt="Card image" class="object-cover h-24 w-20 rounded-l-lg" width="20" height="24">
+        <h3 class="text-ellipsis overflow-hidden">{{ title }}</h3>
       </div>
     </template>
 
     <template v-else>
-      <div :class="listeInLine ? 'inline-block w-80 mr-4 xl:w-full' : 'mb-7 cursor-pointer md:mb-0 last:mb-0'" @click="handleClick">
-        <img :src="resolve_img_url(imgUrl)" :srcset="resolve_img_url(imgUrl)" decoding="async" class="w-full h-60 object-cover rounded-md md:h-80" alt="Card image" width="100%" height="auto">
+      <div class="cursor-pointer transition ease-in delay-110 duration-110 hover:-translate-y-1 hover:scale-90" :class="listeInLine ? 'inline-block w-60 mr-4 xl:w-full' : ' w-full mb-7 md:mb-0 last:mb-0'" @click="handleClick">
+        <img :src="resolve_img_url(imgUrl)" :srcset="resolve_img_url(imgUrl)" class="object-cover h-52 rounded-md md:h-72" alt="Card image" width="372" height="288">
         <h3 class="pt-2">{{ title }}</h3>
       </div>
     </template>
@@ -59,12 +56,9 @@ export default {
       }
     }
 
-    const mobileDisplayModeClass = props.displayMode === 'custom' ? 'block bg-white p-6 shadow-2xl mb-7 cursor-pointer' : '';
-
     return {
       showPopup,
-      handleClick,
-      mobileDisplayModeClass
+      handleClick
     };
   },
   methods: {

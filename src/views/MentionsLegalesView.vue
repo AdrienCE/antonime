@@ -1,7 +1,7 @@
 <template>
   <HeaderTitle title="MENTION LEGALES" />
     
-  <div class="container m-auto my-14 px-7 md:px-0">
+  <div class="container my-7 px-7">
     <h2 class="pb-[2rem] text-3xl font-bold">Mentions légales - <span class="text-sm font-normal">En vigueur au
         01/06/2024</span></h2>
     <p>Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004

@@ -12,15 +12,10 @@
         />
       </div>
     </swiper-slide>
-    <swiper-slide>
-      <div class="relative bg-black">
-        <!-- <img src="@/assets/images/convention.jpg" alt="image convention" class="opacity-50 w-full h-[417px] object-cover"/> -->
-      </div>
-    </swiper-slide>
   </swiper-container>
 
   <!-- Presentation info -->
-  <div class="container m-auto my-7 px-7 md:px-0">
+  <div class="container my-7 px-7">
     <h2 class="pb-[2rem] font-bold text-3xl">Première convention</h2>
     
     <ImageTextGrid paragraphe="Anto’nime a le plaisir de vous présenter sa première édition !
@@ -30,44 +25,57 @@
   </div>
   
   <!-- Banner convention -->
-  <div class="md:flex md:h-[300px]">
-    <img class="hidden md:block" src="@/assets/images/exposants.webp">
+  <div class="md:flex">
+    <img class="hidden w-1/4 md:block" src="@/assets/images/exposants.webp">
     <div class="bg-custom-green w-full px-7 py-7">
-      <h2 class="font-bold text-2xl md:text-5xl">A découvrir !</h2>
-      <p class="font-bold text-2xl">50 000 M²</p>
-      <p class="font-bold text-2xl">200 stands</p>
-      <p class="font-bold text-2xl">3 scènes</p>
+      <h2 class="font-bold text-2xl md:text-5xl mb-10">A découvrir !</h2>
+      <p class="font-bold text-2xl">60 artistes !</p>
+      <p class="font-bold text-2xl">1 défilé cosplay !</p>
+      <p class="font-bold text-2xl">1 show cosplay !</p>
+      <p class="font-bold text-2xl">Des conférences !</p>
+      <p class="font-bold text-2xl">Des spectacles et pleins d'autres surprises !</p>
+      <p class="font-bold text-2xl">Ah et un Maid Café !</p>
     </div>
   </div>
 
   <!-- Block for Guests, tickets and programs -->
-  <div class="container m-auto my-7 px-7 md:px-0">
+  <div class="container my-7 px-7">
     
     <!-- First guest -->
     <div class="first-guest">
       <h2 class="pb-[2rem] text-3xl font-bold">Nos invités</h2>
-      <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-12">
-        <CardInfo title="Danaé Cosplay" imgUrl="G-01.webp" :hasPopup="true" displayMode="popup" listeInLine="true"/>
-        <CardInfo title="T.Pralinus" imgUrl="G-01.webp" :hasPopup="true" displayMode="popup" listeInLine="true"/>
+      <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-4">
+        <CardInfo v-for="guests in guest" :key="guests"
+          :title="guests.title"
+          :imgUrl="guests.imageUrl"
+          :hasPopup="guests.popup"
+          :displayMode="guests.displayMode"
+          :listeInLine="guests.listInLine"
+        />
       </div>
     </div>
   
     <!-- Banner tickets -->
-    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px]">
+    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px] bg-[url('@/assets/images/Billeterie.svg')]">
       <div>
         <h2 class="font-bold text-2xl md:text-5xl">Billeterie ouverte !</h2>
         <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>
       </div>
-      <img src="" class="hidden md:block">
+      <img src="@/assets/images/at-chib-w.webp" class="w-[30%] md:block">
     </a>
 
     <!-- Programs -->
     <div class="programs">
       <h2 class="pb-[2rem] text-3xl font-bold">Nos programmes</h2>
-      <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-12">
-        <CardInfo title="Décors cosplay" imgUrl="G-01.webp" :hasPopup="false" url="/rubriquecosplay" listeInLine="true"/>
-        <CardInfo title="Maid café" imgUrl="G-01.webp" :hasPopup="false" url="/rubriquemaid" listeInLine="true"/>
-        <CardInfo title="En scène" imgUrl="G-01.webp" :hasPopup="true" displayMode="popup" listeInLine="true"/>
+      <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-4">
+        <CardInfo v-for="programs in program" :key="programs"
+          :title='programs.title'
+          :imgUrl='programs.imageUrl'
+          :hasPopup='programs.popup'
+          :displayMode='programs.displayMode'
+          :url='programs.urlLink'
+          :listeInLine='programs.listInLine'
+        />
         <CardInfo title="Voir plus" imgUrl="G-01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
       </div>
     </div>
@@ -93,12 +101,51 @@
     },
     data() {
       return {
-        banner: [
+        banner:[
           {
             image: "1-banniere.webp",
             alt: "banniere convention",
             width: "100%",
             height: "500"
+          }
+        ],
+        program:[
+          {
+            title: "Décors cosplay",
+            imageUrl: "G-01.webp",
+            popup: false,
+            urlLink: "/rubriquecosplay",
+            listInLine: true
+          },
+          {
+            title: "Maid café",
+            imageUrl: "G-01.webp",
+            popup: false,
+            urlLink: "/rubriquecosplay",
+            listInLine: true
+          },
+          {
+            title: "En scène",
+            imageUrl: "G-01.webp",
+            popup: true,
+            displayMode: "popup",
+            listInLine: true
+          },
+        ],
+        guest:[
+          {
+            title: "Danaé Cosplay",
+            imageUrl: "G-01.webp",
+            popup: true,
+            displayMode: "popup",
+            listInLine: true
+          },
+          {
+            title: "T.Pralinus",
+            imageUrl: "G-02.webp",
+            popup: true,
+            displayMode: "popup",
+            listInLine: true
           }
         ]
       };

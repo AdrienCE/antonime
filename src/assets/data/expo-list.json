@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "CLEM & LACIE",
+    "image": "A-01",
+    "description": "un duo d'artistes réalisant des illustrations de personnages originaux mais également de fandoms qui nous tiennent à coeur. Adeptes des univers colorés, nous souhaitons partager notre passion à travers nos dessins !",
+    "social":[
+      {"insta" : "https://www.instagram.com/laciebernkastel"}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CAJ & OR",
+    "image": "A-02",
+    "description": "Nous sommes Cajal et Oror, deux illustrateur-ice-s, réunis par le pouvoir de l’amitié et la joie de façonner des objets à la main. Influencés par le manga et les oeuvres fantastiques, nos univers dialoguent entre récits colorés, bonhommes rigolos et ambiances horrifiques. Vous trouverez sur notre stand des prints à foison, du fanart, des stickers, des zines et même une tapisserie ! Au plaisir de vous y voir :^)",
+    "social":[]
+  },
+  {
+    "id": 3,
+    "title": "ARMEITISTE",
+    "image": "at",
+    "description": "Si vous aimez Omori ,Link Click,Nana ou encore les chats….mon stand est pour vous!’",
+    "social":[
+      {"insta" : "https://www.instagram.com/armeitiste"}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "YUME & CROW",
+    "image": "at",
+    "description": "",
+    "social":[
+      {"insta" : ""},
+      {"tiktok" : ""},
+      {"x" : ""},
+      {"yt" : ""}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "MIKU",
+    "image": "at",
+    "description": "Miku est l'association de mopymush et Iku, deux artistes collaborant sur un manga de magical girl lesbien. Les deux artistes ont des univers tournant autour des thématiques lgbt mopymush proposant un univers plus mignon et Iku un univers plus mature !"
+  },
+  {
+    "id": 6,
+    "title": "",
+    "image": "at",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "title": "LEONIS",
+    "image": "A-07",
+    "description": "Artiste manga et illustratrice, Leonis s'inspire de différents thèmes pour réaliser ses illustrations. Elle nous fait ainsi voyager dans son univers et nous fait découvrir à travers son manga la nature luxuriante péruvienne avec une touche de fantastique.",
+    "social":[
+      {"insta" : "https://www.instagram.com/leonis_manga/"},
+      {"x" : "https://x.com/TheLeonis_14"}
+    ]
+  }
+]
