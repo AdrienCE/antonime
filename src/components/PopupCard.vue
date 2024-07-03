@@ -13,7 +13,7 @@
       <div class="p-4 flex flex-col justify-between flex-1 overflow-hidden">
         <h2 class="text-3xl font-bold py-4">{{ title }}</h2>
         <div class="flex-1 overflow-y-auto pr-4">
-          <p>{{ desc }}</p>
+          <p class="text-shadow-custom">{{ desc }}</p>
         </div>
         <div class="text-3xl flex flex-row items-end mt-4 gap-4 pt-6 md:pb-8">
           <template v-for="(socials, index) in social" :key="index">
@@ -33,6 +33,7 @@
               "/>
             </a>
           </template>
+          <MyButton class="text-sm px-4" title="En savoir plus" v-if="button" :href="button.url"/>
         </div>
       </div>
     </div>
@@ -40,32 +41,31 @@
 </template>
 
 <script>
-  import { library } from '@fortawesome/fontawesome-svg-core';
-  import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faTiktok, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import MyButton from './MyButton.vue';
 
-  import { faXmark } from '@fortawesome/free-solid-svg-icons';
-  import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-  import { faTiktok } from '@fortawesome/free-brands-svg-icons';
-  import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
-  import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+library.add(faXmark, faInstagram, faTiktok, faXTwitter, faYoutube);
 
-  library.add(faXmark, faInstagram, faTiktok, faXTwitter, faYoutube);
-
-  export default {
-    components: {
-      FontAwesomeIcon
-    },
-    props: {
-      title: String,
-      desc: String,
-      image: String,
-      social: Object
-    },
-    methods: {
-      resolve_img_url: function (path) {
-        let images = require.context('@/assets/images/guests/', false, /\.(webp)$/);
-        return images("./" + path);
-      }
+export default {
+  components: {
+    FontAwesomeIcon,
+    MyButton
+  },
+  props: {
+    title: String,
+    desc: String,
+    image: String,
+    social: Object,
+    button: Boolean
+  },
+  methods: {
+    resolve_img_url: function (path) {
+      let images = require.context('@/assets/images/guests/', false, /\.(webp)$/);
+      return images("./" + path);
     }
-  };
+  }
+};
 </script>

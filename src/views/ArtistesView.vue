@@ -10,6 +10,7 @@
         :imgUrl="artist.image"
         :description="artist.description"
         :social="artist.social"
+        :button="artist.button"
         hasPopup="true"
         displayMode="custom"
       />

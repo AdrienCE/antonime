@@ -7,7 +7,6 @@
   <template v-else>
     <template v-if="displayMode === 'custom'">
       <div :class="['inline-block w-80 mr-4 xl:w-full md:flex md:items-center md:gap-4 md:p-6 md:shadow-2xl md:mb-7 md:cursor-pointer md:last:mb-0', mobileDisplayModeClass]" @click="handleClick">
-        <!-- <div class="bg-white flex items-center gap-4 p-6 shadow-2xl mb-7 cursor-pointer md:mb-0 last:mb-0" @click="handleClick"> -->
         <div class="md:w-[80px] md:h-[80px] md:clip-hexagon">
           <img :src="resolve_img_url(imgUrl)" alt="Card image" class="w-full object-cover h-full" width="350" height="350">
         </div>
@@ -23,7 +22,7 @@
     </template>
   </template>
 
-  <PopupCard v-if="showPopup" @close="showPopup = false" :image="imgUrl" :title="title" :desc="description" :social="social"/>
+  <PopupCard v-if="showPopup" @close="showPopup = false" :image="imgUrl" :title="title" :desc="description" :social="social" :button="button"/>
 </template>
 
 <script>
@@ -42,6 +41,7 @@ export default {
     social: Object,
     url: String,
     listeInLine: Boolean,
+    button: Boolean,
     displayMode: {
       type: String,
       default: 'link'

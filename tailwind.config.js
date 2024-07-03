@@ -7,6 +7,14 @@ module.exports = {
   theme: {
     extend: {
       container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "3rem",
+          xl: "6rem",
+          "2xl": "8rem"
+        },
         screens: {
           'sm': '640px',
           'md': '768px',
@@ -15,15 +23,8 @@ module.exports = {
           '2xl': '1536px'
         },
       },
-      container:{
-        center: true,
-        padding:{
-          DEFAULT: "1rem",
-          sm: "2rem",
-          lg: "3rem",
-          xl: "6rem",
-          "2xl": "8rem"
-        },
+      textShadow: {
+        'custom': '0 2px 14px rgba(0, 0, 0, 0.5)',
       },
       height: {
         '80vh': '80vh',
@@ -37,11 +38,12 @@ module.exports = {
         'custom-green': '#aad896',
       },
       clipPath: {
-        hexagon: 'polygon(50% 0%, 0% 25%, 0% 75%, 50% 100%, 10  0% 75%, 100% 25%)',
+        hexagon: 'polygon(50% 0%, 0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%)',
       }
     },
   },
   plugins: [
+    require('tailwindcss-textshadow'),
     function ({ addUtilities }) {
       addUtilities({
         '.clip-hexagon': {
