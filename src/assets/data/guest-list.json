@@ -9,7 +9,10 @@
       {"tiktok" : "https://www.tiktok.com/@danae_cosplay"},
       {"x" : "https://x.com/cosplaydanae"},
       {"yt" : ""}
-    ]
+    ],
+    "button": {
+      "url": "https://www.google.fr/"
+    }
   },
   {
     "id": 2,
@@ -21,6 +24,9 @@
       {"tiktok" : ""},
       {"x" : ""},
       {"yt" : ""}
-    ]
+    ],
+    "button": {
+      "url": "https://www.google.fr/"
+    }
   }
 ]

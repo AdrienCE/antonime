@@ -35,11 +35,12 @@ module.exports = {
         'custom-green': '#aad896',
       },
       clipPath: {
-        hexagon: 'polygon(50% 0%, 0% 25%, 0% 75%, 50% 100%, 10  0% 75%, 100% 25%)',
+        hexagon: 'polygon(50% 0%, 0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%)',
       }
     },
   },
   plugins: [
+    require('tailwindcss-textshadow'),
     function ({ addUtilities }) {
       addUtilities({
         '.clip-hexagon': {

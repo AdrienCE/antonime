@@ -20,7 +20,7 @@
     </template>
   </template>
 
-  <PopupCard v-if="showPopup" @close="showPopup = false" :image="imgUrl" :title="title" :desc="description" :social="social"/>
+  <PopupCard v-if="showPopup" @close="showPopup = false" :image="imgUrl" :title="title" :desc="description" :social="social" :button="button"/>
 </template>
 
 <script>
@@ -39,6 +39,7 @@ export default {
     social: Object,
     url: String,
     listeInLine: Boolean,
+    button: Boolean,
     displayMode: {
       type: String,
       default: 'link'

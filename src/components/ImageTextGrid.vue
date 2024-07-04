@@ -5,26 +5,40 @@
       <p>{{ paragraphe2 }}</p>
     </div>
     <div class="md:w-2/4">
-      <img src='@/assets/images/convention.webp' width="100%" height="auto"/>
+      <img :src="resolve_img_url(imageGrid)" width="100%" height="auto" :alt="altText"/>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    props: {
-      isInverted: {
-        type: Boolean,
-        default: false
-      },
-      paragraphe: {
-        type: String,
-        default: ''
-      },
-      paragraphe2: {
-        type: String,
-        default: ''
-      }
+export default {
+  props: {
+    isInverted: {
+      type: Boolean,
+      default: false
+    },
+    paragraphe: {
+      type: String,
+      default: ''
+    },
+    paragraphe2: {
+      type: String,
+      default: ''
+    },
+    imageGrid: {
+      type: String,
+      default: 'convention.webp'
+    },
+    altText: {
+      type: String,
+      default: 'convention anto"nime'
     }
-  };
+  },
+  methods: {
+    resolve_img_url: function (path) {
+      let images = require.context('@/assets/images/', false, /\.(webp)$/)
+      return images('./' + path)
+    }
+  }
+};
 </script>
