@@ -12,10 +12,11 @@
         
       <div class="p-4 flex flex-col justify-between flex-1 overflow-hidden">
         <h2 class="text-3xl font-bold py-4">{{ title }}</h2>
-        <div class="flex-1 overflow-y-auto pr-4">
-          <p class="text-shadow-custom">{{ desc }}</p>
+        <div class="flex-1 overflow-y-auto ">
+          <p>{{ desc }}</p>
         </div>
-        <div class="text-3xl flex flex-row items-end mt-4 gap-4 pt-6 md:pb-8">
+        <div class="border border-black opacity-20"></div>
+        <div class="text-3xl flex flex-row items-end mt-4 gap-4 md:pb-8">
           <template v-for="(socials, index) in social" :key="index">
             <a target="_blank" :href="
               socials.insta ? socials.insta :
