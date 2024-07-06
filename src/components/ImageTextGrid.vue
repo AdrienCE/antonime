@@ -5,7 +5,7 @@
       <p>{{ paragraphe2 }}</p>
     </div>
     <div class="md:w-2/4">
-      <img :src="resolve_img_url(imageGrid)" width="100%" height="auto" :alt="altText"/>
+      <img  width="100%" height="auto" :alt="altText"/>
     </div>
   </div>
 </template>
@@ -27,7 +27,7 @@ export default {
     },
     imageGrid: {
       type: String,
-      default: 'convention.webp'
+      default: ''
     },
     altText: {
       type: String,

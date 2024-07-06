@@ -2,14 +2,25 @@
 
    <!-- Header -->
    <swiper-container :navigation="true" :pagination="true" :loop="true" :modules="modules">
-    <swiper-slide v-for="banners in banner" :key="banners">
-      <div class="relative bg-black">
-        <ImageWs 
-          :src=resolve_img_url(banners.image)
-          :alt="banners.alt"
-          :width="banners.width"
-          :height="banners.height"
-        />
+    <swiper-slide class=" bg-[#E7F1F7]">
+      <div class="bg-gradient-to-tr from-[#3866B4] to-[#2F5698] flex h-72 mx-0 md:mx-8 lg:mx-16">
+        <img src="@/assets/images/at-half-body.webp" class="hidden md:block" width="490" height="250"/>
+        <div class="w-full flex items-center justify-center p-3">
+          <div class="text-center text-white min-w-[45%]">
+            <h1 class="text-6xl" style="-webkit-text-stroke: 2px #DB97E6">Anto'nime</h1>
+            <span>6 Av. François Arago, 92160 Antony</span>
+            <ul class="flex justify-between w-full my-7 " style="-webkit-text-stroke: 1px #DB97E6;">
+              <li>Manga</li>
+              <li>Cosplay</li>
+              <li>Jeux-vidéo</li>
+              <li>Cinéma</li>
+            </ul>
+            <div class="inline-flex flex-col">
+              <span class="border-b-2 border-[#DB97E6] pb-2">22 septembre 2024</span>
+              <span class="pt-2">10h - 18h</span>
+            </div>
+          </div>
+        </div>
       </div>
     </swiper-slide>
   </swiper-container>
@@ -22,14 +33,14 @@
     <ImageTextGrid 
       paragraphe="Anto’nime a le plaisir de vous présenter sa première édition ! Une convention à échelle humaine, principalement en extérieur, vous proposera des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !" 
       paragraphe2="N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !"
-      imageGrid="convention.webp"
+      imageGrid=""
       altText="Image de la convention"
     />
   </div>
   
   <!-- Banner convention -->
   <div class="md:flex">
-    <img class="hidden w-1/4 md:block" src="@/assets/images/exposants.webp">
+    <img class="hidden w-1/4 md:block" src="">
     <div class="bg-custom-green w-full px-7 py-7">
       <h2 class="font-bold text-2xl md:text-5xl mb-10">A découvrir !</h2>
       <p class="font-bold text-2xl">60 artistes !</p>
@@ -59,12 +70,11 @@
     </div>
   
     <!-- Banner tickets -->
-    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px] bg-[url('@/assets/images/Billeterie.svg')]">
+    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px]">
       <div>
         <h2 class="font-bold text-2xl md:text-5xl">Billeterie ouverte !</h2>
         <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>
       </div>
-      <img src="@/assets/images/at-chib-w.webp" class="w-[30%] md:block">
     </a>
 
     <!-- Programs -->
@@ -79,7 +89,7 @@
           :url='programs.urlLink'
           :listeInLine='programs.listInLine'
         />
-        <CardInfo title="Voir plus" imgUrl="G-01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
+        <CardInfo title="Voir plus" imgUrl="G01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
       </div>
     </div>
   </div>
@@ -89,7 +99,6 @@
 
 <script>
   import MainFooter from '@/components/MainFooter.vue';
-  import ImageWs from '@/components/ImageWs.vue';
   import CardInfo from '@/components/CardInfo.vue';
   import ImageTextGrid from '@/components/ImageTextGrid.vue';
   import {register} from 'swiper/element/bundle';
@@ -99,37 +108,28 @@
     components: {
       MainFooter,
       CardInfo,
-      ImageWs,
       ImageTextGrid
     },
     data() {
       return {
-        banner:[
-          {
-            image: "1-banniere.webp",
-            alt: "banniere convention",
-            width: "100%",
-            height: "500"
-          }
-        ],
         program:[
           {
             title: "Décors cosplay",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: false,
             urlLink: "/rubriquecosplay",
             listInLine: true
           },
           {
             title: "Maid café",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: false,
             urlLink: "/rubriquecosplay",
             listInLine: true
           },
           {
             title: "En scène",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: true,
             displayMode: "popup",
             listInLine: true
@@ -138,14 +138,14 @@
         guest:[
           {
             title: "Danaé Cosplay",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: true,
             displayMode: "popup",
             listInLine: true
           },
           {
             title: "T.Pralinus",
-            imageUrl: "G-02.webp",
+            imageUrl: "G02.webp",
             popup: true,
             displayMode: "popup",
             listInLine: true

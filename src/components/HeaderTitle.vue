@@ -1,9 +1,10 @@
 <template>
-  <div class="relative bg-black w-full">
-    <img width="350" height="350" src="@/assets/images/convention.webp" alt="image convention" class="w-full h-[170px] opacity-50 object-cover"/>
-    <h2 class="absolute inset-0 flex items-center justify-center text-white text-center text-3xl tracking-wide font-bold">
-      {{ title }}
-    </h2>
+  <div class="h-40 flex items-center">
+    <div class="container my-7 px-7 flex">
+      <h2 class="text-neutral-50 text-center text-3xl font-bold" style="-webkit-text-stroke: 2px #DB97E6; ">
+        {{ title }}
+      </h2>
+    </div>
   </div>
 </template>
 

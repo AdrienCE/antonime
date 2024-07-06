@@ -16,12 +16,11 @@
     </div>
 
     <!-- Banner tickets -->
-    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px] bg-[url('@/assets/images/Billeterie.svg')]">
+    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px]">
       <div>
         <h2 class="font-bold text-2xl md:text-5xl">Billeterie ouverte !</h2>
         <p class="font-bold text-xl">N'oubliez surtout pas votre billet !</p>
       </div>
-      <img src="@/assets/images/at-chib-w.webp" class="w-[30%] md:block">
     </a>
   </div>
 

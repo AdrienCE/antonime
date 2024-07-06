@@ -2,8 +2,6 @@
   <HeaderTitle title="PROGRAMMES" />
   
   <div class="container my-7 px-7">
-    <h2 class="pb-[2rem] text-3xl font-bold">Liste des programmes</h2>
-
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
       <CardInfo v-for="programs in program" :key="programs"
           :title='programs.title'
@@ -34,31 +32,31 @@
         program:[
           {
             title: "Décors cosplay",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: false,
             urlLink: "/rubriquecosplay"
           },
           {
             title: "Maid café",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: false,
             urlLink: "/rubriquecosplay"
           },
           {
             title: "En scène",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: true,
             displayMode: "popup"
           },
           {
             title: "Le bar",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: true,
             displayMode: "popup"
           },
           {
             title: "Concert",
-            imageUrl: "G-01.webp",
+            imageUrl: "G01.webp",
             popup: true,
             displayMode: "popup"
           },
