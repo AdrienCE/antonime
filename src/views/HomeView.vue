@@ -28,14 +28,18 @@
 
   <!-- Presentation info -->
   <div class="container my-7 px-7">
-    <TitleSection title="Première convention"/>
-    
-    <ImageTextGrid 
-      paragraphe="Anto’nime a le plaisir de vous présenter sa première édition ! Une convention à échelle humaine, principalement en extérieur, vous proposera des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !" 
-      paragraphe2="N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !"
-      imageGrid=""
-      altText="Image de la convention"
-    />
+    <div class="flex flex-col items-center justify-center m-auto mb-24 last:mb-0 md:flex-row md:mb-14 md:mx-0 xl:mb-32 xl:mx-32">
+      <div class="text-black-800 md:w-2/4">
+        <TitleSection title="Première convention"/>
+        <p class="mb-6">
+          Anto’nime a le plaisir de vous présenter sa première édition ! Une convention à échelle humaine, principalement en extérieur, vous proposera des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !
+        </p>
+        <p>N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !</p>
+      </div>
+      <div class="flex items-center justify-center mt-5 md:mt-0 md:w-2/4">
+        <img src="@/assets/images/first-conv.webp" width="100%" height="auto" class=" w-2/4 object-cover" alt="Image Antoinette accueil"/>
+      </div>
+    </div>
   </div>
   
   <!-- Banner convention -->
@@ -97,7 +101,6 @@
 <script>
   import MainFooter from '@/components/MainFooter.vue';
   import CardInfo from '@/components/CardInfo.vue';
-  import ImageTextGrid from '@/components/ImageTextGrid.vue';
   import BannerInfo from '@/components/BannerInfo.vue';
   import {register} from 'swiper/element/bundle';
   import TitleSection from '@/components/TitleSection.vue';
@@ -107,7 +110,6 @@
     components: {
     MainFooter,
     CardInfo,
-    ImageTextGrid,
     BannerInfo,
     TitleSection
 },

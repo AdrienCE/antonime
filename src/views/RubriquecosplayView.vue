@@ -6,12 +6,12 @@
     <ImageTextGrid :isInverted="true" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
     sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
     consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
-    Integer molestie nulla eget placerat auctor."/>
+    Integer molestie nulla eget placerat auctor." imageGrid="cosplay01.webp"/>
 
     <ImageTextGrid paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac,
     sagittis bibendum sapien. Integer molestie nulla eget placerat auctor. Lorem ipsum dolor sit amet,
     consectetur adipiscing elit. Donec neque libero, fermentum nec tempus ac, sagittis bibendum sapien.
-    Integer molestie nulla eget placerat auctor."/>
+    Integer molestie nulla eget placerat auctor." imageGrid="cosplay02.webp"/>
   </div>
 
   <MainFooter/>
