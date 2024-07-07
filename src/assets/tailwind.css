@@ -39,3 +39,20 @@ body{
     rgb(219, 151, 230) 3.84068px -1.11766px 0px, 
     rgb(219, 151, 230) 3.9978px -0.132717px 0px;
 }
+
+mark{
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+}
+
+.linebar:after {
+  content: "";
+  position: relative;
+  display: block;
+  top: -20px;
+  left: 22px;
+  height: 30px;
+  background-color: rgba(170, 216, 150, 1);
+  z-index: -1;
+}
