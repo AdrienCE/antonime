@@ -1,7 +1,7 @@
 <template>
   <div class="h-32 flex items-center">
     <div class="container mt-7 px-7 flex">
-      <h2 class="text-center text-3xl text-[#F4F4F4] font-bold text-stroke-headline linebar">
+      <h2 class="text-[#F4F4F4] text-stroke-headline linebar text-center font-bold text-4xl xl:text-5xl">
         {{ title }}
       </h2>
     </div>

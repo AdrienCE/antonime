@@ -28,7 +28,7 @@
 
   <!-- Presentation info -->
   <div class="container my-7 px-7">
-    <h2 class="pb-[2rem] font-bold text-3xl">Première convention</h2>
+    <TitleSection title="Première convention"/>
     
     <ImageTextGrid 
       paragraphe="Anto’nime a le plaisir de vous présenter sa première édition ! Une convention à échelle humaine, principalement en extérieur, vous proposera des animations, du cosplays, des artistes talentueux, un maid-café, des jeux-vidéos, des expositions en tous genres, un bar et plein d’autres surprises !" 
@@ -57,7 +57,8 @@
     
     <!-- First guest -->
     <div class="first-guest">
-      <h2 class="pb-[2rem] text-3xl font-bold">Nos invités</h2>
+      <TitleSection title="Nos invités"/>
+
       <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-4">
         <CardInfo v-for="guests in guest" :key="guests"
           :title="guests.title"
@@ -74,7 +75,8 @@
 
     <!-- Programs -->
     <div class="programs">
-      <h2 class="pb-[2rem] text-3xl font-bold">Nos programmes</h2>
+      <TitleSection title="Nos programmes" />
+
       <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-4">
         <CardInfo v-for="programs in program" :key="programs"
           :title='programs.title'
@@ -98,15 +100,17 @@
   import ImageTextGrid from '@/components/ImageTextGrid.vue';
   import BannerInfo from '@/components/BannerInfo.vue';
   import {register} from 'swiper/element/bundle';
+  import TitleSection from '@/components/TitleSection.vue';
   register();
 
   export default {
     components: {
-      MainFooter,
-      CardInfo,
-      ImageTextGrid,
-      BannerInfo
-    },
+    MainFooter,
+    CardInfo,
+    ImageTextGrid,
+    BannerInfo,
+    TitleSection
+},
     data() {
       return {
         program:[
