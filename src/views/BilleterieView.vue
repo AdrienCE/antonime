@@ -1,5 +1,5 @@
 <template>
-  <HeaderTitle title="BILLETERIE" />
+  <HeaderTitle title="Billeterie" />
   
   <div class="container my-7 px-7">
     <h2 class="pb-[2rem] text-3xl font-bold">Prenez votre ticket ici</h2>
@@ -11,7 +11,7 @@
 </template>
   
 <script>
-  import HeaderTitle from '../components/HeaderTitle.vue';
+  import HeaderTitle from '@/components/HeaderTitle.vue';
   import MainFooter from '@/components/MainFooter.vue';
 
   export default {

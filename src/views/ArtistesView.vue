@@ -1,5 +1,5 @@
 <template>
-  <HeaderTitle title="ARTISTES"/>
+  <HeaderTitle title="Artistes"/>
 
   <div class="container my-7 px-7">
     <h2 class="pb-[2rem] text-3xl font-bold">Merchandising</h2>

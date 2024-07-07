@@ -1,5 +1,5 @@
 <template>
-  <HeaderTitle title="DECORS COSPLAY"/>
+  <HeaderTitle title="Décors cosplay"/>
   
   <div class="container my-7 px-7">
     <h2 class="pb-[2rem] font-bold text-3xl">Décors cosplay</h2>
@@ -20,8 +20,8 @@
 
 <script>
   import MainFooter from '@/components/MainFooter.vue';
-  import ImageTextGrid from '../components/ImageTextGrid.vue';
-  import HeaderTitle from '../components/HeaderTitle.vue';
+  import ImageTextGrid from '@/components/ImageTextGrid.vue';
+  import HeaderTitle from '@/components/HeaderTitle.vue';
 
   export default {
     components: {

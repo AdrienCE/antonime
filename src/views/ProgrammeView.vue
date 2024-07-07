@@ -1,5 +1,5 @@
 <template>
-  <HeaderTitle title="PROGRAMMES" />
+  <HeaderTitle title="Programmes" />
   
   <div class="container my-7 px-7">
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
@@ -18,8 +18,8 @@
 
 <script>
   import MainFooter from '@/components/MainFooter.vue';
-  import CardInfo from '../components/CardInfo.vue';
-  import HeaderTitle from '../components/HeaderTitle.vue';
+  import CardInfo from '@/components/CardInfo.vue';
+  import HeaderTitle from '@/components/HeaderTitle.vue';
 
   export default {
     components: {

@@ -1,5 +1,5 @@
 <template>
-  <HeaderTitle title="CONDITIONS GENERALES" />
+  <HeaderTitle title="Conditions générales" />
   
   <div class="container my-7 px-7">
     <h2 class="pb-[2rem] text-3xl font-bold">
@@ -112,7 +112,7 @@
 
 <script>
 import MainFooter from '@/components/MainFooter.vue';
-import HeaderTitle from '../components/HeaderTitle.vue';
+import HeaderTitle from '@/components/HeaderTitle.vue';
 
 export default {
   components: {
