@@ -28,7 +28,7 @@
 
   <!-- Presentation info -->
   <div class="container my-7 px-7">
-    <div class="flex flex-col items-center justify-center m-auto mb-24 last:mb-0 md:flex-row md:mb-14 md:mx-0 xl:mb-32 xl:mx-32">
+    <div class="flex flex-col items-center justify-center m-auto mb-24 last:mb-0 md:flex-row md:mb-14 md:mx-0 xl:mb-32 xl:mx-40">
       <div class="text-black-800 md:w-2/4">
         <TitleSection title="Première convention"/>
         <p class="mb-6">
@@ -36,7 +36,7 @@
         </p>
         <p>N’hésitez pas à nous suivre sur nos réseaux pour ne louper aucune information. On se retrouve le dimanche 22 septembre 2024 !</p>
       </div>
-      <div class="flex items-center justify-center mt-5 md:mt-0 md:w-2/4">
+      <div class="flex items-center justify-center mt-5 md:mt-0 md:w-2/4 xl:justify-end">
         <img src="@/assets/images/first-conv.webp" width="100%" height="auto" class=" w-2/4 object-cover" alt="Image Antoinette accueil"/>
       </div>
     </div>
