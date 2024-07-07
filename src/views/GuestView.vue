@@ -2,7 +2,7 @@
   <HeaderTitle title="Invités" />
 
   <div class="container my-7 px-7">
-    <TitleSection title="Guest"/>
+    <TitleSection title="Nos vedettes"/>
 
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
       <CardInfo v-for="guests in guest"
@@ -15,6 +15,8 @@
         displayMode="custom"
       />
     </div>
+
+    <TitleSection title="Nos guests" class="mt-8"/>
 
     <!-- Banner tickets -->
     <BannerInfo />

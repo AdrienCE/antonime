@@ -11,6 +11,9 @@
           :url='programs.urlLink'
         />
     </div>
+
+    <!-- Banner tickets -->
+    <BannerInfo/>
   </div>
 
   <MainFooter/>
@@ -20,13 +23,15 @@
   import MainFooter from '@/components/MainFooter.vue';
   import CardInfo from '@/components/CardInfo.vue';
   import HeaderTitle from '@/components/HeaderTitle.vue';
+import BannerInfo from '@/components/BannerInfo.vue';
 
   export default {
     components: {
-      MainFooter,
-      CardInfo,
-      HeaderTitle
-    },
+    MainFooter,
+    CardInfo,
+    HeaderTitle,
+    BannerInfo
+},
     data() {
       return {
         program:[
