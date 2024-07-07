@@ -7,9 +7,9 @@
         <img src="@/assets/images/at-half-body.webp" class="hidden md:block" width="490" height="250"/>
         <div class="w-full flex items-center justify-center p-3">
           <div class="text-center text-white min-w-[45%]">
-            <h1 class="text-6xl" style="-webkit-text-stroke: 2px #DB97E6">Anto'nime</h1>
+            <h1 class="text-6xl text-stroke-headline">Anto'nime</h1>
             <span>6 Av. François Arago, 92160 Antony</span>
-            <ul class="flex justify-between w-full my-7 " style="-webkit-text-stroke: 1px #DB97E6;">
+            <ul class="flex justify-between w-full my-7 text-stroke-headline">
               <li>Manga</li>
               <li>Cosplay</li>
               <li>Jeux-vidéo</li>
@@ -70,9 +70,9 @@
     </div>
   
     <!-- Banner tickets -->
-    <a href="/billeterie" class="text-white bg-custom-pink flex rounded-md p-7 my-16 md:justify-between md:items-center md:h-[250px]">
-      <div>
-        <h2 class="font-bold text-2xl md:text-5xl">Billeterie ouverte !</h2>
+    <a href="/billeterie" class="text-white bg-custom-pink flex items-center justify-center rounded-md p-7 my-16 md:h-[250px]">
+      <div class="text-center text-[#7E0000]">
+        <h2 class="font-bold text-2xl mb-5 md:text-5xl">Billeterie ouverte !</h2>
         <p class="font-bold text-xl">Venez prendre votre billet au plus vite !</p>
       </div>
     </a>
