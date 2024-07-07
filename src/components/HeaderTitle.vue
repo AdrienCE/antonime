@@ -1,6 +1,6 @@
 <template>
-  <div class="h-40 flex items-center">
-    <div class="container my-7 px-7 flex">
+  <div class="h-32 flex items-center">
+    <div class="container mt-7 px-7 flex">
       <h2 class="text-center text-3xl text-[#F4F4F4] font-bold text-stroke-headline linebar">
         {{ title }}
       </h2>

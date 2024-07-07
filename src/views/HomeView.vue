@@ -3,13 +3,13 @@
    <!-- Header -->
    <swiper-container :navigation="true" :pagination="true" :loop="true" :modules="modules">
     <swiper-slide class=" bg-[#E7F1F7]">
-      <div class="bg-gradient-to-tr from-[#3866B4] to-[#2F5698] flex h-72 mx-0 md:mx-8 lg:mx-16">
-        <img src="@/assets/images/at-half-body.webp" class="hidden md:block" width="490" height="250"/>
-        <div class="w-full flex items-center justify-center p-3">
-          <div class="text-center text-white min-w-[45%]">
+      <div class="bg-gradient-to-tr from-[#3866B4] to-[#2F5698] flex justify-center h-72 mx-0 xl:mx-20">
+        <img src="@/assets/images/at-half-body.webp" class="hidden object-contain md:block xl:w-auto" width="auto" height="auto"/>
+        <div class="w-full flex items-center justify-center p-3 xl:w-1/3">
+          <div class="text-center text-white">
             <h1 class="text-6xl text-stroke-headline">Anto'nime</h1>
             <span>6 Av. François Arago, 92160 Antony</span>
-            <ul class="flex justify-between w-full my-7 text-stroke-headline">
+            <ul class="flex justify-between gap-x-7 my-7 text-stroke-headline md:gap-x-0 xl:gap-x-7">
               <li>Manga</li>
               <li>Cosplay</li>
               <li>Jeux-vidéo</li>

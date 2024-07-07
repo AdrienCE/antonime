@@ -2,7 +2,7 @@
   <HeaderTitle title="INVITES" />
 
   <div class="container my-7 px-7">
-    <h2 class="py-[2rem] text-3xl font-bold">Guest</h2>
+    <h2 class="pb-[2rem] text-3xl font-bold">Guest</h2>
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
       <CardInfo v-for="guests in guest"
         :key="guests.id"
