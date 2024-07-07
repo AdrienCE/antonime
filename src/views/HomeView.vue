@@ -42,8 +42,8 @@
     </div>
   </div>
   
-  <!-- Banner convention -->
-  <div class="md:flex">
+  <!-- Banner convention  -->
+  <!-- <div class="md:flex">
     <img class="hidden w-1/4 md:block" src="">
     <div class="bg-custom-green w-full px-7 py-7">
       <h2 class="font-bold text-2xl md:text-5xl mb-10">A découvrir !</h2>
@@ -54,7 +54,7 @@
       <p class="font-bold text-2xl">Des spectacles et pleins d'autres surprises !</p>
       <p class="font-bold text-2xl">Ah et un Maid Café !</p>
     </div>
-  </div>
+  </div> -->
 
   <!-- Block for Guests, tickets and programs -->
   <div class="container my-7 px-7">
