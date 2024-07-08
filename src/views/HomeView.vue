@@ -25,7 +25,6 @@
     </swiper-slide>
   </swiper-container>
 
-
   <!-- Presentation info -->
   <div class="container my-7 px-7">
     <div class="flex flex-col items-center justify-center m-auto mb-24 last:mb-0 md:flex-row md:mb-14 md:mx-0 xl:mb-32 xl:mx-40">
@@ -65,11 +64,15 @@
 
       <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-4">
         <CardInfo v-for="guests in guest" :key="guests"
+          :displayMode="guests.displayMode"
+          :linkPage='guests.linkPage'
+
+          :cardLarge="guests.cardLarge"
+          :listeInLine="guests.listInLine"
+
           :title="guests.title"
           :imgUrl="guests.imageUrl"
           :hasPopup="guests.popup"
-          :displayMode="guests.displayMode"
-          :listeInLine="guests.listInLine"
         />
       </div>
     </div>
@@ -83,12 +86,16 @@
 
       <div class="overflow-x-auto whitespace-nowrap inline-box xl:inline-grid xl:grid-cols-4 xl:w-full xl:gap-4">
         <CardInfo v-for="programs in program" :key="programs"
+          :displayMode='programs.displayMode'
+          :linkPage='programs.linkPage'
+          :url='programs.urlLink'
+
+          :listeInLine='programs.listeInLine'
+          :cardLarge="programs.cardLarge"
+
           :title='programs.title'
           :imgUrl='programs.imageUrl'
           :hasPopup='programs.popup'
-          :displayMode='programs.displayMode'
-          :url='programs.urlLink'
-          :listeInLine='programs.listInLine'
         />
         <CardInfo title="Voir plus" imgUrl="G01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
       </div>
@@ -117,41 +124,61 @@
       return {
         program:[
           {
+            displayMode: "dynamic",
+            linkPage: true,
+            urlLink: "/rubriquecosplay",
+
+            cardLarge: true,
+            listeInLine: true,
+
             title: "Décors cosplay",
-            imageUrl: "G01.webp",
-            popup: false,
-            urlLink: "/rubriquecosplay",
-            listInLine: true
+            imageUrl: "G01.webp"
           },
           {
+            displayMode: "dynamic",
+            linkPage: true,
+            urlLink: "/rubriquemaid",
+
+            cardLarge: true,
+            listeInLine: true,
+
             title: "Maid café",
-            imageUrl: "G01.webp",
-            popup: false,
-            urlLink: "/rubriquecosplay",
-            listInLine: true
+            imageUrl: "G01.webp"
           },
           {
-            title: "En scène",
-            imageUrl: "G01.webp",
+            displayMode: "dynamic",
+            linkPage: false,
             popup: true,
-            displayMode: "popup",
-            listInLine: true
+
+            cardLarge: true,
+            listeInLine: true,
+
+            title: "En scène",
+            imageUrl: "G01.webp"
           },
         ],
         guest:[
           {
-            title: "Danaé Cosplay",
-            imageUrl: "G01.webp",
+            displayMode: "dynamic",
+            linkPage: false,
             popup: true,
-            displayMode: "popup",
-            listInLine: true
+
+            cardLarge: true,
+            listInLine: true,
+
+            title: "Danaé Cosplay",
+            imageUrl: "G01.webp"
           },
           {
-            title: "T.Pralinus",
-            imageUrl: "G02.webp",
+            displayMode: "dynamic",
+            linkPage: false,
             popup: true,
-            displayMode: "popup",
-            listInLine: true
+
+            cardLarge: true,
+            listInLine: true,
+
+            title: "T.Pralinus",
+            imageUrl: "G02.webp"
           }
         ]
       };

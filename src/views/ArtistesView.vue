@@ -7,13 +7,15 @@
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
       <CardInfo v-for="expos in expo"
         :key="expos.id"
+        displayMode="dynamic"
+        cardMini="true"
+        hasPopup="true"
+        
         :title="expos.title"
         :imgUrl="expos.image+'.webp'"
         :description="expos.description"
         :social="expos.social"
         :button="expos.button"
-        hasPopup="true"
-        displayMode="custom"
       />
     </div>
   </div>

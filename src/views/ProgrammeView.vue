@@ -2,13 +2,15 @@
   <HeaderTitle title="Programmes" />
   
   <div class="container my-7 px-7">
-    <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
+    <div class="grid w-full grid-cols-none gap-4 md:grid-cols-2 xl:grid-cols-5">
       <CardInfo v-for="programs in program" :key="programs"
+          displayMode="dynamic"
+          cardLarge="true"
+          :linkPage='programs.linkPage'
           :title='programs.title'
           :imgUrl='programs.imageUrl'
-          :hasPopup='programs.popup'
-          :displayMode='programs.displayMode'
           :url='programs.urlLink'
+          :hasPopup='programs.popup'
         />
     </div>
 
@@ -36,34 +38,34 @@ import BannerInfo from '@/components/BannerInfo.vue';
       return {
         program:[
           {
+            linkPage: true,
             title: "Décors cosplay",
             imageUrl: "G01.webp",
-            popup: false,
             urlLink: "/rubriquecosplay"
           },
           {
+            linkPage: true,
             title: "Maid café",
             imageUrl: "G01.webp",
-            popup: false,
             urlLink: "/rubriquecosplay"
           },
           {
+            linkPage: false,
+            popup: true,
             title: "En scène",
-            imageUrl: "G01.webp",
-            popup: true,
-            displayMode: "popup"
+            imageUrl: "G01.webp"
           },
           {
+            linkPage: false,
+            popup: true,
             title: "Le bar",
-            imageUrl: "G01.webp",
-            popup: true,
-            displayMode: "popup"
+            imageUrl: "G01.webp"
           },
           {
-            title: "Concert",
-            imageUrl: "G01.webp",
+            linkPage: false,
             popup: true,
-            displayMode: "popup"
+            title: "Concert",
+            imageUrl: "G01.webp"
           },
         ]
       };

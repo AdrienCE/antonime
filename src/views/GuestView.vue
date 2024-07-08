@@ -7,12 +7,14 @@
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
       <CardInfo v-for="guests in guest"
         :key="guests.id"
+        displayMode="dynamic"
+        cardMini="true"
+        hasPopup="true"
+
         :title="guests.title"
         :imgUrl="guests.image"
         :description="guests.description"
         :social="guests.social"
-        hasPopup="true"
-        displayMode="custom"
       />
     </div>
 
