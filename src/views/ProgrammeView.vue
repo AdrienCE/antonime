@@ -8,7 +8,7 @@
           cardLarge="true"
           :linkPage='programs.linkPage'
           :title='programs.title'
-          :imgUrl='programs.imageUrl'
+          :imgRoot='programs.imgRoot'
           :url='programs.urlLink'
           :hasPopup='programs.popup'
         />
@@ -40,27 +40,25 @@ import BannerInfo from '@/components/BannerInfo.vue';
           {
             linkPage: true,
             title: "Décors cosplay",
-            imageUrl: "G01.webp",
+            imgRoot: "cosplay.webp",
             urlLink: "/rubriquecosplay"
           },
           {
             linkPage: true,
             title: "Maid café",
-            imageUrl: "G01.webp",
-            urlLink: "/rubriquecosplay"
+            imgRoot: "maid-cafe.webp",
+            urlLink: "/rubriquemaid"
           },
           {
             linkPage: true,
-            popup: true,
             title: "En scène",
-            imageUrl: "G01.webp",
+            imgRoot: "scene.webp",
             urlLink: "/scene"
           },
           {
             linkPage: true,
-            popup: true,
             title: "Le bar",
-            imageUrl: "G01.webp",
+            imgRoot: "default.webp",
             urlLink: "/bar"
           }
         ]

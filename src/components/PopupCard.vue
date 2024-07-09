@@ -1,14 +1,13 @@
 <template>
   <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-    <div class="bg-white md:pr-16 h-[90vh] md:h-[550px] w-[90vw] md:w-[1100px] rounded-lg relative flex flex-col md:flex-row">
+    <div class="bg-white h-[90vh] w-[90vw] rounded-xl relative flex flex-col md:flex-row md:h-[550px] md:w-[1100px]">
       <button class="absolute top-1 right-3 text-5xl md:text-black text-white z-50" @click="$emit('close')">
         <FontAwesomeIcon :icon="['fa', 'xmark']" class="fa-2xs"/>
       </button>
         
       <div class="relative">
-        <img :src="image" decoding="async" alt="Image popup" class="w-full h-52 md:h-[550px] md:w-[400px] object-cover rounded-md"
-        />
-        <div class="absolute inset-0 bg-black bg-opacity-50 md:bg-opacity-0 rounded-md"></div>
+        <img :src="image" decoding="async" alt="Image popup" class="w-full h-52 object-cover md:h-[550px] md:w-[400px] rounded-t-lg md:rounded-t-none md:rounded-l-lg xl:rounded-l-lg"/>
+        <div class="bg-black absolute inset-0 bg-opacity-50 md:bg-opacity-0"></div>
       </div>
         
       <div class="p-4 flex flex-col justify-between flex-1 overflow-hidden">
