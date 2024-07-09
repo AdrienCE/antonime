@@ -71,7 +71,7 @@
           :listeInLine="guests.listInLine"
 
           :title="guests.title"
-          :imgUrl="guests.imageUrl"
+          :imgGuest="guests.imgGuest"
           :hasPopup="guests.popup"
         />
       </div>
@@ -94,10 +94,10 @@
           :cardLarge="programs.cardLarge"
 
           :title='programs.title'
-          :imgUrl='programs.imageUrl'
+          :imgRoot='programs.imgRoot'
           :hasPopup='programs.popup'
         />
-        <CardInfo title="Voir plus" imgUrl="G01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
+        <CardInfo title="Voir plus" imgGuest="G01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
       </div>
     </div>
   </div>
@@ -132,7 +132,7 @@
             listeInLine: true,
 
             title: "Décors cosplay",
-            imageUrl: "G01.webp"
+            imgRoot: "cosplay.webp"
           },
           {
             displayMode: "dynamic",
@@ -143,18 +143,18 @@
             listeInLine: true,
 
             title: "Maid café",
-            imageUrl: "G01.webp"
+            imgRoot: "maid-cafe.webp"
           },
           {
             displayMode: "dynamic",
-            linkPage: false,
-            popup: true,
+            linkPage: true,
+            urlLink: "/scene",
 
             cardLarge: true,
             listeInLine: true,
 
             title: "En scène",
-            imageUrl: "G01.webp"
+            imgRoot: "scene.webp"
           },
         ],
         guest:[
@@ -167,7 +167,7 @@
             listInLine: true,
 
             title: "Danaé Cosplay",
-            imageUrl: "G01.webp"
+            imgGuest: "G01.webp"
           },
           {
             displayMode: "dynamic",
@@ -178,16 +178,10 @@
             listInLine: true,
 
             title: "T.Pralinus",
-            imageUrl: "G02.webp"
+            imgGuest: "G02.webp"
           }
         ]
       };
-    },
-    methods: {
-      resolve_img_url: function (path) {
-        let images = require.context('@/assets/images/', false, /\.(webp)$/)
-        return images("./"+path)
-      }
     }
   };
 </script>

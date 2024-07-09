@@ -12,11 +12,11 @@
       <a href="/infospratiques">Contactez-nous</a>
     </div>
     <div class="flex items-center text-center justify-center xl:justify-end gap-10">
-      <a href="#">
+      <a href="https://instagram.com/antonime.convention/" target="_blank">
         <FontAwesomeIcon :icon="['fab', 'instagram']" class="text-2xl"/>
       </a>
-      <a href="#">
-        <FontAwesomeIcon :icon="['fab', 'tiktok']" class="text-2xl"/>
+      <a href="https://x.com/antonime_conv/" target="_blank">
+        <FontAwesomeIcon :icon="['fab', 'x-twitter']" class="text-2xl"/>
       </a>
     </div>
   </div>
@@ -29,8 +29,7 @@
   import { library } from '@fortawesome/fontawesome-svg-core';
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-  import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-  import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+  import { faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
-  library.add(faInstagram, faTiktok);
+  library.add(faInstagram, faXTwitter);
 </script>

@@ -2,7 +2,7 @@
   <HeaderTitle title="Programmes" />
   
   <div class="container my-7 px-7">
-    <div class="grid w-full grid-cols-none gap-4 md:grid-cols-2 xl:grid-cols-5">
+    <div class="grid w-full grid-cols-none gap-4 md:grid-cols-2 xl:grid-cols-4">
       <CardInfo v-for="programs in program" :key="programs"
           displayMode="dynamic"
           cardLarge="true"
@@ -50,23 +50,19 @@ import BannerInfo from '@/components/BannerInfo.vue';
             urlLink: "/rubriquecosplay"
           },
           {
-            linkPage: false,
+            linkPage: true,
             popup: true,
             title: "En scène",
-            imageUrl: "G01.webp"
+            imageUrl: "G01.webp",
+            urlLink: "/scene"
           },
           {
-            linkPage: false,
+            linkPage: true,
             popup: true,
             title: "Le bar",
-            imageUrl: "G01.webp"
-          },
-          {
-            linkPage: false,
-            popup: true,
-            title: "Concert",
-            imageUrl: "G01.webp"
-          },
+            imageUrl: "G01.webp",
+            urlLink: "/bar"
+          }
         ]
       };
     },

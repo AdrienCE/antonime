@@ -17,7 +17,7 @@ const routes = [
     meta: {
       title: "Invités"
     },
-    component: () => import('../views/GuestView.vue')
+    component: () => import('../views/InvitesView.vue')
   },
   {
     //Programmes Page render view
@@ -90,6 +90,24 @@ const routes = [
       title: "Conditions générales"
     },
     component: () => import('../views/ConditionsView.vue')
+  },
+  {
+    //En Scene Page render view
+    path: '/scene',
+    name: 'en scene',
+    meta: {
+      title: "En scène"
+    },
+    component: () => import('../views/EnSceneView.vue')
+  },
+  {
+    //Bar Page render view
+    path: '/bar',
+    name: 'bar',
+    meta: {
+      title: "Bar"
+    },
+    component: () => import('../views/BarView.vue')
   },
   {
     //404 Page render view

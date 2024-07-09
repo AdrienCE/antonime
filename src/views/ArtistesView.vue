@@ -2,20 +2,51 @@
   <HeaderTitle title="Artistes"/>
 
   <div class="container my-7 px-7">
-    <TitleSection title="Merchandising"/>
-    
+    <TitleSection title="Zone A"/>
     <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
-      <CardInfo v-for="expos in expo"
-        :key="expos.id"
+      <CardInfo v-for="expoa in expoA"
+        :key="expoa.id"
         displayMode="dynamic"
         cardMini="true"
         hasPopup="true"
         
-        :title="expos.title"
-        :imgUrl="expos.image+'.webp'"
-        :description="expos.description"
-        :social="expos.social"
-        :button="expos.button"
+        :title="expoa.title"
+        :imgExpoA="expoa.image+'.webp'"
+        :description="expoa.description"
+        :social="expoa.social"
+        :button="expoa.button"
+      />
+    </div>
+
+    <TitleSection title="Zone B" class="pt-16"/>
+    <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
+      <CardInfo v-for="expob in expoB"
+        :key="expob.id"
+        displayMode="dynamic"
+        cardMini="true"
+        hasPopup="true"
+        
+        :title="expob.title"
+        :imgExpoB="expob.image+'.webp'"
+        :description="expob.description"
+        :social="expob.social"
+        :button="expob.button"
+      />
+    </div>
+
+    <TitleSection title="Zone C" class="pt-16"/>
+    <div class="grid w-full grid-cols-none gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4">
+      <CardInfo v-for="expoc in expoC"
+        :key="expoc.id"
+        displayMode="dynamic"
+        cardMini="true"
+        hasPopup="true"
+        
+        :title="expoc.title"
+        :imgExpoC="expoc.image+'.webp'"
+        :description="expoc.description"
+        :social="expoc.social"
+        :button="expoc.button"
       />
     </div>
   </div>
@@ -26,10 +57,12 @@
 
 <script>
   import MainFooter from '@/components/MainFooter.vue';
+  import TitleSection from '@/components/TitleSection.vue';
   import CardInfo from '@/components/CardInfo.vue';
   import HeaderTitle from '@/components/HeaderTitle.vue';
-  import expoData from '@/assets/data/expo-list.json';
-  import TitleSection from '@/components/TitleSection.vue';
+  import expoDataA from '@/assets/data/expo-list-a.json';
+  import expoDataB from '@/assets/data/expo-list-b.json';
+  import expoDataC from '@/assets/data/expo-list-c.json';
 
   export default {
     components: {
@@ -40,7 +73,9 @@
 },
     data() {
       return {
-        expo: expoData,
+        expoA: expoDataA,
+        expoB: expoDataB,
+        expoC: expoDataC
       };
     }
   };

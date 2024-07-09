@@ -14,7 +14,15 @@
         :class="listeInLine ? 'inline-block w-60 mr-4 xl:w-full' : 'w-full mb-7 md:mb-0 last:mb-0'"
         class="cursor-pointer transition ease-in delay-110 duration-110 hover:-translate-y-1 hover:scale-90"
       >
-        <img :src="resolve_img_url(imgUrl)" class="object-cover w-full h-52 rounded-md md:h-72" alt="Card image" width="372" height="288"/>
+        <img 
+          :src="
+            imgRoot ? img_root(imgRoot) :
+            imgGuest ? img_guest(imgGuest) :
+            imgExpoA ? img_expoa(imgExpoA) :
+            imgExpoB ? img_expob(imgExpoB) :
+            imgExpoC ? img_expoc(imgExpoC) : ''
+          " class="object-cover w-full h-52 rounded-md md:h-72" alt="Card image" width="372" height="288"
+        />
         <h3 class="pt-2">{{ title }}</h3>
       </a>
     </template>
@@ -29,7 +37,14 @@
           ]"
         @click="handleClick"
       >
-        <img :src="resolve_img_url(imgUrl)" :class="cardMini ? 'h-24 w-20 rounded-l-lg' : cardLarge ? 'w-full h-52 rounded-md md:h-72': ''" class="object-cover" alt="Card image"/>
+        <img 
+          :src="
+            imgRoot ? img_root(imgRoot) :
+            imgGuest ? img_guest(imgGuest) :
+            imgExpoA ? img_expoa(imgExpoA) :
+            imgExpoB ? img_expob(imgExpoB) :
+            imgExpoC ? img_expoc(imgExpoC) : ''
+          " :class="cardMini ? 'h-24 w-20 rounded-l-lg' : cardLarge ? 'w-full h-52 rounded-md md:h-72': ''" class="object-cover" alt="Card image"/>
         <h3 :class="cardMini ? 'text-ellipsis overflow-hidden' : cardLarge ? 'pt-2' : ''">
           {{ title }}
         </h3>
@@ -37,7 +52,19 @@
     </template>
   </template>
   
-  <PopupCard v-if="showPopup" @close="showPopup = false" :image="imgUrl" :title="title" :desc="description" :social="social" :button="button"/>
+  <PopupCard v-if="showPopup" @close="showPopup = false" 
+    :image="
+      imgRoot ? img_root(imgRoot) :
+      imgGuest ? img_guest(imgGuest) :
+      imgExpoA ? img_expoa(imgExpoA) :
+      imgExpoB ? img_expob(imgExpoB) :
+      imgExpoC ? img_expoc(imgExpoC) : ''
+    "
+    :title="title" 
+    :desc="description" 
+    :social="social" 
+    :button="button"
+  />
 </template>
 
 <script>
@@ -54,9 +81,14 @@
         type: String,
         default: 'static'
       },
-
       title: String,
-      imgUrl: String,
+
+      imgRoot: String,
+      imgGuest: String,
+      imgExpoA: String,
+      imgExpoB: String,
+      imgExpoC: String,
+
       description: String,
       social: Object,
       url: String,
@@ -85,9 +117,25 @@
       };
     },
     methods: {
-      resolve_img_url: function (path) {
-        let images = require.context('@/assets/images/guests/', false, /\.(webp)$/)
-        return images("./"+path)
+      img_root: function (path){
+        let imgRoot = require.context('@/assets/images/', false, /\.(webp)$/)
+        return imgRoot("./"+path)
+      },
+      img_guest: function (path) {
+        let imgGuest = require.context('@/assets/images/guests/', false, /\.(webp)$/)
+        return imgGuest("./"+path)
+      },
+      img_expoa: function (path) {
+        let imgExpoA = require.context('@/assets/images/expoA/', false, /\.(webp)$/)
+        return imgExpoA("./"+path)
+      },
+      img_expob: function (path) {
+        let imgExpoB = require.context('@/assets/images/expoB/', false, /\.(webp)$/)
+        return imgExpoB("./"+path)
+      },
+      img_expoc: function (path) {
+        let imgExpoC = require.context('@/assets/images/expoC/', false, /\.(webp)$/)
+        return imgExpoC("./"+path)
       }
     }
   };

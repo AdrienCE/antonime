@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "title": "CLEM & LACIE",
+    "image": "A01",
+    "description": "un duo d'artistes réalisant des illustrations de personnages originaux mais également de fandoms qui nous tiennent à coeur. Adeptes des univers colorés, nous souhaitons partager notre passion à travers nos dessins !",
+    "social":[
+      {"insta" : "https://www.instagram.com/laciebernkastel"}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CAJ & OR",
+    "image": "A02",
+    "description": "Nous sommes Cajal et Oror, deux illustrateur-ice-s, réunis par le pouvoir de l’amitié et la joie de façonner des objets à la main. Influencés par le manga et les oeuvres fantastiques, nos univers dialoguent entre récits colorés, bonhommes rigolos et ambiances horrifiques. Vous trouverez sur notre stand des prints à foison, du fanart, des stickers, des zines et même une tapisserie ! Au plaisir de vous y voir :^)"
+  },
+  {
+    "id": 3,
+    "title": "ARMEITISTE",
+    "image": "A03",
+    "description": "Si vous aimez Omori ,Link Click,Nana ou encore les chats….mon stand est pour vous!’",
+    "social":[
+      {"insta" : "https://www.instagram.com/armeitiste"}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "YUME & CROW",
+    "image": "default",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "title": "MIKU",
+    "image": "A05",
+    "description": "Miku est l'association de mopymush et Iku, deux artistes collaborant sur un manga de magical girl lesbien. Les deux artistes ont des univers tournant autour des thématiques lgbt mopymush proposant un univers plus mignon et Iku un univers plus mature !"
+  },
+  {
+    "id": 6,
+    "title": "SICOSAURES",
+    "image": "A06",
+    "description": "Les Discosaures sont là pour vous vendre des trucs (achetez-les)",
+    "social":[
+      {"insta": "https://www.instagram.com/elie_vigneron/"},
+      {"tiktok": "https://www.tiktok.com/@elie_vigneron"},
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2Felievigneron"}
+    ]
+  },
+  {
+    "id": 7,
+    "title": "LEONIS",
+    "image": "A07",
+    "description": "Artiste manga et illustratrice, Leonis s'inspire de différents thèmes pour réaliser ses illustrations. Elle nous fait ainsi voyager dans son univers et nous fait découvrir à travers son manga la nature luxuriante péruvienne avec une touche de fantastique.",
+    "social":[
+      {"insta" : "https://www.instagram.com/leonis_manga/"},
+      {"x" : "https://x.com/TheLeonis_14"}
+    ]
+  },
+  {
+    "id": 8,
+    "title": "HIHI MARKET",
+    "image": "A08",
+    "description": "Le HIHI MARKET est rempli de jolies choses, souvent mignonnes et colorées. Deux paires de mains s’unissent pour fournir les cagettes du marché : tous les produits sont réalisés avec amour et soin ! Nous vous proposons des créations tournées autour d’univers manga/anime, jeux vidéos, pop culture... Si vous aimez les prints, stickers, pin’s, portes-clés... prenez un petit sac en toile et remplissez-le de chouettes goodies !",
+    "social":[
+      {"insta" : "https://www.instagram.com/noixcagette/"}
+    ],
+    "button": {
+      "url": "https://www.instagram.com/hihimarket13/"
+    }
+  },
+  {
+    "id": 9,
+    "title": "MANIO11A & KURI-S",
+    "image": "A09",
+    "description": "D'un côté, kuri-s, je suis une personne multifandom et j'aime dessiner mes personnages originaux pendant mon temps libre.De l'autre, manio11a mordu.e de J-RPG indépendants, vous retrouverez une fusion de nos univers de la japanimation qui ont bercé notre enfance.",
+    "social":[
+      {"insta" : "https://www.instagram.com/kurisucurry/"},
+      {"x" : "https://x.com/kurisucurry"}
+    ],
+    "button": {
+      "url": "https://kuri-s.carrd.co"
+    }
+  },
+  {
+    "id": 10,
+    "title": "U29TBN",
+    "image": "A10",
+    "description": "Je suis un petit artiste qui dessine principalement des fanarts sur les jeux-vidéos dans sa chambre.",
+    "social":[
+      {"insta" : "https://www.instagram.com/skuyoe/"},
+      {"x" : "https://x.com/skuyoe"}
+    ]
+  },
+  {
+    "id": 11,
+    "title": "100% FRUITY",
+    "image": "A11",
+    "description": "L'univers de Zarkandia est une fusion entre le peps du magical girl et la finesse du style victorien. Ses créations sont aussi adorable qu'utile, elle vous fera voyager à travers ses œuvres en résines et ses travaux d'aiguilles, sans oublier sa papeterie. Le tout réalisé entièrement à la mains, car chez Zarkandia tout est fait avec amour et 100% patounes !",
+    "button":{
+      "url": "https://zarkandia.sumupstore.com/"
+    }
+  },
+  {
+    "id": 12,
+    "title": "MI-EAU",
+    "image": "A12",
+    "description": "Mi-eau est une artiste illustratrice au style manga prononcé, appréciant tout ce qui est mignon et coloré !",
+    "social":[
+      {"insta": "https://www.instagram.com/mi.eau/"},
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FMi_eau"}
+    ],
+    "button":{
+      "url": "https://mieaushop.company.site/"
+    }
+  },
+  {
+    "id": 13,
+    "title": "ARKAVIEL",
+    "image": "A13",
+    "description": "Hello moi c’est Arkaviel! Je propose sur mon stand stickers, prints, badges et porte-clés autour de jeux vidéo et mangas/animes que j'affectionne. Je développe en parallèle des créations originales inspirées de la mode alternative japonaise 🌸",
+    "social":[
+      {"insta": "https://www.instagram.com/arkaviel/"}
+    ],
+    "button":{
+      "url": "https://arkaviel.com"
+    }
+  },
+  {
+    "id": 14,
+    "title": "COSLI & TABU",
+    "image": "A14",
+    "description": "",
+    "social":[
+      {"insta": "https://www.instagram.com/tabu.nabu/"}
+    ]
+  },
+  {
+    "id": 15,
+    "title": "RAISIN DE LOUP",
+    "image": "A15",
+    "description": "Vtuber et illustratice, Raisindeloup vous présente son univers coloré plein d'eau et de fleurs : prints, keychains, stickers, peluches... ou peut-être tenterez vous votre chance au gachapain ?",
+    "social":[
+      {"insta": "https://www.instagram.com/raisindeloup/"},
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FRaisinDeLoup"}
+    ],
+    "button":{
+      "url": "https://linktr.ee/raisindeloup"
+    }
+  },
+  {
+    "id": 16,
+    "title": "LITTLE NO THINGKS",
+    "image": "default",
+    "description": "Je vous souhaite la bienvenue... C'est rare de croiser quelqu'un par ce temps ! Un thé ? Un café ? Une pluie d'étoiles ? Tu cherches quelque chose pour illuminer la Voie lactée de tes yeux ? J'ai peut-être quelque chose pour toi alors... Sois curieux, explore, ; d'aquarelles aux travaux numériques, mon univers est vaste et fourmille d'œuvres de toutes sortes ✧",
+    "social":[
+      {"insta": "https://www.instagram.com/littlenothingks/"}
+    ]
+  }
+]

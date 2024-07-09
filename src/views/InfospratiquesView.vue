@@ -19,6 +19,8 @@
         </div>
       </div>
     </div>
+
+    <TitleSection title="Contactez nous"  class="pt-16"/>
     
   </div>
 

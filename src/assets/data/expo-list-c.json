@@ -1,0 +1,65 @@
+[
+  {
+    "id": 31,
+    "title": "ITOTOBI",
+    "image": "C01",
+    "description": "Je produis de la papeterie ainsi que des accessoires et broderies inspirées d'univers de jeux vidéo et popculture japonaise!",
+    "social": [{
+      "insta": "https://www.instagram.com/ito.bito/"
+    }]
+  },
+  {
+    "id": 32,
+    "title": "FURRIES & FRUITIES",
+    "image": "C02",
+    "description": "Salut! Nous sommes un couple de deux artistes qui proposent une grande variété d'articles, du porte clef au T-shirt en passant par toutes sortes de prints, fandom et original art, de la petite bestiole au très gros monstre! Sur notre stand : Genshin, Honkai star rail, Ace attorney... mais aussi commandes de dessins sur place! Alors, si vous voulez vous aussi voir vos personnages originaux prendre vie, n'hésitez pas! :D",
+    "social": [{
+        "insta": "https://www.instagram.com/not.shayxy/"
+      },
+      {
+        "x": "https://x.com/i/flow/login?redirect_after_login=%2FLe_shayxy"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "CHAMBWIBWI",
+    "image": "C03",
+    "description": "Bienvenue sur le stand de Chambwibwi. Ici vous trouverez des illustrations, des portes clefs, des pins de dragons! Plein de dragons! Le stand porposera des fanzines ainsi que des artbook Il y aura également Ruutabaga sur le stand avec moi qui lui proposera la même chose mais avec des vampires! À bientôt sur le stand",
+    "social": [{
+      "insta": "https://www.instagram.com/chambwibwi/?igsh=c2x1MGs3OXhpZ2pr&utm_source=qr"
+    }]
+  },
+  {
+    "id": 34,
+    "title": "AD ASTRA",
+    "image": "C04",
+    "description": "Ad Astra regroupe deux artistes et autrices queer, spécialisées dans les romans et bandes-dessinées principalement M/M et F/F se déroulant dans les domaines de l'imaginaire : urban fantasy, fantasy historique, science-fiction et bien d'autres ! Si vous aimez vos lectures pleines d'intrigues, de romance et de suspense, nous avons votre bonheur !",
+    "social": [{
+      "insta": "https://www.instagram.com/aethusa_adastra/"
+    }]
+  },
+  {
+    "id": 35,
+    "title": "FELICIEL",
+    "image": "C05",
+    "description": "Feliciel est illustrateur.ice et tatoueur.euse français.e, faisant principalement des illustrations originales d’animaux mignons (enfin… surtout des chats, grenouilles et pigeons), mélangeant réferences queer et pop culture. La quasi totalité des produits sont réalisés par mes propres mains de chez moi (stickers, prints, pins en bois, etc) afin de contrôler chaque étape de fabrication pour assurer une bonne qualité des produits.",
+    "social": [{
+        "insta": "https://www.instagram.com/feliciel_ink/"
+      },
+      {
+        "tiktok": "https://www.tiktok.com/@feliciel_"
+      }
+    ],
+    "button": {
+      "url": "https://www.feliciel.org/vendor-portfolio"
+    }
+  },
+
+  {
+    "id": 46,
+    "title": "INNEFABLE",
+    "image": "C16",
+    "description": ""
+  }
+]

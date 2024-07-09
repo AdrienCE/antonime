@@ -6,7 +6,8 @@
       </button>
         
       <div class="relative">
-        <img :src="resolve_img_url(image)" :srcset="resolve_img_url(image)" decoding="async" alt="Image popup" class="w-full h-52 md:h-[550px] md:w-[400px] object-cover rounded-md">
+        <img :src="image" decoding="async" alt="Image popup" class="w-full h-52 md:h-[550px] md:w-[400px] object-cover rounded-md"
+        />
         <div class="absolute inset-0 bg-black bg-opacity-50 md:bg-opacity-0 rounded-md"></div>
       </div>
         
@@ -15,27 +16,31 @@
         <div class="flex-1 overflow-y-auto ">
           <p>{{ desc }}</p>
         </div>
-        <div class="border border-black opacity-20"></div>
-        <div class="text-3xl flex flex-row items-end mt-4 gap-4 md:pb-8">
-          <template v-for="(socials, index) in social" :key="index">
-            <a target="_blank" :href="
-              socials.insta ? socials.insta :
-              socials.tiktok ? socials.tiktok :
-              socials.x ? socials.x :
-              socials.yt ? socials.yt :
-              ''
-            ">
-              <FontAwesomeIcon :icon="
-                socials.insta ? ['fab', 'instagram'] :
-                socials.tiktok ? ['fab', 'tiktok'] :
-                socials.x ? ['fab', 'x-twitter'] :
-                socials.yt ? ['fab', 'youtube'] :
+        <template v-if="social || button">
+          <div class="border border-slate-400 opacity-20"></div>
+          <div class="text-3xl flex flex-row items-end mt-4 gap-4">
+            <template v-for="(socials, index) in social" :key="index">
+              <a target="_blank" :href="
+                socials.insta ? socials.insta :
+                socials.tiktok ? socials.tiktok :
+                socials.x ? socials.x :
+                socials.yt ? socials.yt :
                 ''
-              "/>
-            </a>
-          </template>
-          <MyButton class="text-sm px-4" title="En savoir plus" v-if="button" :href="button.url"/>
-        </div>
+              ">
+                <FontAwesomeIcon :icon="
+                  socials.insta ? ['fab', 'instagram'] :
+                  socials.tiktok ? ['fab', 'tiktok'] :
+                  socials.x ? ['fab', 'x-twitter'] :
+                  socials.yt ? ['fab', 'youtube'] :
+                  ''
+                "/>
+              </a>
+            </template>
+            <MyButton class="text-sm px-4" title="En savoir plus" v-if="button" :href="button.url"/>
+          </div>
+        </template>
+        <template v-else></template>
+        
       </div>
     </div>
   </div>
@@ -61,12 +66,6 @@ export default {
     image: String,
     social: Object,
     button: Boolean
-  },
-  methods: {
-    resolve_img_url: function (path) {
-      let images = require.context('@/assets/images/guests/', false, /\.(webp)$/);
-      return images("./" + path);
-    }
   }
 };
 </script>
