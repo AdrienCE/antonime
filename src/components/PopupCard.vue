@@ -28,8 +28,7 @@
                   socials.tumblr ? socials.tumblr :
                   socials.x ? socials.x :
                   socials.yt ? socials.yt : ''" 
-                target="_blank" 
-                class="text-xl"
+                target="_blank" class="text-xl"
                 :href="
                   socials.insta ? socials.insta :
                   socials.tiktok ? socials.tiktok :
@@ -60,8 +59,7 @@
                     socials2.tumblr ? socials2.tumblr :
                     socials2.x ? socials2.x :
                     socials2.yt ? socials2.yt : ''"
-                  target="_blank"
-                  class="text-xl"
+                  target="_blank" class="text-xl"
                   :href="
                     socials2.insta ? socials2.insta :
                     socials2.tiktok ? socials2.tiktok :
