@@ -7,7 +7,6 @@
   </template>
   <template v-if="displayMode === 'dynamic'">
 
-    <!-- LINK TO PAGES [url, listeInline, href, imgUrl, title]-->
     <template v-if="linkPage === true">
       <a
         :href="url"
@@ -28,7 +27,6 @@
     </template>
 
     <template v-else>
-      <!-- CARD DEFAULT SIZE AND MINIMAL WITH POPUP [mini, popup, listeInline, imgUrl, title] -->
       <div
         class="cursor-pointer transition ease-in delay-110 duration-110 hover:-translate-y-1 hover:scale-90"
         :class="[
