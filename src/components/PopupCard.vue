@@ -105,8 +105,6 @@ export default {
   },
   props: {
     title: String,
-    artiste: String,
-    artiste2: String,
     desc: String,
     image: String,
     social: Object,
