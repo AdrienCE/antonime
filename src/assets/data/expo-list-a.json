@@ -5,6 +5,11 @@
     "image": "A01",
     "description": "un duo d'artistes réalisant des illustrations de personnages originaux mais également de fandoms qui nous tiennent à coeur. Adeptes des univers colorés, nous souhaitons partager notre passion à travers nos dessins !",
     "social":[
+      {"artiste": "CLEM"},
+      {"insta" : "https://www.instagram.com/__.ciem.__/"}
+    ],
+    "social2":[
+      {"artiste": "LACIE"},
       {"insta" : "https://www.instagram.com/laciebernkastel"}
     ]
   },
@@ -12,7 +17,17 @@
     "id": 2,
     "title": "CAJ & OR",
     "image": "A02",
-    "description": "Nous sommes Cajal et Oror, deux illustrateur-ice-s, réunis par le pouvoir de l’amitié et la joie de façonner des objets à la main. Influencés par le manga et les oeuvres fantastiques, nos univers dialoguent entre récits colorés, bonhommes rigolos et ambiances horrifiques. Vous trouverez sur notre stand des prints à foison, du fanart, des stickers, des zines et même une tapisserie ! Au plaisir de vous y voir :^)"
+    "description": "Nous sommes Cajal et Oror, deux illustrateur-ice-s, réunis par le pouvoir de l’amitié et la joie de façonner des objets à la main. Influencés par le manga et les oeuvres fantastiques, nos univers dialoguent entre récits colorés, bonhommes rigolos et ambiances horrifiques. Vous trouverez sur notre stand des prints à foison, du fanart, des stickers, des zines et même une tapisserie ! Au plaisir de vous y voir :^)",
+    "social":[
+      {"artiste": "CAJ"},
+      {"insta" : "https://www.instagram.com/cajalnoix/"},
+      {"tumblr" : "https://cajal.tumblr.com/"}
+    ],
+    "social2":[
+      {"artiste": "OR"},
+      {"insta" : "https://www.instagram.com/or_o_r/"},
+      {"tumblr" : "https://oroar.tumblr.com/"}
+    ]
   },
   {
     "id": 3,
@@ -41,9 +56,16 @@
     "image": "A06",
     "description": "Les Discosaures sont là pour vous vendre des trucs (achetez-les)",
     "social":[
+      {"artiste": "ELIE"},
       {"insta": "https://www.instagram.com/elie_vigneron/"},
       {"tiktok": "https://www.tiktok.com/@elie_vigneron"},
       {"x": "https://x.com/i/flow/login?redirect_after_login=%2Felievigneron"}
+    ],
+    "social2":[
+      {"artiste": "DAT"},
+      {"insta": "https://www.instagram.com/dat_y7/"},
+      {"tiktok": "https://www.tiktok.com/@datyoshi7"},
+      {"x": "https://x.com/Dat_Y7"}
     ]
   },
   {
@@ -62,11 +84,14 @@
     "image": "A08",
     "description": "Le HIHI MARKET est rempli de jolies choses, souvent mignonnes et colorées. Deux paires de mains s’unissent pour fournir les cagettes du marché : tous les produits sont réalisés avec amour et soin ! Nous vous proposons des créations tournées autour d’univers manga/anime, jeux vidéos, pop culture... Si vous aimez les prints, stickers, pin’s, portes-clés... prenez un petit sac en toile et remplissez-le de chouettes goodies !",
     "social":[
-      {"insta" : "https://www.instagram.com/noixcagette/"}
+      {"artiste": "NOIXCAGETTE"},
+      {"insta" : "https://www.instagram.com/noixcagette/"},
+      {"web" : "https://www.instagram.com/hihimarket13/"}
     ],
-    "button": {
-      "url": "https://www.instagram.com/hihimarket13/"
-    }
+    "social2":[
+      {"artiste": "BOUILLON"},
+      {"insta" : "https://www.instagram.com/bouillonberry/"}
+    ]
   },
   {
     "id": 9,
@@ -74,12 +99,17 @@
     "image": "A09",
     "description": "D'un côté, kuri-s, je suis une personne multifandom et j'aime dessiner mes personnages originaux pendant mon temps libre.De l'autre, manio11a mordu.e de J-RPG indépendants, vous retrouverez une fusion de nos univers de la japanimation qui ont bercé notre enfance.",
     "social":[
+      {"artiste": "KURI-S"},
       {"insta" : "https://www.instagram.com/kurisucurry/"},
-      {"x" : "https://x.com/kurisucurry"}
+      {"x" : "https://x.com/kurisucurry"},
+      {"web" : "https://kuri-s.carrd.co"}
     ],
-    "button": {
-      "url": "https://kuri-s.carrd.co"
-    }
+    "social2":[
+      {"artiste": "MANIO11A"},
+      {"insta": "https://www.instagram.com/manio11a/"},
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2Fmanio11a"},
+      {"web" : "https://manio11a.carrd.co"}
+    ]
   },
   {
     "id": 10,
@@ -96,9 +126,9 @@
     "title": "100% FRUITY",
     "image": "A11",
     "description": "L'univers de Zarkandia est une fusion entre le peps du magical girl et la finesse du style victorien. Ses créations sont aussi adorable qu'utile, elle vous fera voyager à travers ses œuvres en résines et ses travaux d'aiguilles, sans oublier sa papeterie. Le tout réalisé entièrement à la mains, car chez Zarkandia tout est fait avec amour et 100% patounes !",
-    "button":{
-      "url": "https://zarkandia.sumupstore.com/"
-    }
+    "social":[
+      {"web" : "https://zarkandia.sumupstore.com/"}
+    ]
   },
   {
     "id": 12,
@@ -107,11 +137,9 @@
     "description": "Mi-eau est une artiste illustratrice au style manga prononcé, appréciant tout ce qui est mignon et coloré !",
     "social":[
       {"insta": "https://www.instagram.com/mi.eau/"},
-      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FMi_eau"}
-    ],
-    "button":{
-      "url": "https://mieaushop.company.site/"
-    }
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FMi_eau"},
+      {"web": "https://mieaushop.company.site/"}
+    ]
   },
   {
     "id": 13,
@@ -119,11 +147,9 @@
     "image": "A13",
     "description": "Hello moi c’est Arkaviel! Je propose sur mon stand stickers, prints, badges et porte-clés autour de jeux vidéo et mangas/animes que j'affectionne. Je développe en parallèle des créations originales inspirées de la mode alternative japonaise 🌸",
     "social":[
-      {"insta": "https://www.instagram.com/arkaviel/"}
-    ],
-    "button":{
-      "url": "https://arkaviel.com"
-    }
+      {"insta": "https://www.instagram.com/arkaviel/"},
+      {"web": "https://arkaviel.com"}
+    ]
   },
   {
     "id": 14,
@@ -131,6 +157,12 @@
     "image": "A14",
     "description": "",
     "social":[
+      {"artiste": "COSLI"},
+      {"insta": "https://www.instagram.com/cosli_/"},
+      {"x": "https://x.com/Cosli_?t=D210eVgfKju20XWy3IzFtg&s=09"}
+    ],
+    "social2":[
+      {"artiste": "NABU"},
       {"insta": "https://www.instagram.com/tabu.nabu/"}
     ]
   },
@@ -141,11 +173,9 @@
     "description": "Vtuber et illustratice, Raisindeloup vous présente son univers coloré plein d'eau et de fleurs : prints, keychains, stickers, peluches... ou peut-être tenterez vous votre chance au gachapain ?",
     "social":[
       {"insta": "https://www.instagram.com/raisindeloup/"},
-      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FRaisinDeLoup"}
-    ],
-    "button":{
-      "url": "https://linktr.ee/raisindeloup"
-    }
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FRaisinDeLoup"},
+      {"web": "https://linktr.ee/raisindeloup"}
+    ]
   },
   {
     "id": 16,

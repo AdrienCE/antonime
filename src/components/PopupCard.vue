@@ -15,27 +15,71 @@
         <div class="flex-1 overflow-y-auto ">
           <p>{{ desc }}</p>
         </div>
-        <template v-if="social || button">
+        <template v-if="social || social2">
           <div class="border border-slate-400 opacity-20"></div>
-          <div class="text-3xl flex flex-row items-end mt-4 gap-4">
+          <div class="text-3xl flex flex-row items-center mt-4 gap-4">
+
             <template v-for="(socials, index) in social" :key="index">
-              <a target="_blank" :href="
-                socials.insta ? socials.insta :
-                socials.tiktok ? socials.tiktok :
-                socials.x ? socials.x :
-                socials.yt ? socials.yt :
-                ''
-              ">
+              <span v-if="socials.artiste" class="text-sm">{{ socials.artiste }} :</span>
+              <a 
+                v-if="
+                  socials.insta ? socials.insta :
+                  socials.tiktok ? socials.tiktok :
+                  socials.tumblr ? socials.tumblr :
+                  socials.x ? socials.x :
+                  socials.yt ? socials.yt : ''" 
+                target="_blank" 
+                class="text-xl"
+                :href="
+                  socials.insta ? socials.insta :
+                  socials.tiktok ? socials.tiktok :
+                  socials.tumblr ? socials.tumblr :
+                  socials.x ? socials.x :
+                  socials.yt ? socials.yt : ''"
+              >
                 <FontAwesomeIcon :icon="
                   socials.insta ? ['fab', 'instagram'] :
                   socials.tiktok ? ['fab', 'tiktok'] :
-                  socials.x ? ['fab', 'x-twitter'] :
-                  socials.yt ? ['fab', 'youtube'] :
-                  ''
-                "/>
+                  socials.tumblr ? ['fab', 'square-tumblr'] :
+                  socials.x ? ['fab', 'square-x-twitter'] :
+                  socials.yt ? ['fab', 'youtube'] : ''"
+                />
               </a>
+              <MyButton v-if="socials.web" :href="socials.web" target="_blank" class="text-sm px-4" title="Site web"/>
             </template>
-            <MyButton class="text-sm px-4" title="En savoir plus" v-if="button" :href="button.url"/>
+            
+            <!-- SOCIAL 2 -->
+            <template v-if="social2">
+
+              <template v-for="(socials2, index) in social2" :key="index">
+                <span v-if="socials2.artiste" class="text-sm">/ {{ socials2.artiste }}:</span>
+                <a
+                  v-if="
+                    socials2.insta ? socials2.insta :
+                    socials2.tiktok ? socials2.tiktok :
+                    socials2.tumblr ? socials2.tumblr :
+                    socials2.x ? socials2.x :
+                    socials2.yt ? socials2.yt : ''"
+                  target="_blank"
+                  class="text-xl"
+                  :href="
+                    socials2.insta ? socials2.insta :
+                    socials2.tiktok ? socials2.tiktok :
+                    socials2.tumblr ? socials2.tumblr :
+                    socials2.x ? socials2.x :
+                    socials2.yt ? socials2.yt : ''"
+                >
+                  <FontAwesomeIcon :icon="
+                    socials2.insta ? ['fab', 'instagram'] :
+                    socials2.tiktok ? ['fab', 'tiktok'] :
+                    socials2.tumblr ? ['fab', 'square-tumblr'] :
+                    socials2.x ? ['fab', 'square-x-twitter'] :
+                    socials2.yt ? ['fab', 'youtube'] : ''
+                  "/>
+                </a>
+                <MyButton v-if="socials2.web" :href="socials2.web" target="_blank" class="text-sm px-4" title="Site web"/>
+              </template>
+            </template>
           </div>
         </template>
         <template v-else></template>
@@ -49,10 +93,10 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faTiktok, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import MyButton from './MyButton.vue';
 
-library.add(faXmark, faInstagram, faTiktok, faXTwitter, faYoutube);
+library.add(faXmark, faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube);
 
 export default {
   components: {
@@ -61,10 +105,12 @@ export default {
   },
   props: {
     title: String,
+    artiste: String,
+    artiste2: String,
     desc: String,
     image: String,
     social: Object,
-    button: Boolean
+    social2: Object
   }
 };
 </script>

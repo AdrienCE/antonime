@@ -42,7 +42,8 @@
             imgExpoA ? img_expoa(imgExpoA) :
             imgExpoB ? img_expob(imgExpoB) :
             imgExpoC ? img_expoc(imgExpoC) : ''
-          " :class="cardMini ? 'h-24 w-20 rounded-l-lg' : cardLarge ? 'w-full h-52 rounded-md md:h-72': ''" class="object-cover" alt="Card image"/>
+          " :class="cardMini ? 'h-24 w-20 rounded-l-lg' : cardLarge ? 'w-full h-52 rounded-md md:h-72': ''" class="object-cover" alt="Card image"
+        />
         <h3 :class="cardMini ? 'text-ellipsis overflow-hidden' : cardLarge ? 'pt-2' : ''">
           {{ title }}
         </h3>
@@ -58,9 +59,11 @@
       imgExpoB ? img_expob(imgExpoB) :
       imgExpoC ? img_expoc(imgExpoC) : ''
     "
-    :title="title" 
-    :desc="description" 
-    :social="social" 
+    :title="title"
+
+    :desc="description"
+    :social="social"
+    :social2="social2"
     :button="button"
   />
 </template>
@@ -89,8 +92,11 @@
 
       description: String,
       social: Object,
-      url: String,
+      social2: Object,
       button: Boolean,
+
+      url: String,
+      
       listeInLine: Boolean,
       linkPage: Boolean,
       cardMini: Boolean,

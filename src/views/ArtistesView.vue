@@ -7,13 +7,15 @@
       <CardInfo v-for="expoa in expoA"
         :key="expoa.id"
         displayMode="dynamic"
-        cardMini="true"
-        hasPopup="true"
+        :cardMini=true
+        :hasPopup=true
         
         :title="expoa.title"
+
         :imgExpoA="expoa.image+'.webp'"
         :description="expoa.description"
         :social="expoa.social"
+        :social2="expoa.social2"
         :button="expoa.button"
       />
     </div>
@@ -23,13 +25,15 @@
       <CardInfo v-for="expob in expoB"
         :key="expob.id"
         displayMode="dynamic"
-        cardMini="true"
-        hasPopup="true"
+        :cardMini=true
+        :hasPopup=true
         
         :title="expob.title"
+
         :imgExpoB="expob.image+'.webp'"
         :description="expob.description"
         :social="expob.social"
+        :social2="expob.social2"
         :button="expob.button"
       />
     </div>
@@ -39,19 +43,20 @@
       <CardInfo v-for="expoc in expoC"
         :key="expoc.id"
         displayMode="dynamic"
-        cardMini="true"
-        hasPopup="true"
+        :cardMini=true
+        :hasPopup=true
         
         :title="expoc.title"
+
         :imgExpoC="expoc.image+'.webp'"
         :description="expoc.description"
         :social="expoc.social"
+        :social2="expoc.social2"
         :button="expoc.button"
       />
     </div>
   </div>
   
-
   <MainFooter/>
 </template>
 
