@@ -64,6 +64,7 @@
     :desc="description"
     :social="social"
     :social2="social2"
+    :social3="social3"
     :button="button"
   />
 </template>
@@ -93,6 +94,7 @@
       description: String,
       social: Object,
       social2: Object,
+      social3: Object,
       button: Boolean,
 
       url: String,

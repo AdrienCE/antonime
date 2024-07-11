@@ -35,6 +35,7 @@
     "image": "A03",
     "description": "Si vous aimez Omori ,Link Click,Nana ou encore les chats….mon stand est pour vous!’",
     "social":[
+      {"artiste": "MES RESEAUX"},
       {"insta" : "https://www.instagram.com/armeitiste"}
     ]
   },
@@ -74,6 +75,7 @@
     "image": "A07",
     "description": "Artiste manga et illustratrice, Leonis s'inspire de différents thèmes pour réaliser ses illustrations. Elle nous fait ainsi voyager dans son univers et nous fait découvrir à travers son manga la nature luxuriante péruvienne avec une touche de fantastique.",
     "social":[
+      {"artiste": "MES RESEAUX"},
       {"insta" : "https://www.instagram.com/leonis_manga/"},
       {"x" : "https://x.com/TheLeonis_14"}
     ]
@@ -84,11 +86,14 @@
     "image": "A08",
     "description": "Le HIHI MARKET est rempli de jolies choses, souvent mignonnes et colorées. Deux paires de mains s’unissent pour fournir les cagettes du marché : tous les produits sont réalisés avec amour et soin ! Nous vous proposons des créations tournées autour d’univers manga/anime, jeux vidéos, pop culture... Si vous aimez les prints, stickers, pin’s, portes-clés... prenez un petit sac en toile et remplissez-le de chouettes goodies !",
     "social":[
-      {"artiste": "NOIXCAGETTE"},
-      {"insta" : "https://www.instagram.com/noixcagette/"},
-      {"web" : "https://www.instagram.com/hihimarket13/"}
+      {"artiste": "HIHIMARKET"},
+      {"insta" : "https://www.instagram.com/hihimarket13/"}
     ],
     "social2":[
+      {"artiste": "NOIXCAGETTE"},
+      {"insta" : "https://www.instagram.com/noixcagette/"}
+    ],
+    "social3":[
       {"artiste": "BOUILLON"},
       {"insta" : "https://www.instagram.com/bouillonberry/"}
     ]
@@ -101,14 +106,23 @@
     "social":[
       {"artiste": "KURI-S"},
       {"insta" : "https://www.instagram.com/kurisucurry/"},
-      {"x" : "https://x.com/kurisucurry"},
-      {"web" : "https://kuri-s.carrd.co"}
+      {"x" : "https://x.com/kurisucurry"}
     ],
     "social2":[
       {"artiste": "MANIO11A"},
       {"insta": "https://www.instagram.com/manio11a/"},
-      {"x": "https://x.com/i/flow/login?redirect_after_login=%2Fmanio11a"},
-      {"web" : "https://manio11a.carrd.co"}
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2Fmanio11a"}
+    ],
+    "social3":[
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "KURI-S",
+        "web" : "https://kuri-s.carrd.co"
+      },
+      {
+        "btnTitle": "MANIO11A",
+        "web" : "https://manio11a.carrd.co"
+      }
     ]
   },
   {
@@ -117,6 +131,7 @@
     "image": "A10",
     "description": "Je suis un petit artiste qui dessine principalement des fanarts sur les jeux-vidéos dans sa chambre.",
     "social":[
+      {"artiste": "MES RESEAUX"},
       {"insta" : "https://www.instagram.com/skuyoe/"},
       {"x" : "https://x.com/skuyoe"}
     ]
@@ -126,8 +141,11 @@
     "title": "100% FRUITY",
     "image": "A11",
     "description": "L'univers de Zarkandia est une fusion entre le peps du magical girl et la finesse du style victorien. Ses créations sont aussi adorable qu'utile, elle vous fera voyager à travers ses œuvres en résines et ses travaux d'aiguilles, sans oublier sa papeterie. Le tout réalisé entièrement à la mains, car chez Zarkandia tout est fait avec amour et 100% patounes !",
-    "social":[
-      {"web" : "https://zarkandia.sumupstore.com/"}
+    "social3":[
+      {
+        "btnTitle": "SHOP ZARKANDIA",
+        "web" : "https://zarkandia.sumupstore.com/"
+      }
     ]
   },
   {
@@ -136,9 +154,16 @@
     "image": "A12",
     "description": "Mi-eau est une artiste illustratrice au style manga prononcé, appréciant tout ce qui est mignon et coloré !",
     "social":[
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://www.instagram.com/mi.eau/"},
-      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FMi_eau"},
-      {"web": "https://mieaushop.company.site/"}
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FMi_eau"}
+    ],
+    "social3":[
+      {"artiste": "LIEN DU SHOP"},
+      {
+        "btnTitle": "MI-EAU SHOP",
+        "web" : "https://mieaushop.company.site/"
+      }
     ]
   },
   {
@@ -147,8 +172,15 @@
     "image": "A13",
     "description": "Hello moi c’est Arkaviel! Je propose sur mon stand stickers, prints, badges et porte-clés autour de jeux vidéo et mangas/animes que j'affectionne. Je développe en parallèle des créations originales inspirées de la mode alternative japonaise 🌸",
     "social":[
-      {"insta": "https://www.instagram.com/arkaviel/"},
-      {"web": "https://arkaviel.com"}
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/arkaviel/"}
+    ],
+    "social3":[
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "ARKAVIEL",
+        "web" : "https://arkaviel.com"
+      }
     ]
   },
   {
@@ -172,9 +204,16 @@
     "image": "A15",
     "description": "Vtuber et illustratice, Raisindeloup vous présente son univers coloré plein d'eau et de fleurs : prints, keychains, stickers, peluches... ou peut-être tenterez vous votre chance au gachapain ?",
     "social":[
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://www.instagram.com/raisindeloup/"},
-      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FRaisinDeLoup"},
-      {"web": "https://linktr.ee/raisindeloup"}
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FRaisinDeLoup"}
+    ],
+    "social3":[
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "RAISIN DE LOUP",
+        "web" : "https://linktr.ee/raisindeloup"
+      }
     ]
   },
   {
@@ -183,6 +222,7 @@
     "image": "default",
     "description": "Je vous souhaite la bienvenue... C'est rare de croiser quelqu'un par ce temps ! Un thé ? Un café ? Une pluie d'étoiles ? Tu cherches quelque chose pour illuminer la Voie lactée de tes yeux ? J'ai peut-être quelque chose pour toi alors... Sois curieux, explore, ; d'aquarelles aux travaux numériques, mon univers est vaste et fourmille d'œuvres de toutes sortes ✧",
     "social":[
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://www.instagram.com/littlenothingks/"}
     ]
   }

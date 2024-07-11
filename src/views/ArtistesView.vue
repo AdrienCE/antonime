@@ -16,6 +16,7 @@
         :description="expoa.description"
         :social="expoa.social"
         :social2="expoa.social2"
+        :social3="expoa.social3"
         :button="expoa.button"
       />
     </div>
@@ -34,6 +35,7 @@
         :description="expob.description"
         :social="expob.social"
         :social2="expob.social2"
+        :social3="expob.social3"
         :button="expob.button"
       />
     </div>
@@ -52,6 +54,7 @@
         :description="expoc.description"
         :social="expoc.social"
         :social2="expoc.social2"
+        :social3="expoc.social3"
         :button="expoc.button"
       />
     </div>

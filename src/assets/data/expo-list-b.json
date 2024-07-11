@@ -4,17 +4,21 @@
     "title": "YURUPENG",
     "image": "B01",
     "description": "Des peluches en crochet plus mimi les unes que les autres vous attendent sur le stand de Yurupeng ! Que ce soit un petit chat, une fraise ou un chat-fraise, toutes ces petites créations sauront vitaminer votre quotidien.",
-    "social": [{
-      "insta": "https://www.instagram.com/Yurupengin/"
-    }]
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/Yurupengin/"}
+    ]
   },
   {
     "id": 18,
     "title": "LES OOMFIES",
     "image": "B02",
     "description": "Nous sommes les Oomfies, un groupe d'amis d'artistes composé de Salty, Ribbun bun, et Guaca. Tous passionnés d'art et de pop culture, nous proposons un large panel de merch variés !! Nous avons hâte de vous rencontrer :)",
-    "social":[
-      {"web": "https://les-oomfies.carrd.co/"}
+    "social3":[
+      {
+        "btnTitle": "SITE LES OOMFIES",
+        "web" : "https://les-oomfies.carrd.co/"
+      }
     ]
   },
   {
@@ -23,10 +27,17 @@
     "image": "B03",
     "description": "Lisicae est une artiste aimant créer des illustrations mignonnes et colorées, sous formes de prints pour accrocher chez vous, ou stickers à coller partout ! Et si jamais vous aimez les créations uniques, ses aquarelles vous plairont peut être aussi ! En espérant que l'univers cozy de Lisicae vous plaira <3",
     "social": [
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://www.instagram.com/lisicae_/"},
       {"tiktok": "https://www.tiktok.com/@lisicae_"},
-      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FLisicae_"},
-      {"web": "https://linktr.ee/lisicae"}
+      {"x": "https://x.com/i/flow/login?redirect_after_login=%2FLisicae_"}
+    ],
+    "social3":[
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "LISICAE",
+        "web" : "https://linktr.ee/lisicae"
+      }
     ]
   },
   {
@@ -35,9 +46,16 @@
     "image": "B04",
     "description": "Finnfinn crée des illustrations inspirées des shojos et magical girls de notre enfance!",
     "social": [
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://www.instagram.com/_finnfinn/"},
-      {"yt": "https://www.youtube.com/channel/UCAN9E1YsITJycs0LNFiqykw"},
-      {"web": "https://finn-finn.carrd.co"}
+      {"yt": "https://www.youtube.com/channel/UCAN9E1YsITJycs0LNFiqykw"}
+    ],
+    "social3":[
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "FINN FINN",
+        "web" : "https://finn-finn.carrd.co"
+      }
     ]
   },
   {
@@ -65,9 +83,10 @@
     "title": "CAPTAIN LEM",
     "image": "default",
     "description": "Artiste passionnée de jour, et aussi de nuit (même s'il vaut mieux dormir), Lem est fascinée par les histoires de détectives, les oiseaux de toutes tailles, la mer, les chevaliers et les beaux costumes !",
-    "social": [{
-      "insta": "https://www.instagram.com/captain_lem/"
-    }]
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/captain_lem/"}
+    ]
   },
   {
     "id": 24,
@@ -90,8 +109,15 @@
     "image": "B09",
     "description": "Retrouvez sur le stand de « Rainette », les 2 premiers volumes de la série ainsi que des produits dérivés issus de l’univers de la série. (BD A4 couleur, Stickers, cartes postales, pins, porte clés et marque page) Rainette est une histoire de sorcières avec des sous intrigues LGBT+ et familiales intergénérationnelles. C’est une BD accessible à partir de 10 ans, elle convient aux ados aussi bien qu’aux jeunes adultes et au delà !",
     "social": [
-      {"insta": "https://www.instagram.com/biscuicuit/"},
-      {"web": "https://boitebiscuit.fr/"}
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/biscuicuit/"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "BOITE BISCUIT",
+        "web" : "https://boitebiscuit.fr/"
+      }
     ]
   },
   {
@@ -100,8 +126,15 @@
     "image": "B10",
     "description": "Je suis auteure illustratrice spécialisée dans le manga. J'aime la couleur, la fantaisie, faire rêver et voyager dans d'autres univers en proposant des œuvres issues de manga et anime, ainsi que de l'original avec mon propre manga. En touchant à l'aquarelle, la gouache, le digital et en racontant des histoires, j'aspire à transmettre par l'art.",
     "social": [
-      {"insta": "https://www.instagram.com/ameliecherieb/"},
-      {"web": "https://ameliecherieb.fr/"}
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/ameliecherieb/"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "AMELIE CHERIE B",
+        "web" : "https://ameliecherieb.fr/"
+      }
     ]
   },
   {
@@ -110,9 +143,16 @@
     "image": "B11",
     "description": "Illustratrice autodidacte châtenaisienne et architecte de formation, Shadi a un univers qui mêle références à la pop culture, animaux mignons, culture iranienne et messages engagés",
     "social": [
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://instagram/veshadi/"},
-      {"tumblr": "https://chat-dit.tumblr.com/"},
-      {"web": "https://ko-fi.com/joyeuxarchi/shop"}
+      {"tumblr": "https://chat-dit.tumblr.com/"}
+    ],
+    "social3": [
+      {"artiste": "LIEN DU SHOP"},
+      {
+        "btnTitle": "JOYEUX ARCHITECTES",
+        "web" : "https://ko-fi.com/joyeuxarchi/shop"
+      }
     ]
   },
   {
@@ -136,6 +176,7 @@
     "image": "B13",
     "description": "Lux little papers est une petite marque de papeterie colorée et mignonne, réalisée presque uniquement à la mains par Lucie la créatrice. Entre inspirations japonaise et univers mangas retrouvez des collections de planches de stickers, blocks notes et autre goodies. Que vous souhaitiez trouver des alliés pour votre organisation ou simplement décorer vos bullet journals ou objets préférés, vous retrouverez sur le stand un large choix de créations originales !",
     "social": [
+      {"artiste": "MES RESEAUX"},
       {"insta": "https://www.instagram.com/luxlittlepapers/"},
       {"tiktok": "https://www.tiktok.com/@luxlittlepapers"}
     ]
