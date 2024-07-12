@@ -25,13 +25,13 @@
 </template>
   
 <script>
-import MainFooter from '@/components/MainFooter.vue';
-import HeaderTitle from '@/components/HeaderTitle.vue';
+  import MainFooter from '@/components/MainFooter.vue';
+  import HeaderTitle from '@/components/HeaderTitle.vue';
 
-export default {
-  components: {
-    MainFooter,
-    HeaderTitle
+  export default {
+    components: {
+      MainFooter,
+      HeaderTitle
+    }
   }
-}
 </script>

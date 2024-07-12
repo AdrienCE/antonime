@@ -2,8 +2,8 @@
 
    <!-- Header -->
    <swiper-container :navigation="true" :pagination="true" :loop="true" :modules="modules">
-    <swiper-slide class=" bg-[#E7F1F7]">
-      <div class="bg-gradient-to-tr from-[#3866B4] to-[#2F5698] flex justify-center h-72 mx-0 xl:mx-20">
+    <swiper-slide class=" bg-custom-blue-light">
+      <div class="bg-gradient-to-tr from-custom-blue2 to-custom-blue-dark flex justify-center h-72 mx-0 xl:mx-20">
         <img src="@/assets/images/at-half-body.webp" class="hidden object-contain md:block xl:w-auto" width="auto" height="auto"/>
         <div class="w-full flex items-center justify-center p-3 xl:w-1/3">
           <div class="text-center text-white">
@@ -16,7 +16,7 @@
               <li>Cinéma</li>
             </ul>
             <div class="inline-flex flex-col">
-              <span class="border-b-2 border-[#DB97E6] pb-2">22 septembre 2024</span>
+              <span class="border-b-2 border-custom-pink pb-2">22 septembre 2024</span>
               <span class="pt-2">10h - 18h</span>
             </div>
           </div>
@@ -97,7 +97,6 @@
           :imgRoot='programs.imgRoot'
           :hasPopup='programs.popup'
         />
-        <CardInfo title="Voir plus" imgGuest="G01.webp" :hasPopup="false" url="/programmes" listeInLine="true"/>
       </div>
     </div>
   </div>
@@ -109,17 +108,18 @@
   import MainFooter from '@/components/MainFooter.vue';
   import CardInfo from '@/components/CardInfo.vue';
   import BannerInfo from '@/components/BannerInfo.vue';
-  import {register} from 'swiper/element/bundle';
   import TitleSection from '@/components/TitleSection.vue';
+  import {register} from 'swiper/element/bundle';
+  
   register();
 
   export default {
     components: {
-    MainFooter,
-    CardInfo,
-    BannerInfo,
-    TitleSection
-},
+      MainFooter,
+      CardInfo,
+      BannerInfo,
+      TitleSection
+    },
     data() {
       return {
         program:[

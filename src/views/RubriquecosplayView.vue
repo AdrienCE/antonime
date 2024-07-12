@@ -24,9 +24,9 @@
 
   export default {
     components: {
-    MainFooter,
-    ImageTextGrid,
-    HeaderTitle
-}
+      MainFooter,
+      ImageTextGrid,
+      HeaderTitle
+    }
   }
 </script>

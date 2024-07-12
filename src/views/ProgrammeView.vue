@@ -25,15 +25,15 @@
   import MainFooter from '@/components/MainFooter.vue';
   import CardInfo from '@/components/CardInfo.vue';
   import HeaderTitle from '@/components/HeaderTitle.vue';
-import BannerInfo from '@/components/BannerInfo.vue';
+  import BannerInfo from '@/components/BannerInfo.vue';
 
   export default {
     components: {
-    MainFooter,
-    CardInfo,
-    HeaderTitle,
-    BannerInfo
-},
+      MainFooter,
+      CardInfo,
+      HeaderTitle,
+      BannerInfo
+    },
     data() {
       return {
         program:[
@@ -63,6 +63,6 @@ import BannerInfo from '@/components/BannerInfo.vue';
           }
         ]
       };
-    },
+    }
   };
 </script>

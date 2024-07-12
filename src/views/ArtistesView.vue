@@ -78,7 +78,7 @@
     CardInfo,
     HeaderTitle,
     TitleSection
-},
+  },
     data() {
       return {
         expoA: expoDataA,

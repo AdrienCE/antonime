@@ -20,7 +20,7 @@
       </a>
     </div>
   </div>
-  <div class="bg-[#1C4F90] text-white p-6 w-full text-sm text-center">
+  <div class="bg-custom-blue-dark text-white p-6 w-full text-sm text-center">
     <span>© 2024 Anto'nime - Tout droits réservés</span>
   </div>
 </template>

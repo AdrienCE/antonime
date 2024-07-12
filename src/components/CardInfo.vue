@@ -1,8 +1,16 @@
 <template>
 
   <template v-if="displayMode === 'static'">
-    <div>
-      Card with no interaction
+    <div class="border-stone-200 border-solid border-2 w-full p-4 min-h-0 md:min-h-36">
+      <FontAwesomeIcon v-for="(socials, index) in social" :key="index" class="text-3xl mb-3"
+        :icon="
+          socials.bus ? ['fa', 'bus'] :
+          socials.covoit ? ['fa', 'car-on'] :
+          socials.car ? ['fa', 'car-side'] :
+          ''"
+      />
+      <h3 class="mb-5 font-bold">{{ title }}</h3>
+      <p>{{ description }}</p>
     </div>
   </template>
   <template v-if="displayMode === 'dynamic'">
@@ -70,13 +78,20 @@
 </template>
 
 <script>
+  /* eslint-disable */
   import { ref } from 'vue';
   import PopupCard from './PopupCard.vue';
+  import { library } from '@fortawesome/fontawesome-svg-core';
+  import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+  import { faBus, faCarOn, faCarSide } from '@fortawesome/free-solid-svg-icons';
+
+  library.add(faBus, faCarOn, faCarSide);
 
   export default {
     name: 'CardInfo',
     components: {
-      PopupCard
+      PopupCard,
+      FontAwesomeIcon
     },
     props: {
       displayMode: {

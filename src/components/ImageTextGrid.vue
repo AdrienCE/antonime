@@ -11,34 +11,34 @@
 </template>
 
 <script>
-export default {
-  props: {
-    isInverted: {
-      type: Boolean,
-      default: false
+  export default {
+    props: {
+      isInverted: {
+        type: Boolean,
+        default: false
+      },
+      paragraphe: {
+        type: String,
+        default: ''
+      },
+      paragraphe2: {
+        type: String,
+        default: ''
+      },
+      imageGrid: {
+        type: String,
+        default: 'first-conv.webp'
+      },
+      altText: {
+        type: String,
+        default: 'convention anto"nime'
+      }
     },
-    paragraphe: {
-      type: String,
-      default: ''
-    },
-    paragraphe2: {
-      type: String,
-      default: ''
-    },
-    imageGrid: {
-      type: String,
-      default: 'first-conv.webp'
-    },
-    altText: {
-      type: String,
-      default: 'convention anto"nime'
+    methods: {
+      resolve_img_url: function (path) {
+        let images = require.context('@/assets/images/', false, /\.(webp)$/)
+        return images('./' + path)
+      }
     }
-  },
-  methods: {
-    resolve_img_url: function (path) {
-      let images = require.context('@/assets/images/', false, /\.(webp)$/)
-      return images('./' + path)
-    }
-  }
-};
+  };
 </script>

@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
- // Définition des props
+  import { defineProps } from 'vue';
+  // Définition des props
   const props = defineProps({
     title: String,
     url: String

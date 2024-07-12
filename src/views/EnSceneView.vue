@@ -4,6 +4,7 @@
   <div class="container my-7 px-7">
     <p>Hello</p>
   </div>
+  
   <MainFooter/>
 </template>
   

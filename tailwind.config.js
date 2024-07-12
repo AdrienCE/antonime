@@ -27,11 +27,13 @@ module.exports = {
         '80vh': '80vh',
       },
       colors: {
-        'primary-color': '#5981c5',
-        'custom-blue': '#769bd5',
+        'custom-white': '#F4F4F4',
+        'custom-red': '#7E0000',
         'custom-blue2': '#3e68b6',
-        'custom-blue3': '#a8bded',
-        'custom-pink': '#eeb1a4',
+        'custom-blue-dark' : '#1C4F90',
+        'custom-blue-light' : '#E7F1F7',
+        'custom-pink': '#DB97E6',
+        'custom-salmon': '#eeb1a4',
         'custom-green': '#aad896',
       },
       clipPath: {

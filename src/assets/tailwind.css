@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body{
-  @apply bg-[#F4F4F4];
+  @apply bg-custom-white;
 }
 
 ::-webkit-scrollbar{
-  display: none;
+  @apply hidden
 }
 
 .text-stroke-headline{
@@ -41,18 +41,10 @@ body{
 }
 
 mark{
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.5em;
+  @apply inline-block leading-none pb-1
 }
 
 .linebar:after {
   content: "";
-  position: relative;
-  display: block;
-  top: -20px;
-  left: 22px;
-  height: 30px;
-  background-color: rgba(170, 216, 150, 1);
-  z-index: -1;
+  @apply relative bg-custom-green h-8 -top-5 -z-10 left-0 hidden md:block md:left-6;
 }

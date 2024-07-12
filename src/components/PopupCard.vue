@@ -109,26 +109,26 @@
 </template>
 
 <script>
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import MyButton from './MyButton.vue';
+  import { library } from '@fortawesome/fontawesome-svg-core';
+  import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+  import { faXmark } from '@fortawesome/free-solid-svg-icons';
+  import { faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+  import MyButton from './MyButton.vue';
 
-library.add(faXmark, faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube);
+  library.add(faXmark, faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube);
 
-export default {
-  components: {
-    FontAwesomeIcon,
-    MyButton
-  },
-  props: {
-    title: String,
-    desc: String,
-    image: String,
-    social: Object,
-    social2: Object,
-    social3: Object
-  }
-};
+  export default {
+    components: {
+      FontAwesomeIcon,
+      MyButton
+    },
+    props: {
+      title: String,
+      desc: String,
+      image: String,
+      social: Object,
+      social2: Object,
+      social3: Object
+    }
+  };
 </script>
