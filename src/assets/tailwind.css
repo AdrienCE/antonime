@@ -48,3 +48,28 @@ mark{
   content: "";
   @apply relative bg-custom-green h-8 -top-5 -z-10 left-0 hidden md:block md:left-6;
 }
+@layer base {
+  @font-face {
+    font-family: 'Hobby Headline';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/HobbyHeadlineRegular.ttf) format('ttf');
+  }
+}
+@layer base {
+  @font-face {
+    font-family: 'ShantellSans-Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf) format('ttf');
+  }
+}
+  p {
+    @apply font-shantell;
+  }
+
+  h1, h2, h3 {
+    @apply font-headline;
+  }

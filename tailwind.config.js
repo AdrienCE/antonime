@@ -38,6 +38,10 @@ module.exports = {
       },
       clipPath: {
         hexagon: 'polygon(50% 0%, 0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%)',
+      },
+      fontFamily: {
+        'headline': ['Hobby Headline', 'sans-serif'],
+        'shantell': ['ShantellSans-Variable', 'sans-serif'],
       }
     },
   },
