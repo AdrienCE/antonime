@@ -54,6 +54,16 @@
       <p class="font-bold text-2xl">Ah et un Maid Café !</p>
     </div>
   </div> -->
+  
+  <!-- Counter -->
+  <div class="grid grid-cols-1 md:gap-32 gap-4 w-full mt-8 md:grid-cols-3 xl:grid-cols-3 xl:mt-0 container my-7 px-7">
+    <CardInfo v-for="cards in card" :key="cards.title"
+      displayMode="count"
+      :title="cards.title"
+      :description="cards.description"
+      class="ml-5"
+    />
+  </div>
 
   <!-- Block for Guests, tickets and programs -->
   <div class="container my-7 px-7">
@@ -122,6 +132,20 @@
     },
     data() {
       return {
+        card: [
+          {
+            title: "1",
+            description: "Défilé cosplay"
+          },
+          {
+            title: "60",
+            description: "Artistes"
+          },
+          {
+            title: "1",
+            description: "Show cosplay"
+          }
+        ],
         program:[
           {
             displayMode: "dynamic",

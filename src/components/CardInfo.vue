@@ -13,6 +13,14 @@
       <p>{{ description }}</p>
     </div>
   </template>
+      <!-- Mode comptage -->
+      <div v-else-if="displayMode === 'count'" class="w-full p-16 min-h-0 md:min-h-36 bg-custom-green flex items-center justify-between font-bold counter">
+    <h3 class="mb-5 md:-ml-20 text-7xl">
+      <CounterCard :target="title" />
+    </h3>
+    <p class="text-xl text-center mx-auto w-full">{{ description }}</p>
+  </div>
+
   <template v-if="displayMode === 'dynamic'">
 
     <template v-if="linkPage === true">
@@ -84,6 +92,7 @@
   import { library } from '@fortawesome/fontawesome-svg-core';
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   import { faBus, faCarOn, faCarSide } from '@fortawesome/free-solid-svg-icons';
+  import CounterCard from './CounterCard.vue';
 
   library.add(faBus, faCarOn, faCarSide);
 
@@ -91,7 +100,8 @@
     name: 'CardInfo',
     components: {
       PopupCard,
-      FontAwesomeIcon
+      FontAwesomeIcon,
+      CounterCard
     },
     props: {
       displayMode: {
