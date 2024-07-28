@@ -68,11 +68,176 @@
     ]
     
   },
+  {
+    "id": 36,
+    "title": "ZARKANDIA",
+    "image": "C06",
+    "description": "L'univers de Zarkandia est une fusion entre le peps du magical girl et la finesse du style victorien. Ses créations sont aussi adorable qu'utile, elle vous fera voyager à travers ses œuvres en résines et ses travaux d'aiguilles, sans oublier sa papeterie. Le tout réalisé entièrement à la mains, car chez Zarkandia tout est fait avec amour et 100% patounes !",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/zarkandia/"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "ZARKANDIA",
+        "web" : "https://zarkandia.sumupstore.com"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "ALEXIEL",
+    "image": "C07",
+    "description": "Vous découvrirez ici tout ce qui concerne mon univers artistique ! Des liens vers mes réseaux sociaux, vers mes oeuvres mais aussi vers ma boutique et mon agenda de conventions, festivals et salons.",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/alexiel.le.neko/"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "ALEXIEL NEKO",
+        "web" : "https://alexielleneko.art/"
+      }
+    ]
+  },
+  
 
+  
+  {
+    "id": 40,
+    "title": "KNIGHT OF THE GALAXY",
+    "image": "C10",
+    "description": "Bonjour bonjour je suis Elaine, jeune artiste Bretonne. Grande fan de la guerre dans les étoiles () et de fantasy, je réalise des illustrations et goodies inspirés des Jedi, des droïdes mais aussi de Donjon et Dragons !",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/knight.of.the.galaxy/"},
+      {"x": "https://x.com/ElaineCreations/"}
+    ]
+  },
+  {
+    "id": 41,
+    "title": "FLIGHTLESS IKAROS",
+    "image": "C11",
+    "description": "Fangirl le jour, fangirl la nuit, et entre deux, galérienne de compétition, je serai là pour tous vous accueillir dans un amas de fandoms et de merch divers et variés (Hades, Spider-verse, DunMeshi, Akira...) et un décor digne d'un farfadet malicieux. N'hésitez pas à raid le stand !",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/flightless_ikrs/"}
+    ]
+  },
+  {
+    "id": 42,
+    "title": "MOTHER OF MEDUSA",
+    "image": "C12",
+    "description": "Née dans les années 90, Mother of Medusa est une passionnée de la culture pop. Elle aime profondément les films d'horreur et ses intérêts vont des fandoms plus traditionnels tels que Spiderman et The Mandalorian aux choses plus spécialisées et aux anecdotes étranges. Il faudra lui poser la question pour le savoir !",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/motherofmedusa/"}
+    ]
+  },
+  {
+    "id": 43,
+    "title": "MI SAO",
+    "image": "C13",
+    "description": "Mi-Sao est une illustratrice et tatoueuse, aux créations sombres et romantiques teintées de fantasy",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/rikomisao/"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "MI SAO",
+        "web" : "https://www.mi-sao.com/"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "KUNFU MENU",
+    "image": "C14",
+    "description": "Notre univers est très vaste, il va de tous types de jeux vidéos (FFXIV à Prosekai), à tous types d'animes (Haikyuu à Violet Evergarden) ! Nous aimons juste donner de l'amour à tous types de fandoms",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"x": "https://x.com/anfu_x"}
+    ]
+  },
+  {
+    "id": 45,
+    "title": "SOMBRAE LUA",
+    "image": "C15",
+    "description": "Sombrae un univers fait d’encre et d’énigmes. Illustrations basées dans un univers fantasy propre à l’artiste. Le tout inspiré de jeux de rôle, de la sorcellerie et des univers Dark Fantasy.",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/sombraelua"}
+    ]
+  },
   {
     "id": 46,
     "title": "INNEFABLE",
     "image": "C16",
-    "description": ""
+    "description": "Bonjour,nous sommes Luppi, Marquise de Clarabas et Teresa, et ensemble nous formons les Ineffable Artists, trois artistes venant de l'animation, passionnés par Lupin III, Dungeon Meshi, One Piece, Pokémon, et bien d'autres !",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/luppiart/"}
+    ]
+  },
+  {
+    "id": 47,
+    "title": "JUNJUN",
+    "image": "C17",
+    "description": "Inspiré par le manga, les comics, l'Art Nouveau et l'Art Antique, j'ai à coeur de représenter la communauté LGBTQIA+ à travers des personnages originaux et des illustrations colorées",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/junjun_artfactory/"}
+    ]
+  },
+  {
+    "id": 48,
+    "title": "ALOCENT",
+    "image": "C18",
+    "description": "Sur mon stand vous trouverez principalement des lesbiennes et des petits animaux dessinés sur pleins d'objets différents comme des charms, des linogravures ou des pins brodés. Passez me voir !",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/_alocent_/"},
+      {"x": "https://x.com/atinyorganism"}
+    ]
+  },
+  {
+    "id": 49,
+    "title": "TOUNGSTONE",
+    "image": "C19",
+    "description": "Toungstoune est un collectif d’artistes indépendant•e•s faisant de leur mieux pour créer des contenus riches et variés. Notre collectif a pour vocation de donner la parole à celles et ceux qui ne l’ont pas souvent.",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/toungstoune/"},
+      {"x": "https://twitter.com/toungstoune"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "TOUNGSTOUNE",
+        "web" : "https://toungstoune.co/"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "CERBEROS",
+    "image": "C20",
+    "description": "Je m'appelle Eo, je suis illustrateur digital et je souhaite partager ces illustrations avec d'autres fans",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"insta": "https://www.instagram.com/cerbere_os/"},
+      {"x": "https://twitter.com/cerbere_os"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "CERBERE-OS",
+        "web" : "https://cerbere-os.tumblr.com/"
+      }
+    ]
   }
 ]

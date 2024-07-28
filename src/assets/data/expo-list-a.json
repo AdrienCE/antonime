@@ -42,8 +42,12 @@
   {
     "id": 4,
     "title": "YUME & CROW",
-    "image": "default",
-    "description": ""
+    "image": "A04",
+    "description": "Des fans de Miku, de magical girls et de jeux vidéos. Une lolita et un ouji cools!",
+    "social":[
+      {"artiste": "MES RESEAUX"},
+      {"insta" : "https://www.instagram.com/crw_ly/"}
+    ]
   },
   {
     "id": 5,
@@ -219,7 +223,7 @@
   {
     "id": 16,
     "title": "LITTLE NO THINGKS",
-    "image": "default",
+    "image": "A16",
     "description": "Je vous souhaite la bienvenue... C'est rare de croiser quelqu'un par ce temps ! Un thé ? Un café ? Une pluie d'étoiles ? Tu cherches quelque chose pour illuminer la Voie lactée de tes yeux ? J'ai peut-être quelque chose pour toi alors... Sois curieux, explore, ; d'aquarelles aux travaux numériques, mon univers est vaste et fourmille d'œuvres de toutes sortes ✧",
     "social":[
       {"artiste": "MES RESEAUX"},

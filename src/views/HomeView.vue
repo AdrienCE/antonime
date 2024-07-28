@@ -41,20 +41,6 @@
     </div>
   </div>
   
-  <!-- Banner convention  -->
-  <!-- <div class="md:flex">
-    <img class="hidden w-1/4 md:block" src="">
-    <div class="bg-custom-green w-full px-7 py-7">
-      <h2 class="font-bold text-2xl md:text-5xl mb-10">A découvrir !</h2>
-      <p class="font-bold text-2xl">60 artistes !</p>
-      <p class="font-bold text-2xl">1 défilé cosplay !</p>
-      <p class="font-bold text-2xl">1 show cosplay !</p>
-      <p class="font-bold text-2xl">Des conférences !</p>
-      <p class="font-bold text-2xl">Des spectacles et pleins d'autres surprises !</p>
-      <p class="font-bold text-2xl">Ah et un Maid Café !</p>
-    </div>
-  </div> -->
-  
   <!-- Counter -->
   <div class="grid grid-cols-1 md:gap-32 gap-4 w-full mt-8 md:grid-cols-3 xl:grid-cols-3 xl:mt-0 container my-7 px-7">
     <CardInfo v-for="cards in card" :key="cards.title"
@@ -138,7 +124,7 @@
             description: "Défilé cosplay"
           },
           {
-            title: "60",
+            title: "66",
             description: "Artistes"
           },
           {

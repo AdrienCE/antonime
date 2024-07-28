@@ -75,13 +75,26 @@
   {
     "id": 22,
     "title": "ELWENZ",
-    "image": "default",
-    "description": "( en attente d'info )"
+    "image": "B06",
+    "description": "Potato artist",
+    "social": [
+      {"artiste": "MES RESEAUX"},
+      {"x": "https://twitter.com/Elwenz_"}
+    ],
+    "social3": [
+      {"artiste": "SITE WEB"},
+      {
+        "btnTitle": "ELWENZ",
+        "web" : "https://linktr.ee/Elwenz"
+      }
+    ]
+    
+    
   },
   {
     "id": 23,
     "title": "CAPTAIN LEM",
-    "image": "default",
+    "image": "B07",
     "description": "Artiste passionnée de jour, et aussi de nuit (même s'il vaut mieux dormir), Lem est fascinée par les histoires de détectives, les oiseaux de toutes tailles, la mer, les chevaliers et les beaux costumes !",
     "social": [
       {"artiste": "MES RESEAUX"},
@@ -158,7 +171,7 @@
   {
     "id": 28,
     "title": "CROVTON & LIN",
-    "image": "default",
+    "image": "B12",
     "description": "Nous sommes deux contents creator de plusieurs univers comme alien stage, vtuber, dungeon meshi ect On aimerait donc partager nos univers préférés avec nos arts ! ",
     "social": [
       {"artiste": "CROVTON"},
