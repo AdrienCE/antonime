@@ -22,6 +22,7 @@
     </div>
 
     <TitleSection title="Contactez nous"  class="pt-16"/>
+    <p>Adresse mail : <a href="mailto:contact@.antonime@gmail.com">contact.antonime@gmail.com</a></p>
     
   </div>
 
@@ -47,12 +48,17 @@
           {
             social:[{"bus" : true}],
             title: "RER",
-            description: "RER B --> Station Antony oizenf"
+            description: "RER B --> Station Antony ou RER C --> Chemin d'Anthony"
+          },
+          {
+            social:[{"bus" : true}],
+            title: "BUS",
+            description: "Ligne 197 arret Petit Massy (puis 15min à pied) ou Ligne 297 arret Place Charles Steber (puis 15min a pied)"
           },
           {
             social:[{"covoit" : true}],
             title: "COVOITURAGE",
-            description: ""
+            description: "Réservation à faire via le mail de contact dans la rubrique ' CONTACTEZ NOUS'"
           },
           {
             social:[{"car" : true}],
