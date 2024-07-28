@@ -2,8 +2,7 @@
   <HeaderTitle title="Mentions légales" />
   
   <div class="container my-7 px-7">
-    <h2 class="pb-[2rem] text-3xl font-bold">Mentions légales - <span class="text-sm font-normal">En vigueur au
-        01/06/2024</span></h2>
+    <h2 class="pb-[2rem] text-3xl font-bold">En vigueur au 01/06/2024</h2>
     <p>Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs, ci-après l’ "Utilisateur", du site
         https://www.antonime.fr , ci-après le "Site", les présentes mentions légales.</p>
     <br>
