@@ -1,8 +1,10 @@
 <template>
   <HeaderTitle title="Billeterie" />
   
-  <div class="container my-7 px-7">
-    <iframe id="haWidget" allowtransparency="true" scrolling="auto" src="https://www.helloasso.com/associations/warsheep-studio/boutiques/billeteries-conventions-ws/widget" style="width: 100%; height: 750px; border: none;"></iframe>
+  <div class="flex items-center justify-center min-h-[85vh]">
+    <div class="text-center">
+      <h1 class="mb-5">Billeterie pour bientôt ...</h1>
+    </div>
   </div>
 
   <MainFooter/>
