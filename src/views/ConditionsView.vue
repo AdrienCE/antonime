@@ -16,14 +16,14 @@
     </ul>
     <br>
     <p>
-      Tel quel proposé par le prestataire aux clients non professionnels (“les clients” ou “le client”) sur le site https://antonime.fr
+      Tel quel proposé par le prestataire aux clients non professionnels (“les clients” ou “le client”) sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>
     </p>
     <p>
-      Les caractéristiques principales des services sont présentées sur le site internet https://antonime.fr
+      Les caractéristiques principales des services sont présentées sur le site internet <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>
     </p>
     <p>
-      Le client est tenu d’en prendre connaissance avant toute passation de commande. Le choix et l’achat d’un service est de la seule responsabilité du client. Ces CGV sont accessibles à tout moment sur le site https://antonime.fr et prévaudront sur tout
-      autre document. Le client déclare avoir pris connaissance des présentes CGV et les avoir acceptées en cochant la case prévue à cet effet avant la mise en œuvre de la procédure de commande en ligne du site https://antonime.fr. Sauf preuve contraire,
+      Le client est tenu d’en prendre connaissance avant toute passation de commande. Le choix et l’achat d’un service est de la seule responsabilité du client. Ces CGV sont accessibles à tout moment sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> et prévaudront sur tout
+      autre document. Le client déclare avoir pris connaissance des présentes CGV et les avoir acceptées en cochant la case prévue à cet effet avant la mise en œuvre de la procédure de commande en ligne du site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>. Sauf preuve contraire,
       les données enregistrées dans le système informatique du Prestataire constituent la preuve de l’ensemble des transactions conclues avec le Client.
     </p>
     <p>Les coordonnées du Prestataire sont les suivantes :</p>
@@ -33,7 +33,7 @@
         <br> 6 av. François Arago
         <br> 92160 Antony
         <br> Numéro d’immatriculation: W921005727
-        <br> Mail: warsheepstudio.contact@gmail.com
+        <br> Mail: <a class="underline decoration-solid" href="mailto:warsheepstudio.contact@gmail.com">warsheepstudio.contact@gmail.com</a>
         <br> Téléphone: 06 82 47 37 19
     </p>
     <br>
@@ -42,21 +42,21 @@
     </p>
 
     <h3 class="text-2xl font-bold py-8">ARTICLE 2 - PRIX</h3>
-    <p>Les services sont fournis aux tarifs en vigueur figurant sur le site https://antonime.fr, lors de l’enregistrement de la commande par le Prestataire.</p>
+    <p>Les services sont fournis aux tarifs en vigueur figurant sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>, lors de l’enregistrement de la commande par le Prestataire.</p>
     <p>Les prix sont exprimés en euros, TTC.</p>
-    <p>Les tarifs tiennent compte d’éventuelles réductions qui seraient consenties par le Prestataire sur le site https://antonime.fr.</p>
+    <p>Les tarifs tiennent compte d’éventuelles réductions qui seraient consenties par le Prestataire sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>.</p>
     <p>Ces tarifs sont fermes et non révisables pendant leur période de validité mais le Prestataire se réserve le droit, hors période de validité, d’en modifier les prix à tout moment.</p>
     <p>Les prix ne comprennent pas les frais de traitement, d’expédition, de transport et de livraison, qui sont facturés en supplément, dans les conditions indiquées sur le site et calculés préalablement à la passation de la commande.</p>
     <p>Le paiement demandé au Client correspond au montant total de l’achat, y compris ces frais.</p>
     <p>Une facture est établie par le Prestataire et remise au Client lors de la fourniture des Service commandés.</p>
 
     <h3 class="text-2xl font-bold py-8">ARTICLE 3 - COMMANDES</h3>
-    <p>Il appartient au Client de sélectionner sur le site https://antonime.fr les Service qu’il désire commander, selon les modalités suivantes:</p>
+    <p>Il appartient au Client de sélectionner sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> les Service qu’il désire commander, selon les modalités suivantes:</p>
     <br/>
     <ul>
       <li>-Le client choisit un service qu’il met dans son panier, service qu’il pourra supprimer ou modifier avant de valider sa commande et d’accepter les présentes conditions générales de vente.</li>
       <li>-La vente ne sera considérée comme valide qu’après paiement intégral du prix. Il appartient au Client de vérifier l’exactitude de la commande et de signaler immédiatement toute erreur.</li>
-      <li>-Toute commande passée sur le site https://antonime.fr via Hello Asso constitue la formation d’un contrat conclu à distance entre le Client et le Prestataire.</li>
+      <li>-Toute commande passée sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> via Hello Asso constitue la formation d’un contrat conclu à distance entre le Client et le Prestataire.</li>
       <li>-Le Prestataire se réserve le droit d’annuler ou de refuser toute commande d’un Client avec lequel il existerait un litige relatif au paiement d’une commande antérieure.</li>
       <li>-Le Client pourra suivre l’évolution de sa commande sur le site.</li>
     </ul>
@@ -68,7 +68,7 @@
       <li>-paiement par carte bancaire</li>
     </ul>
     <p>Le prix est payable comptant par le Client, en totalité au jour de la passation de la commande.</p>
-    <p>Les données de paiement sont échangées en mode crypté grâce au protocole défini par le prestataire de paiement agréé intervenant pour les transactions bancaires réalisées sur le site https://antonime.fr.</p>
+    <p>Les données de paiement sont échangées en mode crypté grâce au protocole défini par le prestataire de paiement agréé intervenant pour les transactions bancaires réalisées sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>.</p>
     <p>Les paiement effectués par le Client ne seront considérées comme définitifs qu’après encaissement effectif des sommes dues, par le Prestataire.</p>
     <p>Le Prestataire ne sera pas tenu de procéder à la fourniture des Services commandés par le Client si celui-ci ne lui en paye pas le prix en totalité dans les conditions ci-dessus indiquées.</p>
 
@@ -132,18 +132,18 @@
     <p>Le Prestataire remboursera ou rectifiera ou fera rectifier (dans la mesure du possible ) les services jugés défectueux dans les meilleurs délais et au plus tard dans les 48h avant la date de l’évènement jours suivant la constatation par le Prestataire du défaut ou du vice. Ce remboursement pourra être fait par virement ou chèque bancaire.</p>
     <p>La garantie du Prestataire est limitée au remboursement des Services effectivement payés par le Client.</p>
     <p>Le prestataire ne pourra être considéré comme responsable ni défaillant pour tout retard ou inexécution consécutif à la survenance d’un cas de force majeure habituelle reconnu par la jurisprudence française.</p>
-    <p>Les services fournis par l’intermédiaire du site https://antonime.fr du Prestataire sont conformes à la règlement en vigueur en France. La responsabilité du Prestataire ne saurait être engagée en cas de non respect de la législation du pays dans lequel les Services sont fournis, qu’il appartient au Client, qui est seul responsable du choix des Services demandés, de vérifier.</p>
+    <p>Les services fournis par l’intermédiaire du site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> du Prestataire sont conformes à la règlement en vigueur en France. La responsabilité du Prestataire ne saurait être engagée en cas de non respect de la législation du pays dans lequel les Services sont fournis, qu’il appartient au Client, qui est seul responsable du choix des Services demandés, de vérifier.</p>
 
     <h3 class="text-2xl font-bold py-8">ARTICLE 8 - DONNEES PERSONNELLES</h3>
     <p>Le Client est informé que la collecte de ses données à caractère personnel est nécessaire à la vente des Services et leur réalisation et délivrance, confiées au Prestataire. Ces données à caractère personnel sont récoltées uniquement pour l’exécution du contrat de prestation de Services.</p>
     <p>8.1 Collecte des données à caractère personnel.</p>
-    <p>Les données à caractère personnel sont collectées sur le site https://antonime.frsont les suivantes:</p>
+    <p>Les données à caractère personnel sont collectées sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> sont les suivantes:</p>
     <p>Commande de prestations:</p>
     <br/>
     <p>Lors de la commande de Prestations par le Client: Noms, prénoms, adresse postale, numéro de téléphone et adresse e-mail.</p>
     <br/>
     <p>Paiement</p>
-    <p>Dans le cadre du paiement des prestations proposées sur le site https://antonime.fr, celui-ci enregistre des données financières relatives au compte bancaire ou à la carte de crédit du Client.</p>
+    <p>Dans le cadre du paiement des prestations proposées sur le site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a>, celui-ci enregistre des données financières relatives au compte bancaire ou à la carte de crédit du Client.</p>
     <br/>
     <p>8.2 Destinataires de données à caractère personnel</p>
     <p>Les données à caractère personnel sont réservées à l’usage unique du Prestataire et de ses salariés et/ou bénévoles.</p>
@@ -159,7 +159,7 @@
     <p>Le Prestataire met en œuvre des mesures organisationnelles, techniques, logicielles et physiques en matière de sécurité du numérique pour protéger les données personnelles contre les altérations,destructions et accès non autorisés. Toutefois, il est à signaler qu’internet n'est pas un environnement complètement sécurisé et le Prestataire ne peut garantir la sécurité de la transmission ou du stockage d'informations sur Internet.</p>
     <br/>
     <p>8.7 Mise en œuvre des droits des Clients et utilisateurs.</p>
-    <p>En application de la réglementation applicable aux données à caractère personnel, les Clients et utilisateurs du site https://antonime.fr disponsent des droits suivnats:</p>
+    <p>En application de la réglementation applicable aux données à caractère personnel, les Clients et utilisateurs du site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> disponsent des droits suivnats:</p>
     <br/>
     <ul>
       <li>-Ils peuvent mettre à jour ou supprimer les données qui les concernent de la manière suivant: en nous écrivant à contact.antonime@gmail.com</li>
@@ -178,7 +178,7 @@
     <p>Le Client peut être invité à cocher une case au titre de laquelle il accepte de recevoir des mails à caractère informatifs et publicitaires de la part du Prestataire. Il aura toujours la possibilité de retirer son accord à tout moment en contactant le Prestataire (coordonnées ci-dessus) ou en suivant le lien de désabonnement.</p>
 
     <h3 class="text-2xl font-bold py-8">ARTICLE 9 - PROPRIETE INTELLECTUELLE</h3>
-    <p>Le contenu du site https://antonime.fr est la propriété du Vendeur et de ses partenaires et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. </p>
+    <p>Le contenu du site <a href="https://antonime.fr" class="underline decoration-solid">https://antonime.fr</a> est la propriété du Vendeur et de ses partenaires et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. </p>
     <p>Toute reproduction totale ou partielle de ce contenu est strictement interdite et est susceptible de constituer un délit de contrefaçon.</p>
 
     <h3 class="text-2xl font-bold py-8">ARTICLE 10 - DROIT APPLICABLE - LANGUE</h3>

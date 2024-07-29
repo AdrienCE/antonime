@@ -74,6 +74,15 @@ const routes = [
     component: () => import('../views/BilleterieView.vue')
   },
   {
+    //En scene Page render view
+    path: '/scene',
+    name: 'en scene',
+    meta: {
+      title: "En scène"
+    },
+    component: () => import('../views/EnSceneView.vue')
+  },
+  {
     //Mentions Page render view
     path: '/mentionslegales',
     name: 'mentionslegales',

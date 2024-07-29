@@ -160,12 +160,12 @@
           {
             displayMode: "dynamic",
             linkPage: true,
-            urlLink: "/bar",
+            urlLink: "/scene",
 
             cardLarge: true,
             listeInLine: true,
 
-            title: "Bar",
+            title: "En scène",
             imgRoot: "scene.webp"
           },
           {
