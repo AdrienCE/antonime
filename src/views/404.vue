@@ -1,15 +1,24 @@
 <template>
-  <p>404 Pages</p>
+  <div class="flex items-center justify-center min-h-[85vh]">
+    <div class="text-center">
+      <h1 class="mb-5">Oups ! On dirait que quelqu'un s'est perdu ...</h1>
+      <p class="mb-2">Pas de panique, on vous raccompagne la ou il faut !</p>
+      <MyButton href="/" title="Retour à l'accueil" />
+    </div>
+  </div>
+  
   <MainFooter />
 </template>
   
 <script>
   import MainFooter from '@/components/MainFooter.vue';
+  import MyButton from '@/components/MyButton.vue';
 
   export default {
     name: 'ErrorView"',
     components: {
-      MainFooter
+      MainFooter,
+      MyButton
     }
   };
 </script>

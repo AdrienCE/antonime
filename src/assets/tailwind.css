@@ -66,10 +66,7 @@ mark{
     src: url(./fonts/ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf) format('ttf');
   }
 }
-  p {
-    @apply font-shantell;
-  }
 
-  h1, h2, h3 {
-    @apply font-headline;
-  }
+h1, h2, h3 {
+  @apply font-headline;
+}
