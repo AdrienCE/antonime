@@ -68,6 +68,8 @@
 
           :title="guests.title"
           :imgGuest="guests.imgGuest"
+          :description="guests.description"
+          :social="guests.social"
           :hasPopup="guests.popup"
         />
       </div>
@@ -158,14 +160,25 @@
           {
             displayMode: "dynamic",
             linkPage: true,
-            urlLink: "/scene",
+            urlLink: "/bar",
 
             cardLarge: true,
             listeInLine: true,
 
-            title: "En scène",
+            title: "Bar",
             imgRoot: "scene.webp"
           },
+          {
+            displayMode: "dynamic",
+            linkPage: true,
+            urlLink: "/programmes",
+
+            cardLarge: true,
+            listeInLine: true,
+
+            title: "Voir tout les programmes",
+            imgRoot: "default.webp"
+          }
         ],
         guest:[
           {
@@ -177,7 +190,14 @@
             listInLine: true,
 
             title: "Danaé Cosplay",
-            imgGuest: "G01.webp"
+            imgGuest: "G01.webp",
+            description: "Cosplayeuse aguerrie, Danaé est une experte du fait-main qui partage depuis quelques années son savoir-faire par le biais de vidéos tutoriels sur Instagram et Tiktok ! Ses intérêts sont aussi variés que ses talents, puisqu'elle touche aussi bien à l'univers du jeu vidéos que du manga et propose des tutoriels couture mais aussi perruque et make-up. Elle a également créé sa propre marque en partenariat avec une autre artiste, Naely Studios !! Vous aurez la chance de la rencontrer à Anto'nime pour échanger avec elle mais aussi pour acheter ses prints et observer une sélection de ses cosplays proposés en exposition.",
+            social:[
+              {"artiste": "MES RESEAUX"},
+              {"insta" : "https://www.instagram.com/danae_cosplay/"},
+              {"tiktok" : "https://www.tiktok.com/@danae_cosplay"},
+              {"x" : "https://x.com/cosplaydanae"}
+            ]
           },
           {
             displayMode: "dynamic",
@@ -188,7 +208,8 @@
             listInLine: true,
 
             title: "T.Pralinus",
-            imgGuest: "G02.webp"
+            imgGuest: "G02.webp",
+            "description": "T.Pralinus est auteur et illustrateur, vidéaste, voix et futur docteur. Il a publié romans, bande-dessinées et nouvelles chez divers éditeurs (entre autres La Volte, Dargaud, Hachette, La Martinière) rédige également des chroniques pour la radio et travaille sur des sujets liés à la pop culture queer et girly, préparant une thèse sur le yaoi en France"
           }
         ]
       };

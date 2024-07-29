@@ -14,7 +14,7 @@
     </div>
   </template>
       <!-- Mode comptage -->
-      <div v-else-if="displayMode === 'count'" class="w-full p-16 min-h-0 md:min-h-36 bg-custom-green flex items-center justify-between font-bold counter">
+  <div v-else-if="displayMode === 'count'" class="w-full p-16 min-h-0 md:min-h-36 bg-custom-green flex items-center justify-between font-bold counter">
     <h3 class="mb-5 md:-ml-20 text-7xl">
       <CounterCard :target="title" />
     </h3>

@@ -13,7 +13,7 @@
       <div class="p-4 flex flex-col justify-between flex-1 overflow-hidden">
         <h2 class="text-3xl font-bold py-4">{{ title }}</h2>
         <div class="flex-1 overflow-y-auto ">
-          <p>{{ desc }}</p>
+          <p class="whitespace-normal">{{ desc }}</p>
         </div>
         <template v-if="social || social2 || social3">
           <div class="border border-slate-400 opacity-20"></div>
