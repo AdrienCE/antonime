@@ -95,7 +95,9 @@
                   <a v-if="socials3.insta ? socials3.insta : ''" target="_blank" class="text-xl" :href="socials3.insta ? socials3.insta :''">
                     <FontAwesomeIcon :icon="socials3.insta ? ['fab', 'instagram'] : '' "/>
                   </a>
-                  <MyButton v-if="socials3.web || socials3.btnTitle" :href="socials3.web" target="_blank" class="text-sm px-4" :title="socials3.btnTitle"/>
+                  <a v-if="socials3.web || socials3.btnTitle" :href="socials3.web" target="_blank" :title="socials3.btnTitle" class="bg-custom-blue2 hover:bg-blue-900 duration-300 font-sm text-white inline-block rounded py-2 text-sm px-2">
+                    {{ title }}
+                  </a>
                 </template>
               </div>
 
@@ -113,14 +115,12 @@
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   import { faXmark } from '@fortawesome/free-solid-svg-icons';
   import { faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-  import MyButton from './MyButton.vue';
 
   library.add(faXmark, faInstagram, faTumblrSquare, faTiktok, faSquareXTwitter, faYoutube);
 
   export default {
     components: {
-      FontAwesomeIcon,
-      MyButton
+      FontAwesomeIcon
     },
     props: {
       title: String,

@@ -15,6 +15,7 @@
     "image": "B02",
     "description": "Nous sommes les Oomfies, un groupe d'amis d'artistes composé de Salty, Ribbun bun, et Guaca. Tous passionnés d'art et de pop culture, nous proposons un large panel de merch variés !! Nous avons hâte de vous rencontrer :)",
     "social3":[
+      {"artiste": "SITE WEB"},
       {
         "btnTitle": "SITE LES OOMFIES",
         "web" : "https://les-oomfies.carrd.co/"

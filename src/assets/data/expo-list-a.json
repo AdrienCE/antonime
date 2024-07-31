@@ -140,18 +140,9 @@
       {"x" : "https://x.com/skuyoe"}
     ]
   },
-  {
-    "id": 11,
-    "title": "100% FRUITY",
-    "image": "A11",
-    "description": "L'univers de Zarkandia est une fusion entre le peps du magical girl et la finesse du style victorien. Ses créations sont aussi adorable qu'utile, elle vous fera voyager à travers ses œuvres en résines et ses travaux d'aiguilles, sans oublier sa papeterie. Le tout réalisé entièrement à la mains, car chez Zarkandia tout est fait avec amour et 100% patounes !",
-    "social3":[
-      {
-        "btnTitle": "SHOP ZARKANDIA",
-        "web" : "https://zarkandia.sumupstore.com/"
-      }
-    ]
-  },
+  
+  
+
   {
     "id": 12,
     "title": "MI-EAU",
