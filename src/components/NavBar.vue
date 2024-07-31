@@ -13,7 +13,7 @@
 
     <ul :class="[open ? 'bg-white w-full fixed left-0 min-h-screen flex flex-col justify-center items-center duration-300 ease-in p-4 z-[5]' : 'w-0 hidden translate-x-full items-center top-0 px-0 pb-0 xl:p-0 xl:w-auto xl:flex xl:relative xl:translate-x-0 xl:justify-end']">
       <li class="my-6 py-1 px-4 mx-4 md:my-0" v-for="link in Links" :key="link.name">
-        <a :href="link.link" class="text-md hover:text-blue-900">{{ link.name }}</a>
+        <router-link :to="link.link" class="text-md hover:text-blue-900">{{ link.name }}</router-link>
       </li>
         <MyButton href="/billeterie" title="Billeterie" />
     </ul>
