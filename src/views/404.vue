@@ -3,7 +3,7 @@
     <div class="text-center">
       <h1 class="mb-5 text-custom-white text-stroke-headline linebar font-bold text-4xl xl:text-5xl">Oups ! On dirait que quelqu'un s'est perdu ...</h1>
       <p class="mb-2">Pas de panique, on vous raccompagne la ou il faut !</p>
-      <MyButton href="/" title="Retour à l'accueil" />
+      <MyButton to="/" title="Retour à l'accueil" />
     </div>
   </div>
   

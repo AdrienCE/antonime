@@ -15,7 +15,7 @@
       <li class="my-6 py-1 px-4 mx-4 md:my-0" v-for="link in Links" :key="link.name">
         <router-link :to="link.link" class="text-md hover:text-blue-900">{{ link.name }}</router-link>
       </li>
-        <MyButton href="/billeterie" title="Billeterie" />
+        <MyButton to="/billeterie" title="Billeterie" />
     </ul>
   </header>
 </template>

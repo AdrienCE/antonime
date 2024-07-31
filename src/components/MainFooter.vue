@@ -7,9 +7,9 @@
       </div>
     </div>
     <div class="flex flex-col items-center my-6 xl:my-0 xl:justify-between xl:flex-row">
-      <a href="/mentionslegales">Mentions légales</a>
-      <a href="/conditions">Conditions générales</a>
-      <a href="/infospratiques">Contactez-nous</a>
+      <router-link to="/mentionslegales">Mentions légales</router-link>
+      <router-link to="/conditions">Conditions générales</router-link>
+      <router-link to="/infospratiques">Contactez-nous</router-link>
     </div>
     <div class="flex items-center text-center justify-center xl:justify-end gap-10">
       <a href="https://instagram.com/antonime.convention/" target="_blank">
