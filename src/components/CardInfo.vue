@@ -24,8 +24,8 @@
   <template v-if="displayMode === 'dynamic'">
 
     <template v-if="linkPage === true">
-      <a
-        :href="url"
+      <router-link
+        :to="url"
         :class="listeInLine ? 'inline-block w-60 mr-4 xl:w-full' : 'w-full mb-7 md:mb-0 last:mb-0'"
         class="cursor-pointer transition ease-in delay-110 duration-110 hover:-translate-y-1 hover:scale-90"
       >
@@ -39,7 +39,7 @@
           " class="object-cover w-full h-52 rounded-md md:h-72" alt="Card image" width="372" height="288"
         />
         <h3 class="pt-2">{{ title }}</h3>
-      </a>
+    </router-link>
     </template>
 
     <template v-else>
