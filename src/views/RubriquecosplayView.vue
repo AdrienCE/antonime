@@ -3,7 +3,7 @@
   
   <div class="flex items-center justify-center min-h-[85vh]">
     <div class="text-center">
-      <h1 class="mb-5">Plus d'info bientôt ...</h1>
+      <h1 class="mb-5">Plus d'infos bientôt ...</h1>
     </div>
   </div>
 

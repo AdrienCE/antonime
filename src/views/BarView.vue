@@ -3,7 +3,7 @@
   
   <div class="container my-7 px-7">
 
-    <ImageTextGrid :isInverted="true" imageGrid="Bar2.webp" paragraphe="Plus d'info bientôt ..."/>
+    <ImageTextGrid :isInverted="true" imageGrid="Bar2.webp" paragraphe="Plus d'infos bientôt ..."/>
   </div>
   
   <MainFooter/>
