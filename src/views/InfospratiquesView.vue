@@ -57,8 +57,8 @@
           },
           {
             social:[{"covoit" : true}],
-            title: "COVOITURAGE",
-            description: "Réservation à faire via le mail de contact dans la rubrique CONTACTEZ NOUS"
+            title: "NAVETTE",
+            description: "Réservation à faire via la BILLETTERIE"
           },
           {
             social:[{"car" : true}],

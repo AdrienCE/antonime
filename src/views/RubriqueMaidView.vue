@@ -6,21 +6,36 @@
     <div class="flex flex-col items-center m-auto gap-8 mb-24 last:mb-0 md:flex-row-reverse md:mb-14 xl:mb-32">
       <div class="text-black-800 md:w-2/4">
         <p>
-          Vous l'avez découvert hier ; une des activités que nous organisons pour vous est un Maid Café cosplay à thème ! Pour cette première édition, nous avons choisi le thème Genshin Impact et avons été plus particulièrement inspirés par la première région du jeu, Mondstadt !
+          Si vous nous avez suivis depuis le début sur nos réseaux, vous nous avez observés construire l’une de nos activités : le Maid Cafe !
         </p>
+        <br/>
         <p>
-          Swipez à droite pour trouver toutes les informations utiles :
+          Géré par notre belle Taratata_cosplay, pour cette première édition d’Anto’nime, nous avons le plaisir de vous présenter un Maid Café inspiré de l’univers Genshin Impact. Plus particulièrement sur la première région du jeu, Monstadt !
+          C’est avec enthousiasme que nous vous proposons des cupcakes et cocktails signatures que nous avons travaillés et peaufinés afin de vous offrir un moment unique et magique.
+          Voyageur, laissez-vous porter jusqu’à nos tables pour savourer une boisson et un cupcake en charmante compagnie !
         </p>
-        
+        <br/>
+        <p>
+          Lumine, Amber et Mona seront ravies de vous recevoir comme il se doit dans notre petit café éphémère.
+          Soyez vigilant, cette activité est sous réservation et plusieurs créneaux sont disponibles. Si vous êtes tentés par l’aventure, nous vous recommandons de prendre vos places rapidement et ensemble si vous souhaitez être en compagnie de vos ami.e.s !
+          La formule inclut une boisson de votre choix avec un cupcake personnalisé (voir menu ci-dessous). En espérant vous y voir nombreux !
+        </p>
+        <br/>
+        <p>INFORMATION :</p>
         <ul class="list-disc list-inside mt-5 mb-5">
           <li>
-            les créneaux d'ouverture du Café (on vous conseille d'acheter vos places ensemble pour être certains d'être placés à côté ! En venant à moins de 3 personnes, vous êtes en effet susceptibles d'être placés avec d'autres visiteurs venus également seul ou à deux :))
+            6 tables de 4 personnes (si vous venez à 3 ou moins, vous êtes susceptibles de partager votre table avec un ou plusieurs voyageur.euse.s)
           </li>
           <li>
-            le menu !! composé d'une boisson et d'un cupcake (base + topping au choix)
+            Activité payante (6,50€)
+          </li>
+          <li>
+            4 Services de 45min
+          </li>
+          <li>
+            Ouverture : 15h - 18h30
           </li>
         </ul>
-        <p>Si vous avez d'autres questions, n'hésitez pas à les poster en DM sur Instagram !</p>
       </div>
       <div class="md:w-2/4">
         <img src="@/assets/images/trioMaid.webp" width="100%" height="auto" class=" w-full object-cover object-top md:h-[350px] xl:h-[500px]" :alt="altText"/>

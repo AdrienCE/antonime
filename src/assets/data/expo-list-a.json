@@ -53,7 +53,11 @@
     "id": 5,
     "title": "MIKU",
     "image": "A05",
-    "description": "Miku est l'association de mopymush et Iku, deux artistes collaborant sur un manga de magical girl lesbien. Les deux artistes ont des univers tournant autour des thématiques lgbt mopymush proposant un univers plus mignon et Iku un univers plus mature !"
+    "description": "Miku est l'association de mopymush et Iku, deux artistes collaborant sur un manga de magical girl lesbien. Les deux artistes ont des univers tournant autour des thématiques lgbt mopymush proposant un univers plus mignon et Iku un univers plus mature !",
+    "social":[
+      {"artiste": "MOPYMUSH"},
+      {"insta": "https://www.instagram.com/mopymush"}
+    ]
   },
   {
     "id": 6,
