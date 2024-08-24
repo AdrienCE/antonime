@@ -43,20 +43,12 @@
   },
   {
     "id": 20,
-    "title": "FINNFINN",
+    "title": "ANAZEL",
     "image": "B04",
-    "description": "Finnfinn crée des illustrations inspirées des shojos et magical girls de notre enfance!",
+    "description": "Hello ! Mon nom d'artiste est Anazel, je suis illustratrice et concept artist en freelance. Vous retrouverez sur mon stand des créations issues d'univers que j'aime (Touhou, Guilty Gear, Baldur's Gate et d'autres..) ainsi que des créations autour de mon propre univers, qui mêle fantasy et filles monstres en tous genres.",
     "social": [
       {"artiste": "MES RESEAUX"},
-      {"insta": "https://www.instagram.com/_finnfinn/"},
-      {"yt": "https://www.youtube.com/channel/UCAN9E1YsITJycs0LNFiqykw"}
-    ],
-    "social3":[
-      {"artiste": "SITE WEB"},
-      {
-        "btnTitle": "FINN FINN",
-        "web" : "https://finn-finn.carrd.co"
-      }
+      {"insta": "https://www.instagram.com/anazel_art/"}
     ]
   },
   {
